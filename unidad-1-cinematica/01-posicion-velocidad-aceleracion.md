@@ -30,6 +30,8 @@ $$v = |\vec{v}| = \sqrt{\dot{x}^2 + \dot{y}^2 + \dot{z}^2}$$
 
 ### Vector Aceleración
 
+![Diagrama: Coordenadas Cartesianas — Vector Posición](./assets/01-cartesiano-vector-posicion.svg)
+
 La aceleración es la derivada temporal de la velocidad, o equivalentemente la segunda derivada de la posición:
 
 $$\vec{a}(t) = \dot{\vec{v}}(t) = \ddot{\vec{r}}(t) = \ddot{x}\,\hat{e_x} + \ddot{y}\,\hat{e_y} + \ddot{z}\,\hat{e_z}$$
@@ -46,9 +48,13 @@ En 2D, la posición se describe con las coordenadas $(r, \phi)$:
 
 $$\vec{r} = r\,\hat{e_r}$$
 
+![Diagrama: Coordenadas Polares — Versores en el Punto P](./assets/02-polares-versores.svg)
+
 Los versores $\hat{e_r}$ y $\hat{e_\phi}$ **no son constantes**: dependen del ángulo $\phi$ y rotan con el punto. Sus derivadas temporales son:
 
 $$\dot{\hat{e_r}} = \dot{\phi}\,\hat{e_\phi}, \qquad \dot{\hat{e_\phi}} = -\dot{\phi}\,\hat{e_r}$$
+
+![Diagrama: Derivada temporal de los versores polares](./assets/03-polares-derivada-versores.svg)
 
 ### Velocidad en polares
 
@@ -82,6 +88,8 @@ $$\boxed{\vec{a} = \left(\ddot{r} - r\dot{\phi}^2\right)\hat{e_r} + \left(r\ddot
 
 ## Coordenadas Cilíndricas
 
+![Diagrama: Coordenadas Cilíndricas](./assets/04-cilindricas.svg)
+
 Las coordenadas cilíndricas $(\rho, \phi, z)$ extienden las polares al espacio 3D. El versor axial $\hat{e_z}$ es constante.
 
 $$\vec{r} = \rho\,\hat{e_\rho} + z\,\hat{e_z}$$
@@ -101,6 +109,8 @@ $$\boxed{\vec{a} = \left(\ddot{\rho} - \rho\dot{\phi}^2\right)\hat{e_\rho} + \le
 ---
 
 ## Coordenadas Esféricas
+
+![Diagrama: Coordenadas Esféricas](./assets/05-esfericas.svg)
 
 Las coordenadas esféricas $(r, \theta, \phi)$ son las más generales. Los tres versores $\hat{e_r}$, $\hat{e_\theta}$, $\hat{e_\phi}$ dependen de la posición y sus derivadas son:
 

@@ -1,0 +1,155 @@
+<svg viewBox="0 0 520 450" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6b7280"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ea580c"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#be185d"/></marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0891b2"/></marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#7c3aed"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/></marker>
+  </defs>
+
+  <rect width="520" height="450" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="260" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Coordenadas Esféricas (r, θ, φ)</text>
+
+  <!--
+    Oblique projection. Origin at (220, 295). Scale = 90px.
+    Projection basis vectors (in SVG coords):
+      x-dir: (1.0,  0.18)   [goes right and slightly down]
+      y-dir: (-0.65, 0.38)  [goes left and down — depth axis]
+      z-dir: (0.0, -1.0)    [goes straight up]
+
+    Point P at spherical (r=150, θ=52°, φ=38°):
+      x₃ = 150·sin52°·cos38° = 150·0.788·0.788 = 93.1
+      y₃ = 150·sin52°·sin38° = 150·0.788·0.616 = 72.8
+      z₃ = 150·cos52° = 150·0.616 = 92.4
+
+    SVG(P):
+      px = 220 + 93.1·1.0  + 72.8·(-0.65) = 220 + 93.1 - 47.3 = 265.8 ≈ 266
+      py = 295 + 93.1·0.18 + 72.8·0.38  + 92.4·(-1.0) = 295 + 16.8 + 27.7 - 92.4 = 247.1 ≈ 247
+
+    P_SVG = (266, 247)
+
+    Equatorial projection P_eq (z=0, same x₃,y₃):
+      px = 220 + 93.1 - 47.3 = 265.8 ≈ 266
+      py = 295 + 16.8 + 27.7 = 339.5 ≈ 340
+    P_eq_SVG = (266, 340)
+
+    P_z (on z-axis, x=y=0, z=z₃):
+      px = 220
+      py = 295 - 92.4 = 202.6 ≈ 203
+    P_z_SVG = (220, 203)
+
+    Axis endpoints (scale=130px):
+      x-axis: (220 + 130, 295 + 130·0.18) = (350, 318.4) ≈ (350,318)
+      y-axis: (220 - 130·0.65, 295 + 130·0.38) = (135.5, 344.4) ≈ (136,344)
+      z-axis: (220, 295 - 130) = (220, 165)
+
+    ê_r direction: from O toward P = (266-220, 247-295) = (46, -48), len=66.7
+      normalized: (0.689,-0.720)
+      ê_r endpoint (len=55 from P): (266+38, 247-40) = (304, 207)
+
+    ê_θ direction (toward increasing θ = toward equator from P):
+      In 3D: ê_θ = (cosθ·cosφ, cosθ·sinφ, -sinθ) = (0.616·0.788, 0.616·0.616, -0.788)
+                 = (0.485, 0.379, -0.788)
+      SVG: (0.485·1 + 0.379·(-0.65), 0.485·0.18 + 0.379·0.38 + (-0.788)·(-1))
+         = (0.485 - 0.246, 0.087 + 0.144 + 0.788) = (0.239, 1.019)
+      Normalized: magnitude = sqrt(0.239²+1.019²) = sqrt(0.057+1.038) = sqrt(1.095) = 1.046
+      = (0.229, 0.974)
+      ê_θ endpoint (len=52 from P): (266+12, 247+51) = (278, 298)
+
+    ê_φ direction (tangential, perpendicular to meridian plane):
+      In 3D: ê_φ = (-sinφ, cosφ, 0) = (-0.616, 0.788, 0)
+      SVG: (-0.616·1 + 0.788·(-0.65), -0.616·0.18 + 0.788·0.38 + 0)
+         = (-0.616 - 0.512, -0.111 + 0.299) = (-1.128, 0.188)
+      Normalized: magnitude = sqrt(1.128²+0.188²) = sqrt(1.272+0.035) = sqrt(1.307) = 1.143
+      = (-0.987, 0.165)
+      ê_φ endpoint (len=52 from P): (266-51, 247+9) = (215, 256)
+  -->
+
+  <!-- z-axis -->
+  <line x1="220" y1="295" x2="220" y2="152" stroke="#6b7280" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="208" y="146" font-size="15" font-style="italic" fill="#6b7280">z</text>
+
+  <!-- x-axis (goes right-down) -->
+  <line x1="220" y1="295" x2="355" y2="320" stroke="#6b7280" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="362" y="325" font-size="15" font-style="italic" fill="#6b7280">x</text>
+
+  <!-- y-axis (goes left-down, depth) -->
+  <line x1="220" y1="295" x2="131" y2="347" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#ah)"/>
+  <text x="118" y="357" font-size="15" font-style="italic" fill="#6b7280">y</text>
+
+  <!-- Origin -->
+  <circle cx="220" cy="295" r="3.5" fill="#1e293b"/>
+  <text x="200" y="311" font-size="13" font-style="italic" fill="#1e293b">O</text>
+
+  <!-- Dashed equatorial circle (partial ellipse to suggest the xy plane) -->
+  <ellipse cx="220" cy="340" rx="85" ry="24" fill="none" stroke="#d1d5db" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <!-- Dashed vertical from P to equatorial projection P_eq -->
+  <line x1="266" y1="247" x2="266" y2="340" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5,3"/>
+
+  <!-- Dashed horizontal from z-axis to equatorial projection P_eq -->
+  <line x1="220" y1="340" x2="266" y2="340" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5,3"/>
+
+  <!-- Equatorial projection point P_eq -->
+  <circle cx="266" cy="340" r="3" fill="#9ca3af"/>
+  <text x="270" y="355" font-size="12" fill="#6b7280">P'</text>
+
+  <!-- Vector r from O to P -->
+  <line x1="220" y1="295" x2="260" y2="251" stroke="#7c3aed" stroke-width="2" stroke-dasharray="7,4" marker-end="url(#ap)"/>
+  <text x="230" y="262" font-size="15" fill="#7c3aed" font-style="italic">r</text>
+
+  <!-- Arc for θ angle (from z-axis to OP direction) -->
+  <!-- Midpoint of arc between z-direction and OP, at small radius 38 -->
+  <!-- At θ=26° (half of 52°), the point in SVG relative to origin... let's just approximate -->
+  <!-- z-axis direction just below origin: (220, 257) at r=38 -->
+  <!-- OP direction at r=38 from O: (220+38*0.689, 295+38*(-0.720)) = (246.2, 267.6) -->
+  <!-- Arc: M 220 257 → (246, 268), but this is tricky in oblique projection -->
+  <!-- Let me use a simple curved path -->
+  <path d="M 220 257 Q 232 260 240 268" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="232" y="258" font-size="13" fill="#f59e0b" font-style="italic">θ</text>
+
+  <!-- Arc for φ in equatorial plane -->
+  <!-- From x-axis in equatorial: x-axis point at (266,340) projected... use dashed arc -->
+  <!-- x intercept of equatorial circle: approximately (305, 340) -->
+  <path d="M 295 333 Q 285 328 270 336" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="294" y="325" font-size="13" fill="#d97706" font-style="italic">φ</text>
+
+  <!-- ê_r at P (orange) -->
+  <line x1="266" y1="247" x2="303" y2="208" stroke="#ea580c" stroke-width="2.5" marker-end="url(#ao)"/>
+  <text x="307" y="204" font-size="14" fill="#ea580c">ê<tspan font-size="11" baseline-shift="sub">r</tspan></text>
+
+  <!-- ê_θ at P (pink/rose — toward equator) -->
+  <line x1="266" y1="247" x2="278" y2="298" stroke="#be185d" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="283" y="306" font-size="14" fill="#be185d">ê<tspan font-size="11" baseline-shift="sub">θ</tspan></text>
+
+  <!-- ê_φ at P (cyan — tangential) -->
+  <line x1="266" y1="247" x2="215" y2="256" stroke="#0891b2" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="195" y="254" font-size="14" fill="#0891b2">ê<tspan font-size="11" baseline-shift="sub">φ</tspan></text>
+
+  <!-- Point P -->
+  <circle cx="266" cy="247" r="5" fill="#7c3aed"/>
+  <text x="272" y="243" font-size="14" fill="#1e293b">P</text>
+
+  <!-- Color legend -->
+  <rect x="350" y="155" width="148" height="90" rx="5" fill="#fafafa" stroke="#e2e8f0"/>
+  <line x1="360" y1="174" x2="385" y2="174" stroke="#ea580c" stroke-width="2"/>
+  <text x="390" y="178" font-size="12" fill="#1e293b">ê<tspan font-size="9" baseline-shift="sub">r</tspan> — radial (aléjase)</text>
+  <line x1="360" y1="194" x2="385" y2="194" stroke="#be185d" stroke-width="2"/>
+  <text x="390" y="198" font-size="12" fill="#1e293b">ê<tspan font-size="9" baseline-shift="sub">θ</tspan> — polar (↓ ecuat.)</text>
+  <line x1="360" y1="214" x2="385" y2="214" stroke="#0891b2" stroke-width="2"/>
+  <text x="390" y="218" font-size="12" fill="#1e293b">ê<tspan font-size="9" baseline-shift="sub">φ</tspan> — azimutal (tang.)</text>
+  <text x="424" y="234" text-anchor="middle" font-size="11" fill="#94a3b8">los 3 son variables</text>
+
+  <!-- Formula box -->
+  <rect x="22" y="368" width="476" height="72" rx="5" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="260" y="386" text-anchor="middle" font-size="13" fill="#1e293b" font-weight="bold">r⃗ = r·ê<tspan font-size="10" baseline-shift="sub">r</tspan></text>
+  <text x="260" y="406" text-anchor="middle" font-size="13" fill="#475569">ṙ = ṙ·ê<tspan font-size="10" baseline-shift="sub">r</tspan> + rθ̇·ê<tspan font-size="10" baseline-shift="sub">θ</tspan> + rφ̇·sinθ·ê<tspan font-size="10" baseline-shift="sub">φ</tspan></text>
+  <text x="260" y="428" text-anchor="middle" font-size="11" fill="#64748b">a<tspan font-size="9" baseline-shift="sub">r</tspan> = r̈ − rθ̇² − rφ̇²sin²θ     a<tspan font-size="9" baseline-shift="sub">θ</tspan> = rθ̈ + 2ṙθ̇ − rφ̇²sinθcosθ     a<tspan font-size="9" baseline-shift="sub">φ</tspan> = rφ̈sinθ + 2ṙφ̇sinθ + 2rθ̇φ̇cosθ</text>
+</svg>
