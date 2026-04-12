@@ -88,7 +88,7 @@ $$\boxed{\vec{a} = \left(\ddot{r} - r\dot{\phi}^2\right)\hat{e_r} + \left(r\ddot
 
 ## Coordenadas Cilíndricas
 
-![Diagrama: Coordenadas Cilíndricas](./assets/04-cilindricas.svg)
+<img src="./assets/04-cilindricas.svg" alt="Diagrama: Coordenadas Cilíndricas" width="100%"/>
 
 Las coordenadas cilíndricas $(\rho, \phi, z)$ extienden las polares al espacio 3D. El versor axial $\hat{e_z}$ es constante.
 

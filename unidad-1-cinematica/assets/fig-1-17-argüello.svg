@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" width="540" height="440" font-family="monospace" font-size="18">
+
+  <!-- Fondo blanco -->
+  <rect width="540" height="440" fill="white"/>
+
+  <!-- Marco rectangular del panel -->
+  <rect x="120" y="60" width="320" height="300" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Cota b: línea con flechas dobles en la parte superior -->
+  <line x1="120" y1="50" x2="120" y2="62" stroke="black" stroke-width="1"/>
+  <line x1="440" y1="50" x2="440" y2="62" stroke="black" stroke-width="1"/>
+  <line x1="120" y1="55" x2="440" y2="55" stroke="black" stroke-width="1"/>
+  <polygon points="130,52 120,55 130,58" fill="black"/>
+  <polygon points="430,52 440,55 430,58" fill="black"/>
+  <text x="278" y="46" text-anchor="middle" font-style="italic" font-size="18">b</text>
+
+  <!--
+    Parábola BCD: r = 2b/(1+cos φ), foco en O=(60,300).
+    Con b≈180:  φ=0 → r=180 → C≈(240,300) [vértice]
+                φ=π/2 → r=360 → extremos B y D
+    En SVG (y crece hacia abajo), O=(60,300):
+      B ≈ O + 360·(cos 80°, -sin 80°) ≈ (123, -55) → ajustado al marco: (193, 68)
+      C ≈ O + (180, 0) = (240, 300) → extendido al marco: (415, 208)
+      D ≈ O + 360·(cos -80°, -sin -80°) ≈ (123, 655) → ajustado: (193, 358)
+    Los puntos de control Bézier replican la curvatura parabólica.
+  -->
+  <path d="
+    M 193,68
+    C 228,70  400,128  415,208
+    C 428,285  362,352  193,358
+  " fill="none" stroke="#2a9d2a" stroke-width="2.5"/>
+
+  <!-- Barra OA: desde pivote O (60, 300) hasta A (440, 80) -->
+  <line x1="60" y1="300" x2="440" y2="80" stroke="#3a3aaa" stroke-width="3.5"/>
+
+  <!-- Pivote O: círculo exterior -->
+  <circle cx="60" cy="300" r="18" fill="none" stroke="black" stroke-width="2"/>
+  <!-- Pivote O: círculo interior -->
+  <circle cx="60" cy="300" r="7" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Rayas del engranaje/manivela -->
+  <line x1="42" y1="300" x2="78" y2="300" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="282" x2="60" y2="318" stroke="black" stroke-width="1"/>
+
+  <!-- Perno P: punto rojo en intersección de OA con la parábola (aprox φ≈55°, r≈220) -->
+  <circle cx="270" cy="175" r="7" fill="#cc2222" stroke="#880000" stroke-width="1.5"/>
+
+  <!-- Arco indicador del ángulo φ en O -->
+  <path d="M 95,300 A 35,35 0 0,0 72,272" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- Etiquetas -->
+  <!-- B -->
+  <text x="182" y="60" font-style="italic" font-size="18" text-anchor="middle">B</text>
+  <!-- A -->
+  <text x="452" y="78" font-style="italic" font-size="18" text-anchor="middle">A</text>
+  <!-- P -->
+  <text x="282" y="165" font-style="italic" font-size="18" text-anchor="middle">P</text>
+  <!-- C -->
+  <text x="430" y="222" font-style="italic" font-size="18" text-anchor="middle">C</text>
+  <!-- D -->
+  <text x="182" y="385" font-style="italic" font-size="18" text-anchor="middle">D</text>
+  <!-- o (pivote) -->
+  <text x="58" y="334" font-style="italic" font-size="16" text-anchor="middle">o</text>
+
+  <!-- r: etiqueta sobre la barra OA, entre O y P, rotada -->
+  <text
+    x="162" y="240"
+    font-style="italic" font-size="18"
+    text-anchor="middle"
+    transform="rotate(-29, 162, 240)">r</text>
+
+  <!-- φ: ángulo -->
+  <text x="104" y="290" font-style="italic" font-size="18">φ</text>
+
+  <!-- Figura título -->
+  <text x="270" y="420" text-anchor="middle" font-size="16" font-family="serif">Fig. 1-17</text>
+
+</svg>
