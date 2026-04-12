@@ -1,0 +1,160 @@
+INSPT – UTN Física Teórica 1 Prof. Carlos Dibarbora 
+
+TP2. Dinámica. Sistemas de referencia, ecuación de movimiento 
+
+1- Analizar todos los pares de interacción en el sistema constituido por la Tierra y una caja colocada 
+en reposo sobre una mesa 
+
+. 
+
+2- Analizar desde el punto de vista del principio de interacción el rozamiento cinético entre un 
+cuerpo cúbico que se mueve horizontalmente y el piso sobre el que se desliza. 
+
+ 
+
+3- En el sistema de la figura, las masas de los cuerpos son: m1=5 kg, m2 =15 kg y m3= 10 kg. El 
+sistema se está moviendo con velocidad constante de 2 
+m/s de tal manera que el cuerpo de masa m3 desciende. 
+Calcular en cuanto se deberá incrementar la masa del 
+cuerpo 3 para que comience a descender con una 
+aceleración de módulo 2 m/s2.. ¿Cuánto vale en ese 
+caso la fuerza ejercida por la soga que se supone 
+inextensible y de masa despreciable lo mismo que la 
+polea? 
+
+ 
+
+Transformaciones de Galileo y sistemas NO inerciales. 
+
+ 
+
+4- Resolver, explicitando con cuidado cada uno de los sistemas de referencia utilizados la siguiente 
+situación. Dos trenes viajan por vías paralelas en sentidos opuestos con velocidades de módulos 60 
+km/h y 80 km/h respectivamente. Calcular la velocidad de uno de los trenes respecto del otro. 
+
+5- Calcular el ángulo que forma con la vertical un péndulo suspendido del techo de un vagón que se 
+desplaza con respecto a las vías con un movimiento uniformemente acelerado con una 
+aceleración cuyo módulo es 5 m/s2. Realizar el problema desde un sistema de referencia fijo a 
+las vías y desde un sistema fijo al vagón. 
+
+6- Un cuerpo que se encuentra a una distancia igual a la mitad del radio del tambor de una 
+centrifugadora que gira con velocidad angular constante se desplaza hace el borde el mismo. 
+Explicar las causas de ese movimiento desde un sistema de referencia exterior a la 
+centrifugadora y desde un sistema unido a la mism 
+
+ 
+
+7. Adoptamos como sistema inercial de referencia a uno con origen 
+en el centro de la tierra, y un sistema de referencia móvil sobre la 
+superficie terrestre con el eje k en la dirección radial, el eje i 
+coincidiendo con un meridiano en sentido norte sur y el eje j según 
+paralelo con dirección hacia el este. Resolver las ecuaciones del 
+movimiento y la ecuación horaria de un cuerpo que caiga en caída 
+libre. (podemos suponer en principio que la caída se da sobre el eje 
+k o que la velocidad de caída solo tiene esa componente, para 
+simplificar) 
+
+Diagrama
+El contenido generado por IA puede ser incorrecto.
+Rta: z=h-g.t2/2 y=ω.g.t3/3 cos φ 
+
+ 
+
+FUERZAS DEPENDIENTES DE LA POSICIÓN Y DE LA VELOCIDAD 
+
+8- Obtener la expresión de la velocidad y de la posición en función del tiempo para una partícula de 
+masa m sujeta a la acción de una fuerza resistente de módulo k.v2 (k>0). Suponer que tiene 
+velocidad inicial v0 en el origen de coordenadas. 
+
+ 
+
+
+9- Una canoa con velocidad inicial v0 se ve frenada por una fuerza F=-beav 
+
+Hallar la expresión de su velocidad y su ecuación horaria. 
+
+ 
+
+10- Hallar la ecuación de la velocidad de una pequeña esfera de masa m disparada sobre una guía 
+circular horizontal de radio R si se encuentra sometida a una fuerza resistente de módulo 
+proporcional al cuadrado de la velocidad. 
+
+ 
+
+11- Una partícula de masa m y carga q se deja en libertad en el origen de coordenadas de una 
+región en la que existe un campo eléctrico E en la dirección positiva de z y uno magnético B en la 
+dirección –y. Hallar las ecuaciones de su trayectoria. 
+
+ 
+
+12- Una partícula de masa m está colocada en el punto mas alto de una esfera fija lisa de radio b. 
+La partícula se desplaza ligeramente para que deslice sobre la esfera. ¿En que punto se separará 
+de la esfera? Rta: θ = 42 º 
+
+ 
+
+Mecánica analítica. 
+
+13- Resolver aplicando las ecuaciones de 
+Lagrange los siguientes sistemas: 
+
+1- Un cuerpo puntual en tiro oblicuo. 
+
+2- Un péndulo simple. 
+
+3- Una máquina de Atwood 
+
+14- Determinar las ecuaciones de 
+movimiento en los siguientes sistemas: 
+
+1- Un péndulo doble. 
+
+2- Un péndulo elástico en dos dimensiones. 
+
+3- Los sistemas de las siguientes figuras 
+
+
+
+ 
+
+Diagrama, Esquemático
+El contenido generado por IA puede ser incorrecto.
+Diagrama, Dibujo de ingeniería, Esquemático
+El contenido generado por IA puede ser incorrecto. 
+
+
+ 
+
+Sistemas de masa variable 
+
+ 
+
+15) Un cohete de 1000kg es colocado verticalmente en su plataforma de 
+lanzamiento. El combustible propulsor es expulsado a razón de 1 kg por 
+segundo. a) Cuál es la velocidad mínima de los gases expulsados para que el 
+cohete pueda despegar. b) Hallar la velocidad del cohete a los 10 segundos del 
+despegue suponiendo constante su velocidad de expulsión. 
+
+ 
+
+16 - Un cohete de 12000 kg de masa total es lanzado verticalmente expulsando masa con una 
+rapidez constante de 150 kg/s hasta agotar el combustible de 8000 kg. 
+
+Si la velocidad relativa de expulsión de los gases es de 1500 m/s calcular la velocidad del cohete en 
+el momento en que se consume todo su combustible. 
+
+17. (del Argüello) Una gota de agua esférica cae a través de aire saturado de vapor y a causa de la 
+condensación, su masa aumenta, verificándose que el radio se incrementa a velocidad constante 
+dr/dt = k. Suponiendo despreciable la resistencia del aire y que en el instante inicial el radio de la 
+gota y su velocidad son nulos, hallar: a) La ecuación diferencial del movimiento de la gota. b) La 
+velocidad en función del tiempo. 
+
+ 
+
+18. (del Argüello) Una cadena de longitud l cuya masa por unidad de longitud es μ se 
+deja caer sobre una balanza a partir del reposo. Hallar la indicación de la balanza en 
+función de la longitud x de cadena que reposa sobre la balanza. 
+
+ 
+
+

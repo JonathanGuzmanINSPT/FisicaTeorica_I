@@ -1,0 +1,149 @@
+ 
+
+INSPT – UTN Física Teórica 1 Prof. Carlos Dibarbora 
+
+TP 3 – Gravitación. 
+
+ 
+
+1. Calcular la atracción gravitatoria entre la Tierra y a) la Luna; b) el Sol c) obtener el cociente entre esas 
+dos fuerzas. ¿De qué manera afectan estas fuerzas el movimiento de la Tierra? 
+
+2. Comparar las fuerzas que el Sol y la Luna ejercen sobre un cuerpo de masa m que se halla en la 
+superficie terrestre. ¿Se puede concluir que el peso de un cuerpo varía al rotar la Tierra? 
+
+3. a) ¿A qué altura debería uno subir sobre la superficie de la Tierra para que la aceleración de la 
+gravedad cambie en un 1%? b) ¿A qué profundidad debería uno penetrar para notar el mismo cambio? 
+
+4. Los planetas no son uniformes en su interior. Normalmente son más 
+densos en el centro y su densidad se reduce hacia la superficie. Modele un 
+planeta esféricamente simétrico con el mismo radio que la tierra, suponiendo 
+que su densidad disminuye linealmente al aumentar la distancia al centro. 
+Sea la densidad en el centro de 15.103 kg/m3 y en la superficie de 2.103 
+kg/m3, determine la aceleración debida a la gravedad en la superficie de ese 
+planeta. 
+
+5. Suponiendo un modelo sencillo donde la densidad de la tierra es constante, si se realizara un túnel 
+que atravesara la Tierra desde un polo al otro y se arroja un objeto por él, ¿Cuánto tardaría en llegar 
+desde un polo al otro? 
+
+6. La estrella enana blanca Sirio B tiene una masa aproximadamente igual a la del Sol (m = 1,99.1030 
+kg) y su radio es 0,02 radio solar (R=6,96.108 m). Determinar; a) ¿Cuál es el valor de g en la superficie 
+de Sirio B? Rta: g-685000 m/s2) b) ¿Cuál es la densidad de Sirio B? Rta: 174 kg/cm3. 
+
+7. Si el período de Marte alrededor del Sol es de 687 días, hallar la distancia media entre Marte y el Sol. 
+Rta: 2,3.108 km 
+
+8. Calcular el radio de una órbita para un satélite sincrónico con la Tierra. 
+
+ 
+
+9. La estación espacial internacional efectúa 15,65 revoluciones por día en su órbita alrededor de l 
+tierra. Suponiendo una órbita circular, ¿qué tan alto con respecto a la superficie terrestre debe estar 
+dicho satélite? RTA: 370km 
+
+ 
+
+10. Un objeto se lanza verticalmente desde la superficie terrestre con una velocidad inicial vo. 
+Despreciando la resistencia del aire calcular a) su velocidad a una altura H sobre la superficie terrestre. 
+b) la mínima velocidad de lanzamiento para que el objeto nunca regrese. 
+
+ 
+
+11. Se va a lanzar una nave de la superficie terrestre de modo que 
+escape del sistema solar. a) Calcule la rapidez relativa al centro de la 
+tierra con que se debe lanzar la nave. Tenga en cuenta los efectos 
+gravitacionales de la tierra y el sol, e incluya los efectos de la rapidez 
+orbital de la tierra, pero desprecie la resistencia del aire. b) la rotación 
+terrestre puede ayudar a esta nave a alcanzar la rapidez de escape. 
+Calcule la rapidez que la nave debe tener relativa a la superficie 
+terrestre si se lanza de florida (ver imagen). Los movimientos rotacional 
+y orbital de la tierra tienen la misma dirección. Las instalaciones de 
+lanzamiento de florida están 28.5° al norte del ecuador. c) La agencia 
+espacial europea (ESA) usa instalaciones de lanzamiento en la Guyana Francesa (inmediatamente al 
+norte de Brasil) 5,15° al norte del ecuador. ¿Qué rapidez relativa a la superficie terrestre necesitaría 
+adquirir una nave para escapar del sistema solar si se lanza desde Guyana? 
+
+ 
+
+12. Una nave de 5000 kg está en órbita circular 2000 km arriba de la superficie de Marte. ¿Cuánto 
+trabajo deben efectuar sus motores para llevarla a una órbita circular 4000 km arriba de la superficie? 
+
+Rta: 5.3.109 J 
+
+ 
+
+
+13. Considere una nave en órbita elíptica alrededor de la tierra. En el punto bajo o perigeo de su órbita, 
+la nave está 400 km arriba de la superficie de la tierra. En el apogeo está a 4000km de la superficie. a) 
+Calcule el periodo de la nave en esa órbita. b) Usando la conservación de L, calcule la razón entre la 
+rapidez de la nave en el perigeo y la rapidez de la nave en el apogeo. c) Usando la conservación de la 
+energía, determine la rapidez de la nave en perigeo y apogeo. d) Se desea que la nave escape 
+totalmente de la tierra. Si sus cohetes se encienden en el perigeo, ¿Cuánto tendrá que aumentarse la 
+rapidez para lograrlo? ¿Qué ocurre si los cohetes se disparan en el apogeo? ¿Qué punto de la órbita se 
+puede usar con mayor eficiencia? Rtas: a. 7910 s, b. 1,53, c) a 5510 m/s vs p 8430 m/s d) p 2410 
+m/s y a 3250 m/s 
+
+ 
+
+ 
+
+14. Un satélite está en A a una distancia de 17700 km del centro de 
+la tierra y recibe una velocidad inicial de 5790 m/s en la dirección 
+indicada en el gráfico. Al describir una trayectoria elíptica determina 
+las componentes radial y transversal de su velocidad cuando se 
+halla en el punto B a una distancia de 27360 km del centro de la 
+tierra. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+15. Desafío del Sears. La forma más eficiente de enviar una nave de la Tierra a otro planeta es usar una 
+órbita de transferencia de Hohmann. Si las órbitas de los planetas de origen y de destino son circulares, 
+la órbita de transferencia de Hohmann es una órbita elíptica, cuyo perihelio y afelio son tangentes a las 
+órbitas de los dos planetas. Los cohetes se encienden brevemente en el planeta de origen para colocar 
+la nave en la órbita de transferencia; a continuación, la nave viaja sin motor hasta llegar al planeta de 
+destino. En ese instante, los cohetes se encienden otra vez para 
+poner a la nave en la misma órbita alrededor del Sol que el planeta 
+de destino. a) Para un vuelo de la Tierra a Marte, ¿en qué dirección 
+se deben disparar los cohetes en la Tierra y en Marte: en la 
+dirección del movimiento o en la dirección opuesta? ¿Y en un vuelo 
+de Marte a la Tierra? b) ¿Cuánto tarda un viaje de ida de la Tierra a 
+Marte, entre los disparos de los cohetes? c) Para llegar a Marte 
+desde la Tierra, el instante del lanzamiento debe calcularse de 
+modo que Marte esté en el lugar correcto cuando la nave llegue a la 
+órbita de Marte alrededor del Sol. En el lanzamiento, ¿qué ángulo 
+deben formar las líneas Sol-Marte y Sol-Tierra? 
+
+ 
+
+ 
+
+16. Los astrónomos han observado un objeto pequeño y masivo en el 
+centro de nuestra vía galaxia. La vía Lactea. Un anillo de material 
+orbita este objeto masivo: El anillo tiene un diámetro aproximado de 15 
+años luz y rapidez aproximada de 200km/s. a) Determine la masa del 
+objeto central de la vía láctea. De su respuesta en kg y en masas 
+solares. B) Observaciones de estrellas y las teorías acerca de su 
+estructura sugieren que es imposible que este objeto sea una estrella, 
+calcular el radio de Schwarzchild para dicho objeto, y compararlo con 
+el radio del anillo. Rta: 2,1.107Ms 
+
+ 
+
+ 
+
+ 
+
+

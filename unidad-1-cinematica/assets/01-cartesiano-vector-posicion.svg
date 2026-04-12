@@ -1,0 +1,70 @@
+<svg viewBox="0 0 480 390" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6b7280"/></marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#7c3aed"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#dc2626"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#16a34a"/></marker>
+  </defs>
+
+  <rect width="480" height="390" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+
+  <!-- Title -->
+  <text x="240" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Coordenadas Cartesianas — Vector Posición</text>
+
+  <!-- x-axis -->
+  <line x1="65" y1="295" x2="435" y2="295" stroke="#6b7280" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="443" y="300" font-size="16" font-style="italic" fill="#6b7280">x</text>
+
+  <!-- y-axis -->
+  <line x1="110" y1="340" x2="110" y2="55" stroke="#6b7280" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="99" y="48" font-size="16" font-style="italic" fill="#6b7280">y</text>
+
+  <!-- Origin -->
+  <circle cx="110" cy="295" r="3.5" fill="#1e293b"/>
+  <text x="88" y="313" font-size="14" font-style="italic" fill="#1e293b">O</text>
+
+  <!-- Point P at SVG (355, 125). Relative to origin: dx=245, dy=170 up -->
+
+  <!-- Dashed construction lines -->
+  <!-- horizontal: from (110,125) to (355,125) — top of rectangle -->
+  <line x1="110" y1="125" x2="355" y2="125" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <!-- vertical: from (355,295) to (355,125) — right side -->
+  <line x1="355" y1="295" x2="355" y2="125" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="6,4"/>
+
+  <!-- x-component vector: O -> (355,295), red -->
+  <line x1="110" y1="295" x2="349" y2="295" stroke="#dc2626" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="228" y="316" text-anchor="middle" font-size="14" fill="#dc2626">x · ê<tspan font-size="11" baseline-shift="sub">x</tspan></text>
+
+  <!-- y-component vector: (355,295) -> (355,125), green -->
+  <line x1="355" y1="295" x2="355" y2="131" stroke="#16a34a" stroke-width="2" marker-end="url(#ag)"/>
+  <text x="376" y="213" font-size="14" fill="#16a34a">y · ê<tspan font-size="11" baseline-shift="sub">y</tspan></text>
+
+  <!-- Vector r: O -> P, purple -->
+  <line x1="110" y1="295" x2="349" y2="129" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ap)"/>
+  <text x="212" y="198" font-size="17" fill="#7c3aed" font-style="italic">r⃗</text>
+
+  <!-- Point P -->
+  <circle cx="355" cy="125" r="5" fill="#7c3aed"/>
+  <text x="365" y="121" font-size="14" fill="#1e293b">P (x, y)</text>
+
+  <!-- Versors at origin -->
+  <line x1="110" y1="295" x2="168" y2="295" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="172" y="289" font-size="13" fill="#dc2626">ê<tspan font-size="10" baseline-shift="sub">x</tspan></text>
+
+  <line x1="110" y1="295" x2="110" y2="237" stroke="#16a34a" stroke-width="2.5" marker-end="url(#ag)"/>
+  <text x="78" y="235" font-size="13" fill="#16a34a">ê<tspan font-size="10" baseline-shift="sub">y</tspan></text>
+
+  <!-- Note about 3D extension -->
+  <rect x="290" y="172" width="160" height="34" rx="4" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="370" y="187" text-anchor="middle" font-size="12" fill="#166534">En 3D: r⃗ = x·ê<tspan font-size="9" baseline-shift="sub">x</tspan> + y·ê<tspan font-size="9" baseline-shift="sub">y</tspan> + z·ê<tspan font-size="9" baseline-shift="sub">z</tspan></text>
+  <text x="370" y="200" text-anchor="middle" font-size="11" fill="#166534">ê<tspan font-size="9" baseline-shift="sub">z</tspan> = tercer eje perpendicular</text>
+
+  <!-- Formula box -->
+  <rect x="30" y="350" width="420" height="32" rx="5" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="240" y="362" text-anchor="middle" font-size="13" fill="#475569">r⃗ = x·ê<tspan font-size="10" baseline-shift="sub">x</tspan> + y·ê<tspan font-size="10" baseline-shift="sub">y</tspan> + z·ê<tspan font-size="10" baseline-shift="sub">z</tspan></text>
+  <text x="240" y="377" text-anchor="middle" font-size="12" fill="#64748b">dê<tspan font-size="9" baseline-shift="sub">x</tspan>/dt = dê<tspan font-size="9" baseline-shift="sub">y</tspan>/dt = dê<tspan font-size="9" baseline-shift="sub">z</tspan>/dt = 0   →   versores constantes: ṙ = ẋ·ê<tspan font-size="9" baseline-shift="sub">x</tspan> + ẏ·ê<tspan font-size="9" baseline-shift="sub">y</tspan> + ż·ê<tspan font-size="9" baseline-shift="sub">z</tspan></text>
+</svg>

@@ -1,0 +1,253 @@
+INSPT – UTN Prof. Carlos Dibarbora 
+
+FÍSICA TEÓRICA I 
+
+TP1 CINEMÁTICA 
+
+1- ¿Qué se quiere decir con “el movimiento es relativo”? 
+
+2- ¿Por qué un observador debe definir un sistema de referencia para el análisis del movimiento de los 
+cuerpos? ¿Qué criterios se siguen para elegir dicho sistema? 
+
+3- Si se conocen la posición y velocidad iniciales de un vehículo y se registra la aceleración en cada 
+instante, ¿puede determinarse la posición después de cierto tiempo con estos datos? Si se puede, 
+explicar cómo. 
+
+4- Un péndulo simple describe una trayectoria en forma de arco de circunferencia. ¿Qué dirección y 
+sentido tiene su aceleración en los extremos del arco? ¿Y en su punto medio? 
+
+5. La posición de una partícula que se mueve a lo largo de una linea recta está definida por la relación 
+
+x = t3 - 6t2 - 15 t + 40 donde x se expresa en pies y t en segundos. Determine a) El tiempo al cual la 
+velocidad será cero. b) la posición y la distancia recorrida por por la partícula en ese tiempo. c) La 
+aceleración de la partícula en ese tiempo. d) La distancia recorrida por la partícula desde t=4s a t=6s 
+
+6. 
+
+Texto
+El contenido generado por IA puede ser incorrecto. 
+
+
+7.Texto
+El contenido generado por IA puede ser incorrecto. 
+
+
+8. 
+
+Texto, Carta
+El contenido generado por IA puede ser incorrecto. 
+
+
+9. 
+
+Texto
+El contenido generado por IA puede ser incorrecto. 
+
+
+ 
+
+10. El vector posición de un punto material es : 
+
+ r(t) = A.cos ϖt i + A.sen ϖt j 
+
+ 
+
+a) Hallar la ecuación de la trayectoria. 
+
+b) Hallar el vector velocidad y el vector aceleración. 
+
+c) Demostrar que el vector aceleración está dirigido hacia el origen, y que tiene módulo 
+proporcional a distancia al origen. 
+
+
+d) Hallar las componentes intrínsecas del vector aceleración y el radio de curvatura. 
+
+e) Los vectores velocidad y aceleración en coordenadas polares. 
+
+ 
+
+11. Las ecuaciones polares de movimiento de un punto material son 
+
+r = C. cos ω t ; ϕ = ω.t 
+
+a) Hallar las componentes polares de los vectores velocidad y aceleración. 
+
+b) Las componentes intrínsecas del vector aceleración. 
+
+c) El radio de curvatura. 
+
+ 
+
+12. Considerar un movimiento curvilíneo plano. En un instante t, un punto material, pasa por P. Dibujar 
+en ese punto los vectores velocidad y aceleración, indicando sus componentes intrínsecas y polares. 
+(Elegir como polo el origen de las coordenadas cartesianas). 
+
+ 
+
+13. La Tierra rota uniformemente con respecto a su eje; Calcular la velocidad y la aceleración de un 
+punto situado en Buenos Aires ( 34º latitud sur). 
+
+ 
+
+14. Un volante cuyo diámetro es 2,40 m tiene una velocidad angular que disminuye uniformemente de 
+100rpm en t=0 hasta detenerse cuando t= 4s. Calcular las aceleraciones tangencial y normal de un 
+punto situado sobre el borde del volante cuando t=2 s. 
+
+ 
+
+15. Indicar el tipo de movimiento que realiza un punto material si las componentes cilíndricas del vector 
+velocidad son: 
+
+ a) Vz = 0 
+
+ b) Vρ = 0 y las demás componentes son constantes 
+
+ c) Vϕ = 0 y las demás componentes son constantes 
+
+ 
+
+16. Indicar las ecuaciones del movimiento en coordenadas esféricas de un cuerpo que describe un 
+movimiento circular uniforme en a) un paralelo. b) un meridiano. 
+
+ 
+
+17. Indicar las características de las posibles trayectorias de un punto material cuyas coordenadas 
+esféricas cumplen las siguientes condiciones: 
+
+a) r = constante 
+
+b) θ = constante con r y Vφ constantes. 
+
+c) φ= constante con r y Vθ constantes 
+
+ 
+
+18. El punto P se mueve por una línea helicoidal. Las ecuaciones horarias de movimiento de este punto 
+en el sistema de coordenadas cilíndricas son: ρ = a ϕ = b.t z= c. t 
+
+Diagrama
+El contenido generado por IA puede ser incorrecto. 
+Donde a, b y c son constantes positivas. Hallar 
+
+ a) la aceleración en coordenadas cilíndricas. 
+
+ b) Las componentes intrínsecas de la aceleración. 
+
+ 
+
+19. (1.25 Argüello) Cuando gira la barra OA de la figura el perno P 
+se mueve a lo largo de la parábola BCD. Sabiendo que la ecuación 
+de la parábola es r=2b/(1+cos φ) y φ=k.t, siendo b y k constantes 
+positivas, determinar las componentes polares de los vectores 
+velocidad y aceleración cuando φ=0 y cuando φ=π/2 
+
+ 
+
+20. (1.26 Argüello) El vector posición de una partícula es [Equation start, Function start \underline, r, Function end, =a.cos(ω.t).ĭ+a.sen(ω.t) ǰ+c., Function start \superscript, t, Next parameter, 2, Function end, ǩ, Equation end] 
+
+
+a) Demostrar que aunque el módulo de la velocidad aumenta con el tiempo, el módulo de la aceleración 
+es constante. 
+
+b) Describir geométricamente el movimiento de la partícula. 
+
+ 
+
+
+ 
+
+Diagrama, Dibujo de ingeniería
+El contenido generado por IA puede ser incorrecto.
+21. (1.31 Argüello) El perno B se desliza libremente en la ranura 
+recta a lo largo de la barra giratoria OC. Si el perno B gira en sentido 
+antihorario con velocidad lineal constante v0 , calcular la velocidad 
+angular de la barra OC y la componente radial de la velocidad del 
+perno B: a) para ф=0 y b) para ф=π/2 Considerar a=30cm y R=12,5 
+cm 
+
+Imagen de la pantalla de un celular de un mensaje en letras blancas
+El contenido generado por IA puede ser incorrecto. 
+
+
+ 
+
+ 
+
+ 
+
+Imagen que contiene vuelo, avión, aire, béisbol
+El contenido generado por IA puede ser incorrecto.
+22) La rotación del brazo OA de 0.9 m alrededor de O se define 
+mediante la relación θ=0.15t2, donde se expresa en radianes y t 
+en segundos. El collarín B desliza a lo largo del brazo de modo tal 
+que su distancia desde O es r = 0.9 - 0.12t2, donde r se expresa 
+en metros y t en segundos. Después de que el brazo OA ha 
+girado 30°, determine a) La velocidad del collarín b) la aceleración 
+del collarín, c) la aceleración en coordenadas intrínsecas del 
+collarín. 
+
+ 
+
+23. 
+
+ 
+
+Gráfico
+El contenido generado por IA puede ser incorrecto. 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Texto
+El contenido generado por IA puede ser incorrecto. 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gráfico
+El contenido generado por IA puede ser incorrecto. 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+

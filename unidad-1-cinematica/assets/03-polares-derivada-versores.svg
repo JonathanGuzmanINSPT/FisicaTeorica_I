@@ -1,0 +1,68 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <defs>
+    <marker id="ao1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ea580c"/></marker>
+    <marker id="ao2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#fb923c"/></marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0891b2"/></marker>
+  </defs>
+
+  <rect width="500" height="400" fill="white" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="250" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Derivada Temporal de los Versores Polares</text>
+
+  <!--
+    Origin at (250, 285), scale = 115px
+    φ₁ = 30°:  cos30=0.866, sin30=0.500
+      Tip₁ = (250+115*0.866, 285-115*0.500) = (349.6, 227.5) ≈ (350, 228)
+    φ₂ = 70°:  cos70=0.342, sin70=0.940
+      Tip₂ = (250+115*0.342, 285-115*0.940) = (289.3, 177.0) ≈ (289, 177)
+    Arc tips: M 350 228 A 115 115 0 0 0 289 177
+
+    Δê_r direction: (289-350, 177-228) = (-61, -51)
+      normalized: (-61,-51)/sqrt(61²+51²) = (-61,-51)/79.5 = (-0.767, -0.641)
+      expected ê_φ at φ=50°: (-sin50°,-cos50°) = (-0.766,-0.643)  ✓
+
+    Δê_r label midpoint: ((350+289)/2, (228+177)/2) = (319.5, 202.5) ≈ (322, 200)
+
+    Small Δφ arc at radius 48:
+      φ₁ pt: (250+48*0.866, 285-48*0.500) = (291.6, 261.0) ≈ (292, 261)
+      φ₂ pt: (250+48*0.342, 285-48*0.940) = (266.4, 239.9) ≈ (266, 240)
+      arc: M 292 261 A 48 48 0 0 0 266 240
+      label at ~50°, r=60: (250+60*0.643, 285-60*0.766) = (288.6, 239.0) → label (296, 249)
+  -->
+
+  <!-- Reference dot at origin -->
+  <circle cx="250" cy="285" r="4.5" fill="#1e293b"/>
+  <text x="230" y="303" font-size="13" font-style="italic" fill="#1e293b">O</text>
+
+  <!-- Light reference lines -->
+  <line x1="110" y1="285" x2="420" y2="285" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="250" y1="80" x2="250" y2="320" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- ê_r(φ) at φ₁=30° — dark orange, solid -->
+  <line x1="250" y1="285" x2="344" y2="230" stroke="#ea580c" stroke-width="2.5" marker-end="url(#ao1)"/>
+  <text x="352" y="226" font-size="14" fill="#ea580c">ê<tspan font-size="11" baseline-shift="sub">r</tspan>(φ)</text>
+
+  <!-- ê_r(φ+Δφ) at φ₂=70° — lighter orange, dashed -->
+  <line x1="250" y1="285" x2="283" y2="179" stroke="#fb923c" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#ao2)"/>
+  <text x="268" y="169" font-size="14" fill="#fb923c">ê<tspan font-size="11" baseline-shift="sub">r</tspan>(φ+Δφ)</text>
+
+  <!-- Δê_r vector: from Tip₁ to Tip₂, cyan (= ê_φ direction) -->
+  <line x1="344" y1="230" x2="289" y2="182" stroke="#0891b2" stroke-width="2.5" marker-end="url(#ac)"/>
+  <!-- Δê_r label offset to the right side of the segment -->
+  <text x="340" y="196" font-size="14" fill="#0891b2">Δê<tspan font-size="11" baseline-shift="sub">r</tspan> ≈ Δφ·ê<tspan font-size="11" baseline-shift="sub">φ</tspan></text>
+
+  <!-- Dashed arc connecting the tips (showing the rotation) -->
+  <path d="M 344 230 A 115 115 0 0 0 289 177" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Angle arc Δφ at small radius -->
+  <path d="M 292 261 A 48 48 0 0 0 266 240" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="298" y="253" font-size="14" fill="#f59e0b">Δφ</text>
+
+  <!-- Explanation box -->
+  <rect x="22" y="320" width="456" height="70" rx="5" fill="#f0f9ff" stroke="#bae6fd"/>
+  <text x="250" y="340" text-anchor="middle" font-size="13" fill="#0c4a6e" font-weight="bold">¿Por qué aparecen los términos "extra" en la aceleración polar?</text>
+  <text x="250" y="358" text-anchor="middle" font-size="13" fill="#075985">Δê<tspan font-size="10" baseline-shift="sub">r</tspan>/Δt ≈ (Δφ/Δt)·ê<tspan font-size="10" baseline-shift="sub">φ</tspan>   →   dê<tspan font-size="10" baseline-shift="sub">r</tspan>/dt = φ̇·ê<tspan font-size="10" baseline-shift="sub">φ</tspan>         del mismo modo: dê<tspan font-size="10" baseline-shift="sub">φ</tspan>/dt = −φ̇·ê<tspan font-size="10" baseline-shift="sub">r</tspan></text>
+  <text x="250" y="378" text-anchor="middle" font-size="12" fill="#0369a1">Al derivar ṙ = ṙ·ê<tspan font-size="9" baseline-shift="sub">r</tspan> + rφ̇·ê<tspan font-size="9" baseline-shift="sub">φ</tspan>  →  el término −rφ̇² viene de: rφ̇·(dê<tspan font-size="9" baseline-shift="sub">φ</tspan>/dt) = rφ̇·(−φ̇·ê<tspan font-size="9" baseline-shift="sub">r</tspan>)</text>
+</svg>
