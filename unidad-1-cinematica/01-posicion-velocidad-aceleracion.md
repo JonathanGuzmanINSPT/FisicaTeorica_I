@@ -30,7 +30,6 @@ $$v = |\vec{v}| = \sqrt{\dot{x}^2 + \dot{y}^2 + \dot{z}^2}$$
 
 ### Vector Aceleración
 
-![Diagrama: Coordenadas Cartesianas — Vector Posición](./assets/01-cartesiano-vector-posicion.svg)
 
 La aceleración es la derivada temporal de la velocidad, o equivalentemente la segunda derivada de la posición:
 
