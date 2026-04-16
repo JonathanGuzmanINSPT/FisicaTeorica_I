@@ -1,0 +1,26 @@
+% Color RGBA: 0c4a6eff (RGB: #0c4a6e, fully opaque)
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+
+\definecolor{customcolor}{HTML}{0c4a6e}
+\pagecolor[HTML]{FFFFFF}
+\color{customcolor}
+
+\begin{document}
+\thispagestyle{empty}
+\setlength{\parindent}{0pt}
+\centering
+
+{\Large\bfseries ¿Por qué aparecen los términos ``extra'' en la aceleración polar?}
+
+\vspace{0.5em}
+
+$\frac{\Delta\hat{e}_r}{\Delta t} \approx \frac{\Delta\varphi}{\Delta t}\cdot\hat{e}_\varphi \rightarrow \frac{d\hat{e}_r}{dt} = \dot{\varphi}\cdot\hat{e}_\varphi$ del mismo modo: $\frac{d\hat{e}_\varphi}{dt} = -\dot{\varphi}\cdot\hat{e}_r$
+
+\vspace{0.3em}
+
+Al derivar $\dot{r} = \dot{r}\cdot\hat{e}_r + r\dot{\varphi}\cdot\hat{e}_\varphi$ → el término $-r\dot{\varphi}^2$ viene de: $r\dot{\varphi}\cdot\left(\frac{d\hat{e}_\varphi}{dt}\right) = r\dot{\varphi}\cdot(-\dot{\varphi}\cdot\hat{e}_r)$
+
+\end{document}

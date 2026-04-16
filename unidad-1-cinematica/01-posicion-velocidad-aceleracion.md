@@ -129,7 +129,7 @@ $$\boxed{\dot{\hat{e_r}} = \dot{\phi}\,\hat{e_\phi}, \qquad \dot{\hat{e_\phi}} =
 
 **Interpretación:** El versor $\hat{e_r}$ no es exactamente la derivada temporal de nada. Pero sí es la derivada parcial de $\hat{e_r}$ respecto a la coordenada $\phi$. Cuando el punto se mueve y $\phi$ cambia a razón $\dot{\phi}$, el versor $\hat{e_r}$ cambia a razón $\dot{\phi}\,\hat{e_\phi}$.
 
-![Diagrama: Derivada temporal de los versores polares](./assets/03-polares-derivada-versores.svg)
+<img src="./assets/03-polares-derivada-versores.svg" alt="Diagrama: Derivada temporal de los versores polares" width="100%"/>
 
 ---
 
@@ -189,57 +189,157 @@ $$\dot{\phi} = \frac{d\phi}{dt} = \frac{d}{dt}\arctan2(y, x) = \frac{x\dot{y} - 
 
 ### Velocidad en polares
 
-Derivando $\vec{r} = r\,\hat{e_r}$ y aplicando la regla del producto:
+El vector velocidad es la derivada temporal de la posición. Partiendo de $\vec{r} = r\,\hat{e_r}$ y aplicando la regla del producto:
 
-$$\vec{v} = \frac{d\vec{r}}{dt} = \frac{dr}{dt}\hat{e_r} + r\frac{d\hat{e_r}}{dt} = \dot{r}\,\hat{e_r} + r\dot{\hat{e_r}}$$
+$$\vec{v} = \frac{d\vec{r}}{dt} = \frac{d(r\,\hat{e_r})}{dt} = \frac{dr}{dt}\hat{e_r} + r\frac{d\hat{e_r}}{dt}$$
 
-Usando $\dot{\hat{e_r}} = \dot{\phi}\,\hat{e_\phi}$:
+El primer término es directo: $\frac{dr}{dt} = \dot{r}$. 
+
+Para el segundo término, usamos la relación que obtuvimos anteriormente: $\frac{d\hat{e_r}}{dt} = \dot{\phi}\,\hat{e_\phi}$
+
+$$\vec{v} = \dot{r}\,\hat{e_r} + r\dot{\phi}\,\hat{e_\phi}$$
 
 $$\boxed{\vec{v} = \dot{r}\,\hat{e_r} + r\dot{\phi}\,\hat{e_\phi}}$$
 
 | Componente | Expresión | Significado físico |
 |---|---|---|
-| $v_r = \dot{r}$ | Variación del módulo de $r$ | Velocidad radial (acercamiento/alejamiento del origen) |
-| $v_\phi = r\dot{\phi}$ | Arco recorrido por unidad de tiempo | Velocidad transversal (movimiento tangencial) |
+| $v_r = \dot{r}$ | Variación del módulo de $r$ | Velocidad radial: qué tan rápido nos acercamos o alejamos del origen |
+| $v_\phi = r\dot{\phi}$ | Arco recorrido por unidad de tiempo | Velocidad transversal (tangencial): qué tan rápido se gira alrededor del origen. Aumenta con $r$: a mayor distancia, más rápido se mueve uno girando. |
 
 **Relación con la velocidad cartesiana:**
 
-$$v_r^2 + v_\phi^2 = \dot{r}^2 + r^2\dot{\phi}^2 = \dot{x}^2 + \dot{y}^2 = v^2$$
+Como ambas componentes son ortogonales (versores perpendiculares), por el teorema de Pitágoras:
 
-Por lo tanto: $v = \sqrt{\dot{r}^2 + r^2\dot{\phi}^2}$ (teorema de Pitágoras en polares)
+$$v^2 = v_r^2 + v_\phi^2 = \dot{r}^2 + r^2\dot{\phi}^2 = \dot{x}^2 + \dot{y}^2$$
+
+Por lo tanto: 
+$$v = \sqrt{\dot{r}^2 + r^2\dot{\phi}^2}$$
+
+**Nota importante:** A diferencia de las cartesianas donde todos los términos son derivadas simples de coordenadas, aquí el término $r\dot{\phi}$ depende de ambas coordenadas $r$ y $\dot{\phi}$. Esto es característico de los sistemas curvilíneos.
 
 ### Aceleración en polares
 
-Derivamos la velocidad aplicando la regla del producto a cada componente:
+#### Derivación paso a paso
 
-$$\vec{a} = \frac{d\vec{v}}{dt} = \frac{d}{dt}\left(\dot{r}\,\hat{e_r} + r\dot{\phi}\,\hat{e_\phi}\right)$$
+La aceleración es la derivada temporal de la velocidad. Partiendo de:
 
-**Primer término:**
-$$\frac{d}{dt}(\dot{r}\,\hat{e_r}) = \ddot{r}\,\hat{e_r} + \dot{r}\frac{d\hat{e_r}}{dt} = \ddot{r}\,\hat{e_r} + \dot{r}\dot{\phi}\,\hat{e_\phi}$$
+$$\vec{v} = \dot{r}\,\hat{e_r} + r\dot{\phi}\,\hat{e_\phi}$$
 
-**Segundo término:**
-$$\frac{d}{dt}(r\dot{\phi}\,\hat{e_\phi}) = \dot{r}\dot{\phi}\,\hat{e_\phi} + r\ddot{\phi}\,\hat{e_\phi} + r\dot{\phi}\frac{d\hat{e_\phi}}{dt}$$
+$$\vec{a} = \frac{d\vec{v}}{dt} = \frac{d}{dt}\left(\dot{r}\,\hat{e_r}\right) + \frac{d}{dt}\left(r\dot{\phi}\,\hat{e_\phi}\right)$$
 
-$$= \dot{r}\dot{\phi}\,\hat{e_\phi} + r\ddot{\phi}\,\hat{e_\phi} + r\dot{\phi}(-\dot{\phi}\,\hat{e_r})$$
+**Derivando el primer término** $\frac{d(\dot{r}\,\hat{e_r})}{dt}$ (aplicar regla del producto):
 
-$$= r\ddot{\phi}\,\hat{e_\phi} + \dot{r}\dot{\phi}\,\hat{e_\phi} - r\dot{\phi}^2\,\hat{e_r}$$
+$$\frac{d(\dot{r}\,\hat{e_r})}{dt} = \ddot{r}\,\hat{e_r} + \dot{r}\frac{d\hat{e_r}}{dt} = \ddot{r}\,\hat{e_r} + \dot{r}\dot{\phi}\,\hat{e_\phi}$$
 
-**Sumando ambos términos:**
+**Derivando el segundo término** $\frac{d(r\dot{\phi}\,\hat{e_\phi})}{dt}$ (aplicar regla del producto):
+
+$$\frac{d(r\dot{\phi}\,\hat{e_\phi})}{dt} = \frac{d(r\dot{\phi})}{dt}\hat{e_\phi} + r\dot{\phi}\frac{d\hat{e_\phi}}{dt}$$
+
+Calculamos cada parte:
+
+**Parte 1:** $\frac{d(r\dot{\phi})}{dt} = \dot{r}\dot{\phi} + r\ddot{\phi}$ (regla del producto)
+
+**Parte 2:** $\frac{d\hat{e_\phi}}{dt} = -\dot{\phi}\,\hat{e_r}$ **(derivada del versor tangencial)** — Explicación detallada:
+
+Recordemos que el versor tangencial es:
+$$\hat{e_\phi}(\phi) = -\sin\phi\,\hat{e_x} + \cos\phi\,\hat{e_y}$$
+
+Derivando respecto al tiempo (y usando la regla de la cadena):
+$$\frac{d\hat{e_\phi}}{dt} = \frac{d}{dt}\left(-\sin\phi\,\hat{e_x} + \cos\phi\,\hat{e_y}\right)$$
+
+$$= -\cos\phi \cdot \frac{d\phi}{dt}\,\hat{e_x} - \sin\phi \cdot \frac{d\phi}{dt}\,\hat{e_y}$$
+
+$$= -\dot{\phi}\,\left(\cos\phi\,\hat{e_x} + \sin\phi\,\hat{e_y}\right)$$
+
+$$= -\dot{\phi}\,\hat{e_r}$$
+
+**¿Por qué apunta en dirección opuesta a $\hat{e_r}$?**
+
+El versor $\hat{e_\phi}$ es tangente a un círculo de radio $r$ centrado en el origen. Cuando el ángulo $\phi$ aumenta en $d\phi$, el versor $\hat{e_\phi}$ rota en el plano. El cambio (la derivada) siempre apunta **hacia el centro del círculo**, que es exactamente la dirección **opuesta** a $\hat{e_r}$ (que apunta hacia afuera).
+
+Intuitivamente: cuando giras alrededor de un círculo, tu vector "dirección" gira, y esa rotación siempre te "jala" hacia el centro. Por eso el signo negativo.
+
+**Visualización geométrica:**
+
+Considera un punto $P(\phi)$ en coordenadas polares:
+
+$$\text{Cuando } \phi \text{ aumenta un poco: } \phi \to \phi + d\phi$$
+
+- El punto se mueve a $P(\phi + d\phi)$ sobre un arco de círculo
+- El versor radial $\hat{e_r}$ rota desde apuntar a $P(\phi)$ a apuntar a $P(\phi + d\phi)$
+- El versor tangencial $\hat{e_\phi}$ (perpendicular a $\hat{e_r}$) también rota
+
+**El cambio de $\hat{e_\phi}$ es siempre radial:**
+
+$$\text{Si colocas ambos versores en el mismo punto } P(\phi):$$
+
+$$\begin{align}
+\hat{e_\phi}(\phi) &= \text{versor tangencial (perpendicular a } \hat{e_r}, \text{ tangente al círculo)} \\
+\hat{e_\phi}(\phi + d\phi) &= \text{versor tangencial rotado}
+\end{align}$$
+
+Cuando transportas ambos vectores al mismo punto, el cambio $d\hat{e_\phi} = \hat{e_\phi}(\phi + d\phi) - \hat{e_\phi}(\phi)$ apunta **siempre hacia adentro**, es decir, en dirección $-\hat{e_r}$.
+
+**Por qué ocurre esto:**
+
+El versor $\hat{e_\phi}$ es tangente a un círculo centrado en $O$. Cuando ese círculo se "expande" (en la dirección de aumento de $\phi$), la tangente también rota. Como el círculo es convexo (centrado en $O$), la rotación de la tangente siempre apunta **hacia el centro**.
+
+**Regla de la cadena resumida:**
+
+$$\frac{d\hat{e_\phi}}{dt} = \underbrace{\frac{d\hat{e_\phi}}{d\phi}}_{\text{derivada geométrica}} \cdot \underbrace{\frac{d\phi}{dt}}_{\dot{\phi}} = (-\hat{e_r}) \cdot \dot{\phi} = -\dot{\phi}\,\hat{e_r}$$
+
+---
+
+Sustituyendo:
+
+$$\frac{d(r\dot{\phi}\,\hat{e_\phi})}{dt} = (\dot{r}\dot{\phi} + r\ddot{\phi})\,\hat{e_\phi} + r\dot{\phi}(-\dot{\phi}\,\hat{e_r})$$
+
+$$= (\dot{r}\dot{\phi} + r\ddot{\phi})\,\hat{e_\phi} - r\dot{\phi}^2\,\hat{e_r}$$
+
+**Combinando ambos términos:**
+
+$$\vec{a} = \left[\ddot{r}\,\hat{e_r} + \dot{r}\dot{\phi}\,\hat{e_\phi}\right] + \left[(\dot{r}\dot{\phi} + r\ddot{\phi})\,\hat{e_\phi} - r\dot{\phi}^2\,\hat{e_r}\right]$$
+
+**Agrupando por dirección:**
 
 $$\vec{a} = \left(\ddot{r} - r\dot{\phi}^2\right)\hat{e_r} + \left(r\ddot{\phi} + 2\dot{r}\dot{\phi}\right)\hat{e_\phi}$$
 
 $$\boxed{\vec{a} = a_r\,\hat{e_r} + a_\phi\,\hat{e_\phi}}$$
 
-donde:
+#### Componentes e interpretación
 
 | Componente | Expresión | Nombre y significado |
 |---|---|---|
-| $a_r = \ddot{r} - r\dot{\phi}^2$ | **Radial** | El término $\ddot{r}$ es la aceleración en la dirección radial. El término $-r\dot{\phi}^2$ es la **aceleración centrípeta** (siempre apunta hacia el centro) |
-| $a_\phi = r\ddot{\phi} + 2\dot{r}\dot{\phi}$ | **Transversal** | El término $r\ddot{\phi}$ es la aceleración tangencial. El término $2\dot{r}\dot{\phi}$ es la **aceleración de Coriolis** (aparece cuando hay rotación + cambio de radio) |
+| $a_r = \ddot{r} - r\dot{\phi}^2$ | **Radial** | El término $\ddot{r}$ es el cambio de velocidad radial. El término $-r\dot{\phi}^2$ es la **aceleración centrípeta** (siempre apunta hacia el origen, incluso si $\dot{r} = \ddot{r} = 0$) |
+| $a_\phi = r\ddot{\phi} + 2\dot{r}\dot{\phi}$ | **Transversal** | El término $r\ddot{\phi}$ es la aceleración tangencial por cambio de velocidad angular. El término $2\dot{r}\dot{\phi}$ es la **aceleración de Coriolis** (aparece cuando hay simultáneamente rotación y cambio de radio) |
+
+#### ¿Por qué aparecen los términos "extra"?
+
+Los términos $-r\dot{\phi}^2$ y $2\dot{r}\dot{\phi}$ no existen en las cartesianas. **¿De dónde salen?**
+
+La razón fundamental es que **los versores polares $\hat{e_r}$ y $\hat{e_\phi}$ cambian de dirección** cuando el punto se mueve. En cartesianas, los versores son fijos.
+
+**Ejemplo visual del término centrípeto** ($-r\dot{\phi}^2$):
+
+Cuando el versor $\hat{e_\phi}$ cambia su dirección al rotar, la componente tangencial $r\dot{\phi}\,\hat{e_\phi}$ también cambia aunque $r\dot{\phi}$ sea constante. Específicamente:
+
+$$\frac{d(r\dot{\phi}\,\hat{e_\phi})}{dt} = \cancelto{0}{r\dot{\phi}\frac{d(\text{dirección})}{dt}} \neq 0$$
+
+El término $\frac{d\hat{e_\phi}}{dt} = -\dot{\phi}\,\hat{e_r}$ genera el término $-r\dot{\phi}^2\,\hat{e_r}$.
+
+En un movimiento circular puro ($\dot{r} = 0$, $r = R$, $\dot{\phi} = \omega$ constante):
+- Las cartesianas dan: $\vec{a} = -R\omega^2(\cos\omega t\,\hat{e_x} + \sin\omega t\,\hat{e_y})$ (varía continuamente)
+- Las polares dan: $\vec{a} = -R\omega^2\,\hat{e_r}$ (siempre hacia el centro, mucho más elegante)
+
+**Ejemplo del término de Coriolis** ($2\dot{r}\dot{\phi}$):
+
+Si te acercas al origen ($\dot{r} < 0$) mientras giras ($\dot{\phi} > 0$), la ley de conservación del momento angular hace que tu velocidad de rotación deba aumentar. Esto requiere una aceleración transversal adicional: el término $2\dot{r}\dot{\phi}$.
+
+Intuitivamente: imagina un tiovivo rotando. Si caminas hacia el centro, tienes que frenar tu avance tangencial (aceleración de Coriolis).
 
 **Regla mnemotécnica:**
-- Aceleración radial = (cambio de rapidez radial) − (fuerza centrífuga)
-- Aceleración tangencial = (cambio de velocidad angular) + (efecto Coriolis)
+- **Radial:** cambio de rapidez radial MENOS fuerza centrífuga
+- **Transversal:** cambio de velocidad angular PLUS efecto Coriolis
 
 ---
 
