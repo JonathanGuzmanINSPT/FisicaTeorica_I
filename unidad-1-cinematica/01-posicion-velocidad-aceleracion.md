@@ -310,7 +310,7 @@ $$\boxed{\vec{a} = \left(\ddot{\rho} - \rho\dot{\phi}^2\right)\hat{e_\rho} + \le
 
 ## Coordenadas Esféricas
 
-![Diagrama: Coordenadas Esféricas](./assets/05-esfesi el puricas.svg)
+![Diagrama: Coordenadas Esféricas](./assets/05-esfericas.svg)
 
 Las coordenadas esféricas $(r, \theta, \phi)$ son las más generales. Los tres versores $\hat{e_r}$, $\hat{e_\theta}$, $\hat{e_\phi}$ dependen de la posición y sus derivadas son:
 
