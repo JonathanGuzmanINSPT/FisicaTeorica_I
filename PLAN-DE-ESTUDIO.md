@@ -174,21 +174,14 @@ Conceptos clave:
 
 ## Progreso
 
-| Unidad | Estado | Notas |
-|--------|--------|-------|
-| 1 — Cinemática | ⬜ No iniciado | |
-| 2 — Leyes de Newton | ⬜ No iniciado | |
-| 3 — Conservación | ⬜ No iniciado | |
-| 4 — Gravitación | ⬜ No iniciado | |
-| 5 — Oscilaciones | ⬜ No iniciado | |
-| 6 — Sistemas de puntos | ⬜ No iniciado | |
-| 7 — Movimiento relativo ⭐ | ⬜ No iniciado | |
-| 8 — Cuerpo rígido ⭐ | ⬜ No iniciado | |
-| 9 — Mecánica analítica | ⬜ No iniciado | |
-
-
-\begin{tikzpicture}
-\draw (0,0) circle (1cm);  % Círculo
-\draw (0,0) -- (2,1);      % Línea
-\fill[red] (1,1) circle (2pt); % Punto rojo
-\end{tikzpicture}
+| Unidad                    | Estado        | Notas |
+| ------------------------- | ------------- | ----- |
+| 1 — Cinemática            | ⬜ No iniciado |       |
+| 2 — Leyes de Newton       | ⬜ No iniciado |       |
+| 3 — Conservación          | ⬜ No iniciado |       |
+| 4 — Gravitación           | ⬜ No iniciado |       |
+| 5 — Oscilaciones          | ⬜ No iniciado |       |
+| 6 — Sistemas de puntos    | ⬜ No iniciado |       |
+| 7 — Movimiento relativo ⭐ | ⬜ No iniciado |       |
+| 8 — Cuerpo rígido ⭐       | ⬜ No iniciado |       |
+| 9 — Mecánica analítica    | ⬜ No iniciado |       |

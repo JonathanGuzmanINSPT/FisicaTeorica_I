@@ -213,8 +213,9 @@ y $\phi = k\,t$, siendo $b$ y $k$ constantes positivas, determinar las component
 
 ### Diagrama (Fig. 1-17)
 
-|![Diagrama: Movimiento del perno P sobre la parábola BCD](./assets/fig_1_17_.svg)|
-|:--:|
+| ![Diagrama: Movimiento del perno P sobre la parábola BCD](./assets/fig_1_17_.svg) |
+| :-------------------------------------------------------------------------------: |
+|                                                                                   |
 
 *La barra $OA$ rota alrededor del origen $O$ con $\dot{\phi} = k$. El perno $P$ queda restringido a la curva $BCD$; su distancia al origen $r$ varía según la ecuación de la parábola. En cartesianas: $y^2 = 4b(b - x)$, parábola con vértice en $(b,\,0)$ que abre hacia la izquierda.*
 
