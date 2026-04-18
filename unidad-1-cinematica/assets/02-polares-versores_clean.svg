@@ -4,7 +4,7 @@
    font-family="Georgia, 'Times New Roman', serif"
    version="1.1"
    id="svg20"
-   sodipodi:docname="02-polares-versores.svg"
+   sodipodi:docname="02-polares-versores_clean.svg"
    width="496.94684"
    height="427.25357"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
@@ -468,19 +468,6 @@
      stroke="#cbd5e1"
      id="rect15"
      style="stroke-width:0.918602" />
-  <text
-     x="238.42433"
-     y="106.20961"
-     text-anchor="middle"
-     font-size="14px"
-     fill="#475569"
-     id="text16">ṙ = ṙ ê<tspan
-   font-size="11px"
-   baseline-shift="sub"
-   id="tspan15">r</tspan> + rφ̇ ê<tspan
-   font-size="11px"
-   baseline-shift="sub"
-   id="tspan16">φ</tspan></text>
   <text
      x="400.01138"
      y="218.08519"

@@ -99,7 +99,7 @@ $$\hat{e_\phi}(\phi) = -\sin\phi\,\hat{e_x} + \cos\phi\,\hat{e_y}$$
 
 **Analogía:** Así como en cartesianas escribimos $\vec{r} = x\hat{e_x} + y\hat{e_y}$ (dos coordenadas explícitas $x, y$ y dos versores constantes), en polares escribimos $\vec{r} = r\hat{e_r}$ (una coordenada radial explícita $r$ y un versor que ya incluye la información de $\phi$).
 
-![Diagrama: Coordenadas Polares — Versores en el Punto P](./assets/02-polares-versores.svg)
+<img src="./assets/02-polares-versores_clean.svg" alt="Diagrama: Coordenadas Polares — Versores en el Punto P" width="100%"/>
 
 ---
 
@@ -323,7 +323,9 @@ La razón fundamental es que **los versores polares $\hat{e_r}$ y $\hat{e_\phi}$
 
 Cuando el versor $\hat{e_\phi}$ cambia su dirección al rotar, la componente tangencial $r\dot{\phi}\,\hat{e_\phi}$ también cambia aunque $r\dot{\phi}$ sea constante. Específicamente:
 
-$$\frac{d(r\dot{\phi}\,\hat{e_\phi})}{dt} = \cancelto{0}{r\dot{\phi}\frac{d(\text{dirección})}{dt}} \neq 0$$
+$$\frac{d(r\dot{\phi}\,\hat{e_\phi})}{dt} \neq r\dot{\phi}\frac{d(\text{dirección})}{dt}$$
+
+aunque $r\dot{\phi}$ sea constante, su **dirección cambia**, por eso la derivada es no-cero.
 
 El término $\frac{d\hat{e_\phi}}{dt} = -\dot{\phi}\,\hat{e_r}$ genera el término $-r\dot{\phi}^2\,\hat{e_r}$.
 

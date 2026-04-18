@@ -1,0 +1,67 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usetikzlibrary{shapes.callouts, calc}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=3, thick, 
+  dot/.style={fill=black, circle, inner sep=1.5pt},
+  axis/.style={very thin, gray!50},
+  mylabel/.style={font=\small},
+  arrowlabel/.style={font=\footnotesize}
+]
+
+% Dimensiones
+\def\ang{45}     % Ángulo phi en grados
+\def\vectorlen{0.8}  % Longitud de los versores
+
+% ===== TÍTULO =====
+\node[font=\Large\bfseries] at (0.8, 2.3) {Coordenadas Polares — Versores en el Punto P};
+
+% ===== EJES CARTESIANOS =====
+\draw[axis, -latex] (-0.3, 0) -- (2.3, 0) node[right, font=\small] {$x$};
+\draw[axis, -latex] (0, -0.3) -- (0, 2.3) node[above, font=\small] {$y$};
+
+% ===== PUNTO O (ORIGEN) =====
+\node[dot, label=below left:{$O$}] (O) at (0, 0) {};
+
+% ===== PUNTO P =====
+\node[dot, label=above:{$P$}] (P) at ({cos(\ang)}, {sin(\ang)}) {};
+
+% ===== RADIO r =====
+\draw[dashed, gray] (O) -- (P);
+\node[mylabel, gray] at ({0.3*cos(\ang) - 0.15}, {0.3*sin(\ang) + 0.1}) {$r$};
+
+% ===== ÁNGULO PHI =====
+\draw[gray!40, dashed] (1.2, 0) arc (0:\ang:1.2);
+\node[arrowlabel, gray] at (0.95, 0.25) {$\varphi$};
+
+% ===== VERSOR RADIAL e_r (NARANJA/ROJO) =====
+\draw[orange, very thick, -latex] ({cos(\ang)}, {sin(\ang)}) -- ({cos(\ang) + \vectorlen*cos(\ang)}, {sin(\ang) + \vectorlen*sin(\ang)});
+\node[arrowlabel, orange] at ({cos(\ang) + 0.65*\vectorlen*cos(\ang) + 0.15}, {sin(\ang) + 0.65*\vectorlen*sin(\ang)}) {$\hat{e}_r$};
+
+% ===== VERSOR TANGENCIAL e_phi (AZUL) =====
+\draw[blue, very thick, -latex] ({cos(\ang)}, {sin(\ang)}) -- ({cos(\ang) - \vectorlen*sin(\ang)}, {sin(\ang) + \vectorlen*cos(\ang)});
+\node[arrowlabel, blue] at ({cos(\ang) - 0.6*\vectorlen*sin(\ang) - 0.1}, {sin(\ang) + 0.6*\vectorlen*cos(\ang) + 0.15}) {$\hat{e}_\varphi$};
+
+% ===== CAJA CON ADVERTENCIA =====
+\node[draw=orange, very thick, rectangle, rounded corners, inner sep=0.3cm, font=\small, align=center, text width=3.5cm] at (1.5, 1.3) {
+  \textbf{⚠ $\hat{e}_r, \hat{e}_\varphi, \varphi$ están en $P$} \\
+  No en el origen $O$ \\
+  Rotan con $\varphi(t)$ → no son ctes.
+};
+
+% ===== CAJA INFERIOR CON FÓRMULAS =====
+\node[draw=blue!30, very thick, rectangle, rounded corners, inner sep=0.3cm, font=\footnotesize, align=center, text width=6cm] at (0.8, -0.7) {
+  $\vec{r} = \dot{r}\,\hat{e}_r + r\dot{\varphi}\,\hat{e}_\varphi$ \\[0.15cm]
+  $\frac{d\hat{e}_r}{dt} = \dot{\varphi}\,\hat{e}_\varphi \quad \frac{d\hat{e}_\varphi}{dt} = -\dot{\varphi}\,\hat{e}_r$ \quad (ver diagrama 03)
+};
+
+\end{tikzpicture}
+
+\end{document}
+
+\end{document}
