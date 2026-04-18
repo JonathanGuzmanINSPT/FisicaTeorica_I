@@ -1,6 +1,8 @@
-# TP1 - Cinemática Teórica  
-**INSPT – UTN**  
-**Prof. Carlos Dibarora**
+# TP1 – Cinemática
+
+**INSPT – UTN** | **Física Teórica I** | **Prof. Carlos Dibarbora**
+
+---
 
 ## Preguntas teóricas
 

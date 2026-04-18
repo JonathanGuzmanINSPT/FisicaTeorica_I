@@ -1,32 +1,18 @@
-d# TP1 – Cinemática
+# TP1 – Cinemática
 
 **INSPT – UTN** | **Física Teórica I** | **Prof. Carlos Dibarbora**
 
 ---
 
-## Ejercicio 1
+## Preguntas teóricas
 
-¿Qué se quiere decir con "el movimiento es relativo"?
+1. ¿Qué se quiere decir con “el movimiento es relativo”?
 
----
+2. ¿Por qué un observador debe definir un sistema de referencia para el análisis del movimiento de los cuerpos? ¿Qué criterios se siguen para elegir dicho sistema?
 
-## Ejercicio 2
+3. Si se conocen la posición y velocidad iniciales de un vehículo y se registra la aceleración en cada instante, ¿puede determinarse la posición después de cierto tiempo con estos datos? Si se puede, explicar cómo.
 
-¿Por qué un observador debe definir un sistema de referencia para el análisis del movimiento de los cuerpos? ¿Qué criterios se siguen para elegir dicho sistema?
-
----
-
-## Ejercicio 3
-
-Si se conocen la posición y velocidad iniciales de un vehículo y se registra la aceleración en cada instante, ¿puede determinarse la posición después de cierto tiempo con estos datos? Si se puede, explicar cómo.
-
----
-
-## Ejercicio 4
-
-Un péndulo simple describe una trayectoria en forma de arco de circunferencia. ¿Qué dirección y sentido tiene su aceleración en los extremos del arco? ¿Y en su punto medio?
-
----
+4. Un péndulo simple describe una trayectoria en forma de arco de circunferencia. ¿Qué dirección y sentido tiene su aceleración en los extremos del arco? ¿Y en su punto medio?
 
 ## Ejercicio 5
 
@@ -213,8 +199,8 @@ y $\phi = k\,t$, siendo $b$ y $k$ constantes positivas, determinar las component
 
 ### Diagrama (Fig. 1-17)
 
-|![Diagrama: Movimiento del perno P sobre la parábola BCD](./assets/fig_1_17_.svg)|
-|:--:|
+![Diagrama: Movimiento del perno P sobre la parábola BCD](./assets/fig_1_17_.svg)
+
 
 *La barra $OA$ rota alrededor del origen $O$ con $\dot{\phi} = k$. El perno $P$ queda restringido a la curva $BCD$; su distancia al origen $r$ varía según la ecuación de la parábola. En cartesianas: $y^2 = 4b(b - x)$, parábola con vértice en $(b,\,0)$ que abre hacia la izquierda.*
 
