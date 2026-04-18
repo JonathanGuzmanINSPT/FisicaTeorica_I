@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe37a39b249a6b0",
+        "id": "6608e6a44a7478f2",
         "type": "tabs",
         "children": [
           {
-            "id": "2dce90daf35fef51",
+            "id": "918579e66a347590",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "unidad-1-cinematica/01-posicion-velocidad-aceleracion.md",
-                "mode": "source",
-                "source": false
+                "file": "FisicaTeorica2026_samsung.pdf"
               },
-              "icon": "lucide-file",
-              "title": "01-posicion-velocidad-aceleracion"
+              "icon": "lucide-file-text",
+              "title": "FisicaTeorica2026_samsung"
             }
           }
         ]
@@ -112,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "unidad-1-cinematica/01-posicion-velocidad-aceleracion.md",
+            "file": "FisicaTeorica2026_samsung.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -177,33 +175,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2dce90daf35fef51",
+  "active": "918579e66a347590",
   "lastOpenFiles": [
+    "PLAN-DE-ESTUDIO.md",
     "FisicaTeorica2026_samsung.pdf",
-    "unidad-1-cinematica/01-posicion-velocidad-aceleracion.md",
-    "Sin título.base",
-    "Sin título 1.canvas",
-    "unidad-1-cinematica/tp_1.md",
+    "Fisica Teorica 2026 Samsung.pdf",
+    "Apunte_xournal_Fisica_Teorica_2026.pdf",
     "unidad-1-cinematica/tp1-cinematica.md",
+    "unidad-1-cinematica/01-posicion-velocidad-aceleracion.pdf",
+    "unidad-1-cinematica/tp_1.md",
+    "unidad-1-cinematica/assets/figura.tex",
+    "unidad-1-cinematica/assets/figura.svg",
+    "unidad-1-cinematica/assets/figura.pdf",
+    "unidad-1-cinematica/assets/figura.log",
+    "unidad-1-cinematica/assets/figura.aux",
+    "unidad-1-cinematica/assets/02-polares-versores_clean.svg",
+    "unidad-1-cinematica/assets/02-polares-versores.tex",
+    "unidad-1-cinematica/assets/02-polares-versores.pdf",
+    "unidad-1-cinematica/assets/02-polares-versores-new.svg",
+    "/unidad-1-cinematica/assets/figura.svg",
+    "/unidad-1-cinematica/assets/02-polares-versores_clean.svg",
+    "/unidad-1-cinematica/assets/02-polares-versores.svg",
+    "/unidad-1-cinematica/assets/02-polares-versores-new.svg",
+    "skills/agent-physics-interpreter/SKILL.md",
+    "Sin título.canvas",
+    "Sin título 2.canvas",
+    "Sin título 1.canvas",
+    "unidad-1-cinematica/01-posicion-velocidad-aceleracion.md",
+    "/unidad-1-cinematica/assets/03-polares-derivada-versores.svg",
+    "/unidad-1-cinematica/01-posicion-velocidad-aceleracion.md",
     "unidad-1-cinematica/assets/fig_1_17_.svg",
     "unidad-1-cinematica/assets/fig-1-17-argüello.svg",
-    "unidad-1-cinematica/assets/fig-1-17-argüello.excalidraw",
-    "unidad-1-cinematica/assets/05-esfericas.svg",
-    "unidad-1-cinematica/assets/05-esfericas.excalidraw",
-    "unidad-1-cinematica/assets/04-cilindricas.svg",
-    "unidad-1-cinematica/assets/04-cilindricas.excalidraw",
-    "unidad-1-cinematica/assets/03-polares-derivada-versores.svg",
-    "unidad-1-cinematica/assets/03-polares-derivada-versores.excalidraw",
-    "unidad-1-cinematica/assets/02-polares-versores.svg",
-    "unidad-1-cinematica/assets/02-polares-versores.excalidraw",
-    "unidad-1-cinematica/assets/01-cartesiano-vector-posicion.svg",
-    "unidad-1-cinematica/assets/01-cartesiano-vector-posicion.excalidraw",
     "unidad-1-cinematica/01-ejercicios-posicion-velocidad-aceleracion.md",
-    "skills/agent-physics-interpreter/SKILL.md",
-    "docs/tp-ft-1-cinematica-2026.docx-4.txt",
-    "docs/temario-final-ft1.txt",
-    "README.md",
-    "PLAN-DE-ESTUDIO.md",
-    "Sin título.canvas"
+    "README.md"
   ]
 }
