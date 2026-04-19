@@ -23,14 +23,14 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 | Bloque | Total | ✅ | 🔄 | % |
 |---|---|---|---|---|
 | Preguntas Teóricas | 4 | 0 | 0 | 0% |
-| Cinemática 1D | 5 | 0 | 0 | 0% |
+| Cinemática 1D | 5 | 2 | 1 | 60% |
 | Movimiento Plano (Cartesianas) | 1 | 0 | 0 | 0% |
 | Coordenadas Polares | 3 | 0 | 0 | 0% |
 | Análisis de Movimiento 2D | 2 | 0 | 0 | 0% |
 | Rotación Rígida y Cinemática Angular | 3 | 0 | 0 | 0% |
 | Coordenadas Cilíndricas y Esféricas | 3 | 0 | 0 | 0% |
 | Movimiento Complejo 3D | 5 | 0 | 0 | 0% |
-| **Total** | **26** | **0** | **0** | **0%** |
+| **Total** | **26** | **2** | **1** | **11.5%** |
 
 ---
 
@@ -199,9 +199,10 @@ a) El valor de $k$.
 b) La posición de la partícula cuando $v = 4{,}5\,\text{m/s}$.
 c) La velocidad máxima de la partícula.
 
-<div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
+<div style="margin-top: 16px; padding: 12px; background: #fff8e1; border-left: 4px solid #fbc02d; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <span style="background: #fff9c4; color: #f57f17; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔄 En proceso - Dudas pendientes</span>
+  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #fbc02d;" />
 </div>
 
 ---
