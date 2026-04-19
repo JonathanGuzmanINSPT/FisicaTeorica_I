@@ -41,6 +41,7 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 ## P1. ¿Qué se quiere decir con "el movimiento es relativo"?
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📋 Preguntas Teóricas</span>
   <span style="background: #d4edda; color: #155724; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Relatividad del movimiento</span>
   <span style="background: #d1ecf1; color: #0c5460; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐ Fácil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 5 min</span>
@@ -56,6 +57,7 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 ## P2. ¿Por qué un observador debe definir un sistema de referencia para el análisis del movimiento de los cuerpos? ¿Qué criterios se siguen para elegir dicho sistema?
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📋 Preguntas Teóricas</span>
   <span style="background: #d4edda; color: #155724; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Sistemas de referencia</span>
   <span style="background: #d1ecf1; color: #0c5460; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐ Fácil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 5 min</span>
@@ -71,6 +73,7 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 ## P3. Si se conocen la posición y velocidad iniciales de un vehículo y se registra la aceleración en cada instante, ¿puede determinarse la posición después de cierto tiempo con estos datos? Si se puede, explicar cómo.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📋 Preguntas Teóricas</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Integración cinemática</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 10 min</span>
@@ -86,6 +89,7 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 ## P4. Un péndulo simple describe una trayectoria en forma de arco de circunferencia. ¿Qué dirección y sentido tiene su aceleración en los extremos del arco? ¿Y en su punto medio?
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📋 Preguntas Teóricas</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 MCU y aceleración centrípeta</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 8 min</span>
@@ -105,6 +109,7 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 ## Ejercicio 5.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 1</span>
   <span style="background: #d4edda; color: #155724; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Posición, velocidad y aceleración 1D</span>
   <span style="background: #d1ecf1; color: #0c5460; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐ Fácil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 15 min</span>
@@ -123,7 +128,7 @@ d) La distancia recorrida por la partícula desde $t = 4\,\text{s}$ hasta $t = 6
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked="checked" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
 </div>
 
 ---
@@ -131,6 +136,7 @@ d) La distancia recorrida por la partícula desde $t = 4\,\text{s}$ hasta $t = 6
 ## Ejercicio 6.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 1</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Ecuación diferencial exponencial</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -169,7 +175,7 @@ Dibuje las curvas del movimiento correspondiente.
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked="checked" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
 </div>
 
 ---
@@ -177,6 +183,7 @@ Dibuje las curvas del movimiento correspondiente.
 ## Ejercicio 7.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 1</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Aceleración variable, integración</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -202,6 +209,7 @@ c) La velocidad máxima de la partícula.
 ## Ejercicio 8.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 1</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Velocidad de escape, campo central</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 25 min</span>
@@ -225,6 +233,7 @@ donde $r$ es la distancia desde el centro de la Tierra a la partícula, $R = 396
 ## Ejercicio 9.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 1</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Función sinusoidal, integración trigonométrica</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 15 min</span>
@@ -253,6 +262,7 @@ b) Su velocidad promedio durante el intervalo de $t = 0$ a $t = T$.
 ## Ejercicio 10.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #bbdefb; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Bloque 2</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Trayectoria circular, derivadas vectoriales</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -280,6 +290,7 @@ e) Los vectores velocidad y aceleración en coordenadas polares.
 ## Ejercicio 11.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c5cae9; color: #3f51b5; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔄 Bloque 3</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Componentes polares</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -301,6 +312,7 @@ c) El radio de curvatura.
 ## Ejercicio 11.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c5cae9; color: #3f51b5; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔄 Bloque 3</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Componentes intrínsecas, movimiento curvilíneo</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 25 min</span>
@@ -316,6 +328,7 @@ c) El radio de curvatura.
 ## Ejercicio 13.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 4</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Rotación rígida, coordenadas esféricas</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -336,6 +349,7 @@ La Tierra rota uniformemente con respecto a su eje. Calcular la velocidad y la a
 ## Ejercicio 14.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 4</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Aceleración tangencial y normal</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -351,6 +365,7 @@ La Tierra rota uniformemente con respecto a su eje. Calcular la velocidad y la a
 ## Ejercicio 15.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #c8e6c9; color: #2e7d32; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔢 Bloque 4</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Clasificación de movimientos</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 15 min</span>
@@ -374,6 +389,7 @@ c) $V_\phi = 0$ y las demás componentes son constantes
 ## Ejercicio 16.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #ffccbc; color: #d84315; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌀 Bloque 5</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Movimiento en esfera, latitud-meridiano</span>
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
@@ -392,6 +408,7 @@ b) Un meridiano.
 ## Ejercicio 17.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #ffccbc; color: #d84315; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌀 Bloque 5</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Trayectorias especiales en esféricas</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 25 min</span>
@@ -415,6 +432,7 @@ c) $\phi = \text{constante}$ con $r$ y $V_\theta$ constantes
 ## Ejercicio 18.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #d1c4e9; color: #512da8; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔷 Bloque 6</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Hélice, versores cilíndricos</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 30 min</span>
@@ -441,6 +459,7 @@ b) Las componentes intrínsecas de la aceleración.
 ## Ejercicio 19.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #f0f4c3; color: #827717; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌌 Bloque 7</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Movimiento paramétrico en polares</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 35 min</span>
@@ -468,6 +487,7 @@ y $\phi = k\,t$, siendo $b$ y $k$ constantes positivas, determinar las component
 ## Ejercicio 20.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #f0f4c3; color: #827717; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌌 Bloque 7</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Espiral 3D, magnitud vectorial</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 30 min</span>
@@ -490,6 +510,7 @@ b) Describir geométricamente el movimiento de la partícula.
 ## Ejercicio 21.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #f0f4c3; color: #827717; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌌 Bloque 7</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Mecanismo deslizador-barra</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 40 min</span>
@@ -538,6 +559,7 @@ Datos: $a = 30\,\text{cm}$, $R = 12{,}5\,\text{cm}$
 ## Ejercicio 22.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #f0f4c3; color: #827717; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌌 Bloque 7</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Movimiento plano con aceleración angular variable</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 35 min</span>
@@ -580,6 +602,7 @@ c) La aceleración en coordenadas intrínsecas del collarín.
 ## Ejercicio 23.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
+  <span style="background: #f0f4c3; color: #827717; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🌌 Bloque 7</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Espirales, trayectorias complejas</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 40 min</span>
