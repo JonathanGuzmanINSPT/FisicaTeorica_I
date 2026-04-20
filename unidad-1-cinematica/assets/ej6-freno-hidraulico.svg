@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="678.85425"
+   height="320"
+   viewBox="0 0 678.85425 320"
+   font-family="'Segoe UI', Arial, sans-serif"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="ej6-freno-hidraulico.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="2.5371429"
+     inkscape:cx="273.93018"
+     inkscape:cy="106.22185"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="287"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <!-- Background -->
+  <rect
+     width="678.85425"
+     height="320"
+     fill="#faf9ff"
+     rx="7.7583346"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.984776" />
+  <!-- Title -->
+  <text
+     x="402.95337"
+     y="28"
+     text-anchor="middle"
+     font-size="13px"
+     font-weight="600"
+     fill="#001233"
+     id="text1">Mecanismo de freno hidráulico — Ej. 6</text>
+  <!-- === CYLINDER WALLS === -->
+  <!-- Top wall -->
+  <rect
+     x="112.95338"
+     y="70"
+     width="540"
+     height="18"
+     fill="#444444"
+     rx="3"
+     id="rect2" />
+  <!-- Bottom wall -->
+  <rect
+     x="112.95338"
+     y="210"
+     width="540"
+     height="18"
+     fill="#444444"
+     rx="3"
+     id="rect3" />
+  <!-- Left end cap -->
+  <rect
+     x="112.95338"
+     y="70"
+     width="18"
+     height="158"
+     fill="#555555"
+     rx="3"
+     id="rect4" />
+  <!-- Right end cap -->
+  <rect
+     x="634.95337"
+     y="70"
+     width="18"
+     height="158"
+     fill="#555555"
+     rx="3"
+     id="rect5" />
+  <!-- === OIL LEFT SIDE === -->
+  <rect
+     x="130.95338"
+     y="88"
+     width="212"
+     height="122"
+     fill="#b8d4f0"
+     opacity="0.7"
+     id="rect6" />
+  <!-- Oil wave lines left -->
+  <path
+     d="m 140.95338,108 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 37,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path6" />
+  <path
+     d="m 140.95338,128 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 37,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path7" />
+  <path
+     d="m 140.95338,148 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 37,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path8" />
+  <path
+     d="m 140.95338,168 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 37,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path9" />
+  <path
+     d="m 140.95338,188 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 37,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path10" />
+  <!-- === PISTON (ÉMBOLO) === -->
+  <rect
+     x="67.559334"
+     y="141.2706"
+     width="275.13248"
+     height="11.867117"
+     fill="#aaaaaa"
+     stroke="#888888"
+     stroke-width="1.13288"
+     id="rect32" />
+  <rect
+     x="342.95337"
+     y="76"
+     width="80"
+     height="146"
+     fill="#778899"
+     stroke="#334455"
+     stroke-width="2"
+     rx="2"
+     id="rect10" />
+  <!-- Piston highlight -->
+  <rect
+     x="344.95337"
+     y="78"
+     width="10"
+     height="142"
+     fill="#99aabb"
+     rx="1"
+     opacity="0.5"
+     id="rect11" />
+  <!-- Holes in piston (orifices) - 3 columns x 4 rows -->
+  <!-- Col 1 -->
+  <ellipse
+     cx="363.95337"
+     cy="112"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse11" />
+  <ellipse
+     cx="363.95337"
+     cy="134"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse12" />
+  <ellipse
+     cx="363.95337"
+     cy="156"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse13" />
+  <ellipse
+     cx="363.95337"
+     cy="178"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse14" />
+  <!-- Col 2 -->
+  <ellipse
+     cx="382.95337"
+     cy="112"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse15" />
+  <ellipse
+     cx="382.95337"
+     cy="134"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse16" />
+  <rect
+     x="422.95337"
+     y="88"
+     width="212"
+     height="122"
+     fill="#b8d4f0"
+     opacity="0.7"
+     id="rect27" />
+  <ellipse
+     cx="382.95337"
+     cy="156"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse17" />
+  <ellipse
+     cx="382.95337"
+     cy="178"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse18" />
+  <!-- Col 3 -->
+  <ellipse
+     cx="401.95337"
+     cy="112"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse19" />
+  <ellipse
+     cx="401.95337"
+     cy="134"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse20" />
+  <ellipse
+     cx="401.95337"
+     cy="156"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse21" />
+  <ellipse
+     cx="401.95337"
+     cy="178"
+     rx="4"
+     ry="6"
+     fill="#222222"
+     opacity="0.85"
+     id="ellipse22" />
+  <!-- Flow arrows through holes (oil passing through) -->
+  <path
+     d="m 427.95338,168 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 40,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path31" />
+  <!-- === OIL RIGHT SIDE === -->
+  <!-- Oil wave lines right -->
+  <path
+     d="m 427.95338,108 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 40,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path28" />
+  <path
+     d="m 427.95338,128 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 40,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path29" />
+  <path
+     d="m 427.95338,148 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 40,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path30" />
+  <path
+     d="m 427.95338,188 q 20,-8 40,0 20,8 40,0 20,-8 40,0 20,8 40,0 20,-8 40,0"
+     stroke="#5599cc"
+     stroke-width="1.5"
+     fill="none"
+     opacity="0.6"
+     id="path32" />
+  <!-- === CANNON ROD (connecting piston to cannon) === -->
+  <!-- Cannon body (schematic) -->
+  <path
+     d="M 394.81038,111.45312 H 369.0507"
+     stroke="#007bff"
+     stroke-width="1.7068"
+     marker-end="url(#arrowBlue-0-2)"
+     opacity="0.7"
+     id="path22-8"
+     style="marker-end:url(#arrowBlue-0-2)" />
+  <path
+     d="M 395.03451,157.21449 H 369.27483"
+     stroke="#007bff"
+     stroke-width="1.7068"
+     marker-end="url(#arrowBlue-0-8-6)"
+     opacity="0.7"
+     id="path22-8-5"
+     style="marker-end:url(#arrowBlue-0-8-6)" />
+  <path
+     d="M 395.10191,178.55532 H 369.34222"
+     stroke="#007bff"
+     stroke-width="1.7068"
+     marker-end="url(#arrowBlue-0-8-5-5)"
+     opacity="0.7"
+     id="path22-8-5-1"
+     style="marker-end:url(#arrowBlue-0-8-5-5)" />
+  <path
+     d="M 395.03444,134.16072 H 369.27475"
+     stroke="#007bff"
+     stroke-width="1.7068"
+     marker-end="url(#arrowBlue-0-8-5-1-3)"
+     opacity="0.7"
+     id="path22-8-5-1-7"
+     style="marker-end:url(#arrowBlue-0-8-5-1-3)" />
+  <rect
+     x="12.006496"
+     y="71.003098"
+     width="54.885406"
+     height="153.41446"
+     fill="#666666"
+     stroke="#444444"
+     stroke-width="3.1146"
+     rx="3.9203858"
+     id="rect33" />
+  <text
+     x="40.440357"
+     y="149.72321"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#ffffff"
+     font-weight="500"
+     id="text33"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Verdana;-inkscape-font-specification:Verdana"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Verdana;-inkscape-font-specification:Verdana"
+       id="tspan42">Cañón</tspan></text>
+  <!-- === VELOCITY ARROW (v₀, recoil = leftward) === -->
+  <defs
+     id="defs34">
+    <marker
+       id="arrowRed"
+       markerWidth="8"
+       markerHeight="8"
+       refX="6"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 8,3 Z"
+         fill="#c0392b"
+         id="path33" />
+    </marker>
+    <marker
+       id="arrowBlue"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34" />
+    </marker>
+    <marker
+       id="arrowBlue-0"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9" />
+    </marker>
+    <marker
+       id="arrowBlue-0-8"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-2" />
+    </marker>
+    <marker
+       id="arrowBlue-0-8-5"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-2-1" />
+    </marker>
+    <marker
+       id="arrowBlue-0-8-5-1"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-2-1-5" />
+    </marker>
+    <marker
+       id="arrowBlue-6"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-1" />
+    </marker>
+    <marker
+       id="arrowBlue-0-8-5-1-3"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-2-1-5-2" />
+    </marker>
+    <marker
+       id="arrowBlue-0-2"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-1" />
+    </marker>
+    <marker
+       id="arrowBlue-0-8-6"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-2-8" />
+    </marker>
+    <marker
+       id="arrowBlue-0-8-5-5"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-9-2-1-7" />
+    </marker>
+    <marker
+       id="arrowBlue-1"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-8" />
+    </marker>
+    <marker
+       id="marker1"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path1" />
+    </marker>
+    <marker
+       id="marker2"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrowBlue-6-9"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 6,3 Z"
+         fill="#007bff"
+         id="path34-1-2" />
+    </marker>
+  </defs>
+  <line
+     x1="124.00185"
+     y1="47.196342"
+     x2="239.00185"
+     y2="47.196342"
+     stroke="#c0392b"
+     stroke-width="2.5"
+     marker-end="url(#arrowRed)"
+     id="line34" />
+  <text
+     x="180.64078"
+     y="41.868557"
+     text-anchor="middle"
+     font-size="12px"
+     font-weight="700"
+     fill="#c0392b"
+     id="text34">retroceso</text>
+  <text
+     x="186.77223"
+     y="60.196342"
+     text-anchor="middle"
+     font-size="13px"
+     font-weight="700"
+     fill="#c0392b"
+     font-style="italic"
+     id="text35">v₀</text>
+  <!-- === LABELS === -->
+  <!-- Aceite left -->
+  <text
+     x="236.95338"
+     y="250"
+     text-anchor="middle"
+     font-size="12px"
+     font-weight="600"
+     fill="#003087"
+     id="text36">Aceite</text>
+  <line
+     x1="236.95338"
+     y1="210"
+     x2="236.95338"
+     y2="244"
+     stroke="#003087"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     id="line36" />
+  <!-- Aceite right -->
+  <text
+     x="528.95337"
+     y="250"
+     text-anchor="middle"
+     font-size="12px"
+     font-weight="600"
+     fill="#003087"
+     id="text37">Aceite</text>
+  <line
+     x1="528.95337"
+     y1="210"
+     x2="528.95337"
+     y2="244"
+     stroke="#003087"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     id="line37" />
+  <!-- Émbolo label -->
+  <text
+     x="382.95337"
+     y="266"
+     text-anchor="middle"
+     font-size="12px"
+     font-weight="600"
+     fill="#334455"
+     id="text38">Émbolo</text>
+  <line
+     x1="382.95337"
+     y1="222"
+     x2="382.95337"
+     y2="254"
+     stroke="#334455"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     id="line38" />
+  <!-- Cilindro fijo label -->
+  <text
+     x="376.75537"
+     y="65.366188"
+     text-anchor="middle"
+     font-size="11px"
+     fill="#555555"
+     id="text39">Cilindro fijo (lleno de aceite)</text>
+  <!-- Orificios label -->
+  <text
+     x="380.72375"
+     y="88.68885"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#dddddd"
+     id="text40">orificios</text>
+  <!-- a = -kv label -->
+  <text
+     x="376.33929"
+     y="50.224686"
+     text-anchor="middle"
+     font-size="14px"
+     font-weight="700"
+     fill="#001233"
+     font-style="italic"
+     id="text41">a = −kv</text>
+  <!-- Cylinder label (side) -->
+  <path
+     d="m 348.24192,156.33467 h -20"
+     stroke="#007bff"
+     stroke-width="1.5"
+     marker-end="url(#arrowBlue-1)"
+     opacity="0.7"
+     id="path25"
+     style="marker-end:url(#arrowBlue-1)" />
+  <path
+     d="m 347.375,178.328 h -20"
+     stroke="#007bff"
+     stroke-width="1.5"
+     marker-end="url(#arrowBlue-6-9)"
+     opacity="0.7"
+     id="path25-2"
+     style="marker-end:url(#arrowBlue-6-9)" />
+  <path
+     d="m 347.68451,133.99025 h -20"
+     stroke="#007bff"
+     stroke-width="1.5"
+     marker-end="url(#arrowBlue-1)"
+     opacity="0.7"
+     id="path26"
+     style="marker-end:url(#arrowBlue-1)" />
+  <path
+     d="m 348.79932,111.36712 h -20"
+     stroke="#007bff"
+     stroke-width="1.5"
+     marker-end="url(#arrowBlue-1)"
+     opacity="0.7"
+     id="path27"
+     style="marker-end:url(#arrowBlue-1)" />
+  <text
+     x="-138.06491"
+     y="663.73505"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#444444"
+     transform="rotate(-90)"
+     id="text42">Cilindro fijo</text>
+</svg>
