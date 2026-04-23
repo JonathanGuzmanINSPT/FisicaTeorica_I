@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 391.5 346"
+   width="391.5"
+   height="346"
+   font-family="Georgia, 'Times New Roman', serif"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="fig-1-18-ejercicio-21.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     inkscape:zoom="2"
+     inkscape:cx="118.25"
+     inkscape:cy="113.75"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="287"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20" />
+  <!-- Fondo -->
+  <rect
+     width="391.5"
+     height="346"
+     fill="#fafafa"
+     rx="6.5250001"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.839949" />
+  <!-- ─── Ejes coordenados ─── -->
+  <!-- Eje x -->
+  <line
+     x1="17"
+     y1="240"
+     x2="337"
+     y2="240"
+     stroke="#333333"
+     stroke-width="1.8"
+     marker-end="url(#arrow)"
+     id="line1" />
+  <!-- Eje y -->
+  <line
+     x1="97"
+     y1="320"
+     x2="97"
+     y2="40"
+     stroke="#333333"
+     stroke-width="1.8"
+     marker-end="url(#arrow)"
+     id="line2" />
+  <!-- Etiquetas de ejes -->
+  <text
+     x="345"
+     y="245"
+     font-size="18px"
+     fill="#333333"
+     font-style="italic"
+     id="text2">x</text>
+  <text
+     x="89"
+     y="32"
+     font-size="18px"
+     fill="#333333"
+     font-style="italic"
+     id="text3">y</text>
+  <!-- ─── Origen O ─── -->
+  <text
+     x="81"
+     y="260"
+     font-size="15px"
+     fill="#333333"
+     font-style="italic"
+     id="text4">O</text>
+  <!-- ─── Circunferencia de trayectoria de B ───
+       Centro en (a, 0) → pixel (160+130, 240) = (290, 240)
+       Radio R ~ 65px (proporcional: a=130px, R=12.5/30*130≈54px) -->
+  <circle
+     cx="227"
+     cy="240"
+     r="54"
+     fill="none"
+     stroke="#999999"
+     stroke-width="1.2"
+     stroke-dasharray="6, 4"
+     id="circle4" />
+  <circle
+     cx="225.93359"
+     cy="240.76996"
+     r="70.824677"
+     fill="none"
+     stroke="#999999"
+     stroke-width="1.57388"
+     stroke-dasharray="6, 4"
+     id="circle4-9"
+     style="stroke-dasharray:none" />
+  <!-- Marca del centro de la circunferencia (punto a,0) -->
+  <circle
+     cx="227"
+     cy="240"
+     r="3"
+     fill="#888888"
+     id="circle5" />
+  <!-- Cota 'a' -->
+  <line
+     x1="97"
+     y1="323.58783"
+     x2="227"
+     y2="323.58783"
+     stroke="#888888"
+     stroke-width="1"
+     marker-start="url(#tick)"
+     marker-end="url(#tick)"
+     id="line5" />
+  <text
+     x="156.06065"
+     y="333.43707"
+     font-size="14px"
+     fill="#555555"
+     font-style="italic"
+     id="text5">a</text>
+  <!-- Cota 'R' (desde centro hasta borde derecho) -->
+  <line
+     x1="300.90421"
+     y1="189.23396"
+     x2="301.4924"
+     y2="240.06882"
+     stroke="#888888"
+     stroke-width="0.97693"
+     marker-start="url(#tick)"
+     marker-end="url(#tick)"
+     id="line6" />
+  <text
+     x="309.08014"
+     y="219.41353"
+     font-size="14px"
+     fill="#555555"
+     font-style="italic"
+     id="text6">R</text>
+  <!-- ─── Posición genérica de B sobre la circunferencia (φ ~ 50°) ─── -->
+  <!-- B = centro + R*(cos φ, -sin φ) = (290 + 54*cos50°, 240 - 54*sin50°) ≈ (325, 199) -->
+  <text
+     x="257.1593"
+     y="203.67616"
+     font-size="15px"
+     fill="#c0392b"
+     font-style="italic"
+     font-weight="bold"
+     id="text7">B</text>
+  <!-- ─── Barra giratoria OC ───
+       Pasa por O(160,240) y B(325,199), se extiende hasta C -->
+  <!-- Dirección: (325-160, 199-240) = (165, -41). Extendemos hasta ~370px -->
+  <!-- Parametrizamos: t tal que x=370 → t=(370-160)/165=1.273 → y=240-41*1.273≈187 -->
+  <!-- Etiqueta C al final de la barra -->
+  <text
+     x="316.5"
+     y="167.5"
+     font-size="15px"
+     fill="#1a5276"
+     font-style="italic"
+     font-weight="bold"
+     id="text8">C</text>
+  <!-- ─── Ángulo θ (entre eje x y barra OC) ─── -->
+  <!-- Arco de 0 a ~14° (ángulo real de la barra) desde O, radio 45 -->
+  <!-- Arco más visible: desde (205,240) con ángulo pequeño -->
+  <path
+     d="m 141.02209,239.07863 c 0.1085,-3.76201 -0.3705,-9.24675 -1.63822,-12.7776"
+     fill="none"
+     stroke="#2980b9"
+     stroke-width="1.5"
+     id="path9"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="142.99007"
+     y="237.5058"
+     font-size="14px"
+     fill="#2980b9"
+     font-style="italic"
+     id="text9">θ</text>
+  <!-- ─── Ángulo φ (sobre la circunferencia, desde eje x del centro) ─── -->
+  <!-- Centro (290,240), arco de 0 a 50°, radio 30 -->
+  <text
+     x="245.16956"
+     y="227.17844"
+     font-size="14px"
+     fill="#8e44ad"
+     font-style="italic"
+     id="text10">φ</text>
+  <!-- ─── Vector velocidad v₀ en B (tangente a la circunferencia, aprox) ─── -->
+  <!-- Tangente en φ=50°: dirección (-sin50°, -cos50°) = (-0.766, -0.643) normalizado -->
+  <!-- Flecha desde B(325,199) en dirección (-0.766, -0.643)*40 → (325-30.6, 199-25.7)=(294,173) -->
+  <line
+     x1="243.12366"
+     y1="183.58252"
+     x2="222.29523"
+     y2="170.10385"
+     stroke="#e67e22"
+     stroke-width="1.29188"
+     marker-end="url(#arrowOrange)"
+     id="line10" />
+  <text
+     x="208.4722"
+     y="181.92607"
+     font-size="14px"
+     fill="#e67e22"
+     font-style="italic"
+     id="text11">v₀</text>
+  <!-- ─── Leyenda ─── -->
+  <rect
+     x="163.55215"
+     y="48.895706"
+     width="220"
+     height="78"
+     rx="6"
+     fill="#f0f0f0"
+     stroke="#cccccc"
+     stroke-width="1"
+     id="rect11" />
+  <text
+     x="179.89571"
+     y="63.95092"
+     font-size="12px"
+     fill="#333333"
+     id="text12"><tspan
+   font-weight="bold"
+   id="tspan11">O</tspan>: pivote fijo de la barra <tspan
+   font-style="italic"
+   id="tspan12">OC</tspan></text>
+  <text
+     x="179.89571"
+     y="81.95092"
+     font-size="12px"
+     fill="#c0392b"
+     id="text13"><tspan
+   font-weight="bold"
+   fill="#333333"
+   id="tspan13">B</tspan>: perno (se mueve sobre circunf.)</text>
+  <text
+     x="179.89571"
+     y="98.95092"
+     font-size="12px"
+     fill="#333333"
+     id="text16"><tspan
+   font-style="italic"
+   id="tspan14">θ</tspan>: ángulo de barra <tspan
+   font-style="italic"
+   id="tspan15">OC</tspan> con eje <tspan
+   font-style="italic"
+   id="tspan16">x</tspan></text>
+  <text
+     x="179.89571"
+     y="115.95092"
+     font-size="12px"
+     fill="#333333"
+     id="text18"><tspan
+   font-style="italic"
+   id="tspan17">φ</tspan>: ángulo de <tspan
+   font-style="italic"
+   id="tspan18">B</tspan> sobre su trayectoria</text>
+  <!-- ─── Título ─── -->
+  <path
+     style="fill:#888888;fill-opacity:1;stroke:#888888;stroke-width:1.16898;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 227.67913,239.47743 18.90166,-45.84112"
+     id="path22" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#888888;stroke-width:0.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4, 2.66667;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 296.4375,189.25 H 248.375"
+     id="path25" />
+  <text
+     x="178"
+     y="13.5"
+     font-size="13px"
+     fill="#555555"
+     text-anchor="middle"
+     id="text19">Fig. 1-18 — Mecanismo deslizador-barra (Ej. 21)</text>
+  <!-- ─── Definiciones de marcadores ─── -->
+  <defs
+     id="defs20">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="8"
+       markerHeight="8"
+       refX="6"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 8,3 Z"
+         fill="#333333"
+         id="path19" />
+    </marker>
+    <marker
+       id="arrowOrange"
+       markerWidth="8"
+       markerHeight="6"
+       refX="6"
+       refY="3"
+       orient="auto"
+       viewBox="0 0 8 6"
+       preserveAspectRatio="xMidYMid">
+      <path
+         d="M 0,0 V 6 L 8,3 Z"
+         fill="#e67e22"
+         id="path20" />
+    </marker>
+    <marker
+       id="tick"
+       markerWidth="4"
+       markerHeight="8"
+       refX="2"
+       refY="4"
+       orient="auto">
+      <line
+         x1="2"
+         y1="0"
+         x2="2"
+         y2="8"
+         stroke="#888888"
+         stroke-width="1.2"
+         id="line20" />
+    </marker>
+  </defs>
+  <circle
+     cx="97"
+     cy="240"
+     r="4"
+     fill="#333"
+     id="circle3"
+     style="fill:#1a5276;fill-opacity:1;stroke:none" />
+  <circle
+     cx="97.1595"
+     cy="240.05521"
+     r="7.4355826"
+     fill="#333333"
+     id="circle3-8"
+     style="fill:none;stroke:#1a5276;stroke-width:1.8589;stroke-opacity:1" />
+  <path
+     style="fill:#1a5276;fill-opacity:1;stroke:#1a5276;stroke-width:2.48574;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 97.42232,239.45498 312.46725,165.39164"
+     id="path21"
+     sodipodi:nodetypes="cc" />
+  <circle
+     cx="249.23926"
+     cy="187.95706"
+     r="7"
+     fill="#c0392b"
+     stroke="#922b21"
+     stroke-width="1.5"
+     id="circle6"
+     inkscape:label="perno" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#8e44ad;stroke-width:0.5104;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+     d="m 249.32424,239.41132 c 0.55303,-11.12251 -10.64425,-15.27005 -13.48193,-15.79434"
+     id="path23"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#888888;stroke-width:0.849214;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.24607, 2.83071;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 227.06102,239.77349 -0.0131,79.77821"
+     id="path24" />
+</svg>

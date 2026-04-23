@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 373.99305 222.85669"
+   width="373.99304"
+   height="222.85669"
+   font-family="Georgia, 'Times New Roman', serif"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="ejercicio-22-brazo-collar.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.6290324"
+     inkscape:cx="76.2638"
+     inkscape:cy="73.220855"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="287"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#hatch"
+       id="pattern12"
+       patternTransform="rotate(45,81.109621,-84.373869)" />
+    <marker
+       id="arrL"
+       markerWidth="8"
+       markerHeight="6"
+       refX="0"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 8,0 0,3 8,6 Z"
+         fill="#333333"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrR"
+       markerWidth="8"
+       markerHeight="6"
+       refX="8"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 8,3 0,6 Z"
+         fill="#333333"
+         id="path2" />
+    </marker>
+    <pattern
+       id="hatch"
+       width="8"
+       height="8"
+       patternUnits="userSpaceOnUse"
+       patternTransform="rotate(45)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="8"
+         stroke="#888"
+         stroke-width="1.5"
+         id="line2" />
+    </pattern>
+    <marker
+       id="axisArr"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 V 6 L 8,3 Z"
+         fill="#333333"
+         id="path3" />
+    </marker>
+  </defs>
+  <rect
+     width="373.99304"
+     height="222.85669"
+     fill="#ffffff"
+     id="rect2"
+     x="0"
+     y="0"
+     style="stroke-width:0.719055" />
+  <!-- APOYO FIJO EN O (85,255) -->
+  <polygon
+     points="70,280 100,280 85,255 "
+     fill="#dddddd"
+     stroke="#555555"
+     stroke-width="1.4"
+     id="polygon2"
+     transform="translate(-35.904877,-82.065697)" />
+  <line
+     x1="26.095123"
+     y1="197.9343"
+     x2="72.095123"
+     y2="197.9343"
+     stroke="#555555"
+     stroke-width="1.6"
+     id="line3" />
+  <rect
+     x="26.095123"
+     y="197.9343"
+     width="46"
+     height="12"
+     fill="url(#hatch)"
+     stroke="none"
+     id="rect3"
+     style="fill:url(#pattern12)" />
+  <circle
+     cx="49.095123"
+     cy="172.9343"
+     r="5"
+     fill="#ffffff"
+     stroke="#444444"
+     stroke-width="1.8"
+     id="circle3" />
+  <text
+     x="28.095123"
+     y="172.9343"
+     font-size="17px"
+     fill="#333333"
+     font-style="italic"
+     font-weight="bold"
+     id="text3">O</text>
+  <!-- BRAZO OA � tubo a 30�  A=(388,80) -->
+  <line
+     x1="47.038994"
+     y1="174.99045"
+     x2="272.97052"
+     y2="44.985863"
+     stroke="#9ecae1"
+     stroke-width="11.9083"
+     stroke-linecap="round"
+     id="line4"
+     style="stroke-linecap:round" />
+  <line
+     x1="47.057419"
+     y1="174.97205"
+     x2="273.25998"
+     y2="44.327003"
+     stroke="#aec6cf"
+     stroke-width="10.4516"
+     stroke-linecap="round"
+     id="line5"
+     style="stroke-linecap:round" />
+  <line
+     x1="44.833282"
+     y1="171.95264"
+     x2="274.66196"
+     y2="39.213356"
+     stroke="#ddeef6"
+     stroke-width="3.03404"
+     stroke-linecap="round"
+     opacity="0.8"
+     id="line6"
+     style="stroke-linecap:round" />
+  <!-- COLLAR�N B � bloque verde en B=(250,160), rotado -30� -->
+  <g
+     transform="rotate(-30,255.17293,-363.58232)"
+     id="g8">
+    <rect
+       x="-21"
+       y="-14"
+       width="42"
+       height="28"
+       rx="3"
+       fill="#1a7a3a"
+       opacity="0.25"
+       transform="translate(2,2)"
+       id="rect6" />
+    <rect
+       x="-21"
+       y="-14"
+       width="42"
+       height="28"
+       rx="3"
+       fill="#4caf50"
+       stroke="#2e7d32"
+       stroke-width="1.8"
+       id="rect7" />
+    <line
+       x1="-18.987621"
+       y1="-7.409699"
+       x2="23.012379"
+       y2="-7.409699"
+       stroke="#2e7d32"
+       stroke-width="1"
+       stroke-dasharray="4, 3"
+       id="line7" />
+    <line
+       x1="-19.60244"
+       y1="5.8068819"
+       x2="22.39756"
+       y2="5.8068819"
+       stroke="#2e7d32"
+       stroke-width="1"
+       stroke-dasharray="4, 3"
+       id="line8" />
+  </g>
+  <text
+     x="227.77689"
+     y="101.53462"
+     font-size="17px"
+     fill="#1b5e20"
+     font-style="italic"
+     font-weight="bold"
+     id="text8">B</text>
+  <!-- ETIQUETA A -->
+  <text
+     x="282.75903"
+     y="37.093227"
+     font-size="17px"
+     fill="#333333"
+     font-style="italic"
+     font-weight="bold"
+     id="text9">A</text>
+  <!-- COTA r � offset 18px hacia arriba-izq de la l�nea OB -->
+  <line
+     x1="34.205551"
+     y1="146.0018"
+     x2="198.20555"
+     y2="51.001793"
+     stroke="#333333"
+     stroke-width="1.3"
+     marker-start="url(#arrL)"
+     marker-end="url(#arrR)"
+     id="line9" />
+  <line
+     x1="48.607216"
+     y1="172.65985"
+     x2="28.411247"
+     y2="136.75592"
+     stroke="#333333"
+     stroke-width="0.9"
+     id="line10" />
+  <line
+     x1="75.473289"
+     y1="159.22461"
+     x2="111.11909"
+     y2="138.57642"
+     stroke="#333333"
+     stroke-width="0.9"
+     id="line10-9"
+     inkscape:transform-center-x="0.20172065" />
+  <line
+     x1="213.6682"
+     y1="77.69416"
+     x2="194.87173"
+     y2="44.278214"
+     stroke="#333333"
+     stroke-width="0.9"
+     id="line11" />
+  <text
+     x="49.960381"
+     y="139.57043"
+     font-size="16px"
+     fill="#333333"
+     font-style="italic"
+     transform="rotate(-30)"
+     id="text11">r</text>
+  <!-- �NGULO ? -->
+  <line
+     x1="49.095123"
+     y1="172.9343"
+     x2="139.09512"
+     y2="172.9343"
+     stroke="#555555"
+     stroke-width="1.2"
+     stroke-dasharray="6, 4"
+     id="line12" />
+  <path
+     d="m 102.14864,172.57328 c -0.10746,-14.08911 -4.740677,-18.96616 -7.581137,-23.90469"
+     fill="none"
+     stroke="#c0392b"
+     stroke-width="1.70681"
+     id="path12"
+     sodipodi:nodetypes="cc" />
+  <rect
+     style="fill:#aec6cf;fill-opacity:1;stroke:#9ecae1;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="rect12"
+     width="9.8170719"
+     height="29.854656"
+     x="213.2247"
+     y="158.84082"
+     transform="rotate(-30.011462)" />
+  <text
+     x="103.34666"
+     y="164.70117"
+     font-size="17px"
+     fill="#c0392b"
+     font-style="italic"
+     id="text12">θ</text>
+  <!-- EJES CARTESIANOS desde O (49.095, 172.934) -->
+  <!-- Eje x -->
+  <line
+     id="axis-x"
+     x1="49.095001"
+     y1="172.93401"
+     x2="209.27046"
+     y2="172.93401"
+     stroke="#333333"
+     stroke-width="1.32359"
+     marker-end="url(#axisArr)" />
+  <text
+     id="label-x"
+     x="247.46625"
+     y="176.00002"
+     font-size="13px"
+     fill="#333333"
+     font-style="italic">x</text>
+  <!-- Eje y -->
+  <line
+     id="axis-y"
+     x1="49.095001"
+     y1="172.93401"
+     x2="49.095001"
+     y2="18"
+     stroke="#333333"
+     stroke-width="1.3"
+     marker-end="url(#axisArr)" />
+  <text
+     id="label-y"
+     x="42"
+     y="13"
+     font-size="13px"
+     fill="#333333"
+     font-style="italic">y</text>
+  <text
+     id="label-y-9"
+     x="210.54102"
+     y="175.96799"
+     font-size="13px"
+     fill="#333333"
+     font-style="italic">x</text>
+  <!-- RECUADRO DE LEYENDA (esquina inferior derecha) -->
+  <rect
+     id="legend-bg"
+     x="223.46625"
+     y="148"
+     width="148"
+     height="72"
+     rx="4"
+     fill="#f8f8f8"
+     stroke="#aaaaaa"
+     stroke-width="0.8" />
+  <text
+     x="230.46625"
+     y="162"
+     font-size="10.5px"
+     fill="#333333"
+     id="leg1"><tspan
+   font-weight="bold"
+   font-style="italic"
+   id="tspan3">O</tspan>: pivote fijo</text>
+  <text
+     x="230.46625"
+     y="175.00002"
+     font-size="10.5px"
+     fill="#333333"
+     id="leg2"><tspan
+   font-weight="bold"
+   font-style="italic"
+   id="tspan4">A</tspan>: extremo libre del brazo</text>
+  <text
+     x="230.46625"
+     y="188.00002"
+     font-size="10.5px"
+     fill="#1b5e20"
+     id="leg3"><tspan
+   font-weight="bold"
+   font-style="italic"
+   id="tspan5">B</tspan>: collarín deslizante</text>
+  <text
+     x="230.46625"
+     y="201.00002"
+     font-size="10.5px"
+     fill="#333333"
+     id="leg4"><tspan
+   font-style="italic"
+   id="tspan6">r</tspan> = 0,9 − 0,12<tspan
+   font-style="italic"
+   id="tspan7">t</tspan>² (m)</text>
+  <text
+     x="230.46625"
+     y="214.00002"
+     font-size="10.5px"
+     fill="#c0392b"
+     id="leg5"><tspan
+   font-style="italic"
+   id="tspan8">θ</tspan> = 0,15<tspan
+   font-style="italic"
+   id="tspan9">t</tspan>² (rad)</text>
+</svg>

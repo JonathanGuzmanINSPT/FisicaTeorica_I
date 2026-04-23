@@ -23,14 +23,14 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 | Bloque | Total | ✅ | 🔄 | % |
 |---|---|---|---|---|
 | Preguntas Teóricas | 4 | 0 | 0 | 0% |
-| Cinemática 1D | 5 | 4 | 0 | 80% |
+| Cinemática 1D | 5 | 5 | 0 | 100% |
 | Movimiento Plano (Cartesianas) | 1 | 0 | 0 | 0% |
 | Coordenadas Polares | 3 | 0 | 0 | 0% |
 | Análisis de Movimiento 2D | 2 | 0 | 0 | 0% |
 | Rotación Rígida y Cinemática Angular | 3 | 0 | 0 | 0% |
 | Coordenadas Cilíndricas y Esféricas | 3 | 0 | 0 | 0% |
 | Movimiento Complejo 3D | 5 | 0 | 0 | 0% |
-| **Total** | **26** | **4** | **0** | **15.4%** |
+| **Total** | **26** | **5** | **0** | **19.2%** |
 
 ---
 
@@ -237,7 +237,7 @@ b) Su velocidad promedio durante el intervalo de $t = 0$ a $t = T$.
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
 </div>
 
 ---
@@ -519,25 +519,7 @@ Datos: $a = 30\,\text{cm}$, $R = 12{,}5\,\text{cm}$
 
 ### Diagrama (Fig. 1-18)
 
-```
-         y
-         ↑         C
-         │        ╱╮
-         │       ╱   ╲  R (radio de la trayectoria de B)
-         │      ╱  B  ╲
-         │     ╱───●───╲
-         │    ╱    │    ╲
-         O───╱─────┼─────╲──────→ x
-              ←─── a ────→
-
-  - O: origen (pivote de la barra OC)
-  - B: perno que se mueve sobre una circunferencia de radio R
-       centrada en el punto (a, 0)
-  - OC: barra giratoria que pasa por O y B
-  - θ: ángulo que forma OC con el eje x
-  - φ: ángulo que describe B sobre su trayectoria circular
-  - v₀: velocidad lineal constante de B sobre la circunferencia
-```
+![Fig. 1-18 — Mecanismo deslizador-barra](assets/fig-1-18-ejercicio-21.svg)
 
 *El perno $B$ se mueve sobre una circunferencia de radio $R$ con centro en $(a,\,0)$. La barra $OC$ pasa por el origen $O$ y fuerza a $B$ a deslizarse en su ranura; su ángulo de rotación es $\theta$.*
 
@@ -550,7 +532,9 @@ Datos: $a = 30\,\text{cm}$, $R = 12{,}5\,\text{cm}$
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🎯 Movimiento plano con aceleración angular variable</span>
   <span style="background: #f8d7da; color: #721c24; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐⭐ Difícil</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 35 min</span>
-</div> La rotación del brazo $OA$ de $0{,}9\,\text{m}$ alrededor de $O$ se define mediante la relación:
+</div> 
+
+La rotación del brazo $OA$ de $0{,}9\,\text{m}$ alrededor de $O$ se define mediante la relación:
 
 $$\theta = 0{,}15\,t^2$$
 
@@ -571,16 +555,7 @@ c) La aceleración en coordenadas intrínsecas del collarín.
 
 ### Diagrama
 
-```
-               A
-              ╱
-             B  ← collarín deslizante (distancia r desde O)
-            ╱     r = 0.9 − 0.12 t²
-           ╱
-          ╱  ) θ
-    ─────O─────────→
-         θ = 0.15 t²  (radianes)
-```
+![Ejercicio 22 — Brazo giratorio con collarín deslizante](assets/ejercicio-22-brazo-collar.svg)
 
 *El brazo $OA$ rota con aceleración angular constante. El collarín $B$ se acerca a $O$ con el tiempo. Cuando $\theta = 30^\circ = \pi/6\,\text{rad}$, se pide el estado cinemático completo.*
 
