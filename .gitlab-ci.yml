@@ -1,0 +1,14 @@
+image: ruby:3.2
+
+pages:
+  stage: deploy
+  script:
+    - gem install bundler
+    - bundle init
+    - bundle add jekyll jekyll-relative-links
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"

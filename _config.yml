@@ -1,0 +1,28 @@
+title: "Viaje — Jonathan & Alejandra"
+description: "Itinerario de viaje"
+baseurl: "/fisica-teorica-i-2026"
+url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+exclude:
+  - "*.xopp"
+  - "_bmad/"
+  - "docs/"
+  - "skills/"
+  - "unidad-1-cinematica/"
+  - "node_modules/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "PLAN-DE-ESTUDIO.md"
