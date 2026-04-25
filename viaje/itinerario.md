@@ -35,6 +35,8 @@ title: "Viaje — Jonathan & Alejandra"
 | **Llegada** | 18:20 hs — CDG, Terminal 2E |
 | **Clase** | Economy |
 | **Equipaje** | Solo equipaje de mano |
+| **Tickets** | [Jonathan](tickets/airfrance_jonathan.pdf) · [Alejandra](tickets/airfrance_alejandra.pdf) |
+| **Ref. reserva** | Y5NBY5 |
 
 ### 🔀 Conexión en París CDG
 
@@ -135,6 +137,7 @@ title: "Viaje — Jonathan & Alejandra"
 | | |
 |---|---|
 | **Tren** | NightJet NJ 420 (ÖBB) |
+| **Ticket** | [Ver ticket](tickets/tren_amsterdam.pdf) |
 | **Salida** | **23:01 hs** — [München Hauptbahnhof](https://maps.google.com/?q=M%C3%BCnchen+Hauptbahnhof) |
 | **Llegada** | **09:49 hs** del 1 de Mayo — Amsterdam Centraal |
 | **Vagón / Asientos** | Coche 427 — Asientos 106 y 108 (mesa, pasillo) |
@@ -225,6 +228,121 @@ title: "Viaje — Jonathan & Alejandra"
 | **Hora** | **12:00 hs** |
 | **Equipaje** | Lockers en Amsterdam Centraal si necesitan seguir moviéndose |
 
+### 🚌 FlixBus Amsterdam → Bruselas
+
+| | |
+|---|---|
+| **Reserva** | [334 752 4073](tickets/Boarding-Pass-Amsterdam-Brussels-3347524073.pdf) |
+| **Salida** | **17:00 hs** — [Amsterdam Sloterdijk](https://maps.google.com/?q=Piarcoplein+1043+DW+Amsterdam) (plataformas al norte de la estación, seguir carteles "Hatostraat") |
+| **Llegada** | **20:00 hs** — [Brussels-North train station](https://maps.google.com/?q=Brussels+North+station) |
+| **Asientos** | Jonathan: 1C · Alejandra: 1D |
+| **Equipaje incluido** | 1 bolso de mano (7kg) + 1 maleta bodega (20kg) por persona |
+| **Precio total** | EUR 51,95 |
+| ⚠️ **Llegar** | 15 min antes de salida |
+
+> 🚇 Para llegar a Amsterdam Sloterdijk desde Centraal: tren directo 5 min (o cualquier metro/tren hacia el oeste).
+
 ---
 
-<!-- PRÓXIMOS DESTINOS A COMPLETAR -->
+## Día 9 — Lunes 4 de Mayo · Bruselas
+
+> Un día libre en Bruselas antes del bus nocturno a Frankfurt.
+
+### 🗺️ Actividades en Bruselas
+
+| Momento | Actividad | Detalle |
+|---|---|---|
+| **Mañana** | [Grand Place](https://maps.google.com/?q=Grand+Place+Brussels) | La plaza más bella de Europa según muchos. Ayuntamiento gótico, casas gremiales doradas. |
+| **Mañana** | [Manneken Pis](https://maps.google.com/?q=Manneken+Pis+Brussels) | La famosa estatuita a 400m de Grand Place. |
+| **Mediodía** | Almuerzar en Rue des Bouchers | Callejuela gastronómica a pasos de Grand Place. Moules-frites (mejillones con papas fritas), el plato típico. |
+| **Tarde** | [Barrio Europeo / Parlamento Europeo](https://maps.google.com/?q=European+Parliament+Brussels) | Visita guiada gratuita disponibles. |
+| **Tarde** | [Museo Magritte](https://maps.google.com/?q=Magritte+Museum+Brussels) | Arte surrealista de René Magritte. ~€10 entrada. |
+| **Tarde** | Chocolaterías y waflerías | Bruselas es capital mundial del chocolate. Neuhaus, Godiva, Leonidas. |
+
+### 🚌 FlixBus nocturno Bruselas → Frankfurt
+
+| | |
+|---|---|
+| **Reserva** | [334 763 2115](tickets/Boarding-Pass-Brussels-Frankfurt-3347632115.pdf) |
+| **Salida** | **22:30 hs** — [Brussels South / Gare du Midi](https://maps.google.com/?q=Rue+de+France+1060+Saint-Gilles+Brussels) (Rue de France, tira de buses) |
+| **Llegada** | **05:50 hs del 5 de Mayo** — [Frankfurt central train station](https://maps.google.com/?q=Stuttgarter+Strasse+26+Frankfurt) |
+| **Asientos** | Jonathan: 9A · Alejandra: 9B |
+| **Equipaje incluido** | 1 bolso de mano (7kg) + 1 maleta bodega (20kg) por persona |
+| **Precio total** | EUR 46,15 |
+| ⚠️ **Llegar** | 15 min antes de salida |
+
+---
+
+## Día 10 — Martes 5 de Mayo · Llegada a Frankfurt
+
+> Llegan de madrugada (05:50 hs). Día para recuperarse y explorar.
+
+### 🚌 Llegada Frankfurt Hauptbahnhof — 05:50 hs
+
+> Consigna de equipaje disponible en la estación central.
+
+### 🗺️ Frankfurt
+
+| Momento | Actividad | Detalle |
+|---|---|---|
+| **Mañana** | Desayuno y descanso en cafetería cerca de la estación | Llegada madrugada — tomársela con calma. |
+| **Mediodía** | [Römerberg](https://maps.google.com/?q=Römerberg+Frankfurt) | Plaza histórica medieval, corazón de Frankfurt. |
+| **Tarde** | [Sachsenhausen](https://maps.google.com/?q=Sachsenhausen+Frankfurt) | Barrio bohemio con tabernas de sidra de manzana (*Apfelwein*). Muy pintoresco. |
+| **Tarde** | [Skyline desde Maintower](https://maps.google.com/?q=Main+Tower+Frankfurt) | Terraza más alta de Frankfurt. ~€10. |
+| **Tarde** | [Museumsufer](https://maps.google.com/?q=Museumsufer+Frankfurt) | Fila de museos sobre el río Main. Städel (arte) es el más destacado. |
+
+---
+
+## Días 11–20 — Frankfurt → Munich (5 MAY – 16 MAY)
+
+> ⚠️ **Verificar fecha:** el bus Frankfurt → Munich figura con fecha **lunes 4 de Mayo** en el ticket, pero ese día también están tomando el bus nocturno Bruselas → Frankfurt. Confirmar la fecha correcta con FlixBus.
+
+### 🚌 FlixBus Frankfurt → Munich
+
+| | |
+|---|---|
+| **Reserva** | [334 763 2379](tickets/Boarding-Pass-Frankfurt-Muenchen-3347632379.pdf) |
+| **Salida** | **16:40 hs** — [Frankfurt central train station](https://maps.google.com/?q=Stuttgarter+Strasse+26+Frankfurt) |
+| **Llegada** | **21:30 hs** — [Munich central bus station](https://maps.google.com/?q=Arnulfstrasse+21+Munich) |
+| **Asientos** | Jonathan: 5C · Alejandra: 5D |
+| **Equipaje incluido** | 1 bolso de mano (7kg) + 1 maleta bodega (20kg) por persona |
+| **Precio total** | EUR 52,95 |
+
+---
+
+## Día 21 — Domingo 17 de Mayo · Regreso a Buenos Aires
+
+### ✈️ Vuelo Munich → París
+
+| | |
+|---|---|
+| **Vuelo** | AF1423 (operado por HOP) |
+| **Salida** | **09:35 hs** — MUC, Munich International Airport, Terminal 1 |
+| **Llegada** | **11:20 hs** — CDG, Terminal 2G |
+| **Cierre check-in** | **08:55 hs** — Llegar al aeropuerto antes de las 08:00 |
+| **Clase** | Economy |
+| **Tickets** | [Jonathan](tickets/airfrance_jonathan.pdf) · [Alejandra](tickets/airfrance_alejandra.pdf) |
+| **Ref. reserva** | Y5NBY5 |
+
+### 🔀 Conexión en París CDG — T2G → T2E
+
+| | |
+|---|---|
+| **Llegada** | 11:20 hs — Terminal 2G |
+| **Próximo vuelo** | Check-in cierra 12:20 hs |
+| **Tiempo disponible** | ~1 hora — mismo complejo T2 |
+
+### ✈️ Vuelo París → Buenos Aires
+
+| | |
+|---|---|
+| **Vuelo** | AF0468 — Air France |
+| **Salida** | **13:20 hs** — CDG, Terminal 2E |
+| **Llegada** | **22:05 hs** — EZE, Aeropuerto Ministro Pistarini |
+| **Clase** | Economy |
+| **Ref. reserva** | Y5NBY5 |
+
+---
+
+<!-- FIN DEL ITINERARIO -->
+
