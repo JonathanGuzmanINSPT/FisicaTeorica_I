@@ -1,7 +1,7 @@
 title: "Viaje — Jonathan & Alejandra"
 description: "Itinerario de viaje"
-baseurl: "/fisica-teorica-i-2026"
-url: "https://neonplus.gitlab.io"
+baseurl: ""
+url: "https://fisica-teorica-i-2026-39ec3d.gitlab.io"
 
 markdown: kramdown
 kramdown:
