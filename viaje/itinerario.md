@@ -491,5 +491,218 @@ Llegan de madrugada del 15 (~05:00–06:00).
 
 ---
 
+---
+
 <!-- FIN DEL ITINERARIO -->
+
+<div style="margin: 60px 0 0; text-align:center;">
+  <div style="display:inline-block; background: linear-gradient(135deg, #0c1e3c 0%, #0e6b8e 50%, #14b8a6 100%); padding: 2px; border-radius: 12px;">
+    <div style="background:#fffbf5; border-radius: 10px; padding: 28px 48px;">
+      <div style="font-family:'Cormorant Garamond',Georgia,serif; font-size:11px; font-weight:700; letter-spacing:4px; text-transform:uppercase; color:#14b8a6; margin-bottom:8px;">✦ &nbsp; Sección opcional &nbsp; ✦</div>
+      <div style="font-family:'Cormorant Garamond',Georgia,serif; font-size:32px; font-weight:700; font-style:italic; color:#0c1e3c; letter-spacing:1px;">Rutas Alternativas</div>
+      <div style="font-family:'Nunito','Segoe UI',sans-serif; font-size:13px; color:#0e6b8e; margin-top:8px;">8 al 16 de Mayo · Munich como base · Praga obligatorio</div>
+    </div>
+  </div>
+</div>
+
+<div style="font-family:'Nunito','Segoe UI',sans-serif; font-size:13px; color:#1c2b3a; background:linear-gradient(100deg,#fef3c7,#fffbf5); border-left:4px solid #f59e0b; border-radius:4px; padding:12px 20px; margin:24px 0 40px;">
+  💡 Todas las rutas usan <strong>buses o trenes nocturnos</strong> para ahorrar alojamientos. Praga es parada obligatoria en todas las opciones. Los precios son estimados por persona en segunda clase o bus estándar.
+</div>
+
+---
+
+## Ruta A — Europa Central Clásica <span style="display:inline-block;background:#0e6b8e;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 10px;border-radius:99px;font-family:sans-serif;margin-left:8px;">RECOMENDADA</span>
+
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px;">
+  <span style="background:#fef3c7;color:#92400e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">💰 Presupuesto bajo</span>
+  <span style="background:#dcfce7;color:#166534;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🚌 Solo buses nocturnos</span>
+  <span style="background:#e0f2fe;color:#0e6b8e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🏙️ 4 ciudades</span>
+</div>
+
+**Munich → Praga → Viena → Budapest → Munich**
+
+| Tramo | Tipo | Duración | Precio aprox. |
+|---|---|---|---|
+| Munich → Praga | 🚌 Bus nocturno | ~5hs | EUR 15–25 pp |
+| Praga → Viena | 🚌 Bus nocturno | ~4hs | EUR 10–20 pp |
+| Viena → Budapest | 🚌 Bus nocturno | ~3hs | EUR 10–15 pp |
+| Budapest → Munich | 🚌 Bus nocturno | ~8hs | EUR 25–40 pp |
+
+### 🇨🇿 Praga · 2 noches
+
+- Puente Carlos al amanecer (sin turistas)
+- Barrio Antiguo: Reloj Astronómico medieval
+- Castillo de Praga + Catedral de San Vito
+- Barrio Malá Strana y callejuelas medievales
+- Cerveza checa más barata que el agua 🍺
+
+### 🇦🇹 Viena · 2 noches
+
+- Palacio de Schönbrunn + jardines imperiales
+- Belvedere: *El Beso* de Klimt en vivo
+- Naschmarkt (mercado local, almuerzo barato)
+- Ringstrasse a pie: Ópera, Parlamento, museos
+- Café vienés clásico: Café Central o Café Landtmann
+
+### 🇭🇺 Budapest · 2 noches
+
+- Bastión de los Pescadores al amanecer · vistas únicas al Danubio
+- Baños Széchenyi: termales al aire libre (~€20)
+- Ruin Bar Szimpla Kert · imperdible de noche
+- Gran Mercado Central: paprika, foie gras y recuerdos
+- Parlamento visto desde el Danubio al atardecer
+
+---
+
+## Ruta B — Bohemia + Alemania <span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 10px;border-radius:99px;font-family:sans-serif;margin-left:8px;">MÁS TRANQUILA</span>
+
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px;">
+  <span style="background:#fef3c7;color:#92400e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">💰💰 Presupuesto medio</span>
+  <span style="background:#dcfce7;color:#166534;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🚂 Trenes directos</span>
+  <span style="background:#e0f2fe;color:#0e6b8e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🏙️ 3 ciudades · más tiempo en cada una</span>
+</div>
+
+**Munich → Praga → Dresde → Berlín → Munich**
+
+| Tramo | Tipo | Duración | Precio aprox. |
+|---|---|---|---|
+| Munich → Praga | 🚌 Bus nocturno | ~5hs | EUR 15–25 pp |
+| Praga → Dresde | 🚂 Tren | ~2hs | EUR 15–30 pp |
+| Dresde → Berlín | 🚂 Tren | ~2hs | EUR 15–25 pp |
+| Berlín → Munich | 🚌 Bus nocturno | ~6hs | EUR 20–35 pp |
+
+### 🇨🇿 Praga · 2–3 noches
+
+*(mismo contenido que Ruta A — más tiempo para explorar)*
+
+### 🇩🇪 Dresde · 1 noche
+
+- Frauenkirche: reconstruida ladrillo a ladrillo post-WWII
+- Zwinger: palacio barroco con museos de porcelana y arte
+- Brühlsche Terrasse: paseo sobre el Elba · "Balcón de Europa"
+- Neustadt: barrio alternativo con street art y bares
+
+### 🇩🇪 Berlín · 2–3 noches
+
+- Muro de Berlín: East Side Gallery (1.3km de murales)
+- Checkpoint Charlie + Topografía del Terror
+- Isla de los Museos (Patrimonio UNESCO)
+- Barrio de Mitte + Alexanderplatz
+- Vida nocturna legendaria: Berghain, Watergate, clubs en el Spree
+
+---
+
+## Ruta C — Triángulo del Este <span style="display:inline-block;background:#7c3aed;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 10px;border-radius:99px;font-family:sans-serif;margin-left:8px;">MÁS CULTURAL</span>
+
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px;">
+  <span style="background:#fef3c7;color:#92400e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">💰 Más barato que A</span>
+  <span style="background:#fce7f3;color:#9d174d;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">✈️ Vuelo al final</span>
+  <span style="background:#e0f2fe;color:#0e6b8e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🏙️ 3 ciudades · historia profunda</span>
+</div>
+
+**Munich → Praga → Cracovia → Varsovia ✈️ Munich**
+
+| Tramo | Tipo | Duración | Precio aprox. |
+|---|---|---|---|
+| Munich → Praga | 🚌 Bus nocturno | ~5hs | EUR 15–25 pp |
+| Praga → Cracovia | 🚌 Bus nocturno | ~8hs | EUR 20–30 pp |
+| Cracovia → Varsovia | 🚂 Tren | ~2.5hs | EUR 10–20 pp |
+| Varsovia → Munich | ✈️ Avión | ~2hs | EUR 30–60 pp |
+
+### 🇨🇿 Praga · 2 noches
+
+*(mismo contenido que Ruta A)*
+
+### 🇵🇱 Cracovia · 2 noches
+
+- Casco Histórico Patrimonio UNESCO — el mejor conservado de Polonia
+- Castillo Wawel sobre el Vístula
+- Barrio judío Kazimierz: sinagogues, cafés, vida cultural
+- **Auschwitz-Birkenau** a 1hs en bus (visita gratuita, reservar online)
+- Ciudad subterránea de sal de Wieliczka (~€20, impresionante)
+- La ciudad más barata de todo el itinerario 🍺 EUR 2–3
+
+### 🇵🇱 Varsovia · 1 noche
+
+- Ciudad Vieja reconstruida: única en el mundo post-WWII
+- Museo del Levantamiento de Varsovia (uno de los mejores museos de historia de Europa)
+- Palacio de la Cultura y Ciencia (vistas panorámicas gratuitas)
+- Barrio de Praga (alternativo, street art)
+
+---
+
+## Ruta D — Norte Escandinavo <span style="display:inline-block;background:#f97316;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 10px;border-radius:99px;font-family:sans-serif;margin-left:8px;">MÁS AMBICIOSA</span>
+
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px;">
+  <span style="background:#fee2e2;color:#991b1b;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">💰💰💰 Más cara</span>
+  <span style="background:#dcfce7;color:#166534;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🌍 Máxima diversidad</span>
+  <span style="background:#e0f2fe;color:#0e6b8e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🏙️ 4 ciudades</span>
+</div>
+
+**Munich → Berlín → Copenhague → Praga → Munich**
+
+| Tramo | Tipo | Duración | Precio aprox. |
+|---|---|---|---|
+| Munich → Berlín | 🚌 Bus nocturno | ~6hs | EUR 20–35 pp |
+| Berlín → Copenhague | 🚂 Tren + ferry | ~5hs | EUR 40–80 pp |
+| Copenhague → Praga | 🚌 Bus nocturno | ~12hs | EUR 35–55 pp |
+| Praga → Munich | 🚌 Bus nocturno | ~5hs | EUR 15–25 pp |
+
+### 🇩🇪 Berlín · 2 noches · *(ver Ruta B)*
+
+### 🇩🇰 Copenhague · 2 noches
+
+- Nyhavn: casas de colores sobre el canal · foto icónica
+- Palacio de Amalienborg y cambio de guardia
+- Tivoli Gardens: parque de diversiones histórico de 1843
+- Freetown Christiania: comunidad alternativa única en el mundo
+- Strøget: la calle peatonal más larga de Europa
+- Gastronomía: New Nordic cuisine (Noma hizo historia aquí)
+
+### 🇨🇿 Praga · 2 noches · *(ver Ruta A)*
+
+---
+
+## Ruta E — Capitales Pequeñas <span style="display:inline-block;background:#0891b2;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:2px 10px;border-radius:99px;font-family:sans-serif;margin-left:8px;">MÁS AUTÉNTICA</span>
+
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 16px;">
+  <span style="background:#fef3c7;color:#92400e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">💰 Muy barata</span>
+  <span style="background:#dcfce7;color:#166534;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🚌 Solo buses nocturnos</span>
+  <span style="background:#e0f2fe;color:#0e6b8e;font-size:11px;font-weight:700;padding:3px 12px;border-radius:99px;font-family:sans-serif;">🏙️ Sin multitudes</span>
+</div>
+
+**Munich → Praga → Bratislava → Budapest → Munich**
+
+| Tramo | Tipo | Duración | Precio aprox. |
+|---|---|---|---|
+| Munich → Praga | 🚌 Bus nocturno | ~5hs | EUR 15–25 pp |
+| Praga → Bratislava | 🚌 Bus / tren | ~4hs | EUR 10–18 pp |
+| Bratislava → Budapest | 🚂 Tren | ~2.5hs | EUR 10–15 pp |
+| Budapest → Munich | 🚌 Bus nocturno | ~8hs | EUR 25–40 pp |
+
+### 🇨🇿 Praga · 3 noches *(más tiempo que en Ruta A)*
+
+### 🇸🇰 Bratislava · 1 noche
+
+- Ciudad Vieja compacta: recorrible en 4hs a pie
+- Castillo de Bratislava sobre el Danubio
+- UFO Bridge: restaurante / mirador sobre el puente del Danubio
+- Cerveza Zlatý Bažant baratísima · EUR 1,50 en bar local
+- Capital menos turística de Europa Central
+
+### 🇭🇺 Budapest · 3 noches *(más tiempo para baños y excursiones)* · *(ver Ruta A)*
+
+---
+
+<div style="margin: 40px 0; font-family:'Nunito','Segoe UI',sans-serif; font-size:12px;">
+
+| Ruta | Ciudades | Presupuesto total transporte | Dificultad logística | Ideal si... |
+|---|---|---|---|---|
+| **A** Europa Central | Praga · Viena · Budapest | EUR 130–200 pp | ⭐ Fácil | Querés lo mejor de Europa del Este |
+| **B** Bohemia + Alemania | Praga · Dresde · Berlín | EUR 110–175 pp | ⭐ Fácil | Preferís cultura e historia alemana |
+| **C** Triángulo del Este | Praga · Cracovia · Varsovia | EUR 100–165 pp | ⭐⭐ Media | Querés la experiencia más profunda e impactante |
+| **D** Norte Escandinavo | Berlín · Copenhague · Praga | EUR 200–320 pp | ⭐⭐ Media | Querés variedad máxima y norte de Europa |
+| **E** Capitales Pequeñas | Praga · Bratislava · Budapest | EUR 120–190 pp | ⭐ Fácil | Querés escapar del turismo masivo |
+
+</div>
 
