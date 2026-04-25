@@ -22,6 +22,8 @@ html, body {
   --viaje-text-light:   #ffffff;
   --viaje-border:       #c8dce8;
   --viaje-code-bg:      #f0f5f9;
+  --viaje-tentativo:    #166534;
+  --viaje-tentativo-2:  #15803d;
   --viaje-font:         'Cormorant Garamond', Georgia, serif;
   --viaje-body-font:    'Nunito', 'Segoe UI', sans-serif;
   --viaje-mono:         'Cascadia Code', 'Consolas', monospace;
@@ -94,6 +96,44 @@ html, body {
   border-left: 4px solid var(--viaje-teal);
   padding: var(--viaje-spacing-sm) var(--viaje-page-padding) var(--viaje-spacing-sm) calc(var(--viaje-page-padding) + var(--viaje-spacing-md));
   margin: var(--viaje-spacing-lg) calc(-1 * var(--viaje-page-padding)) var(--viaje-spacing-md);
+}
+
+/* ── H2 TENTATIVO ── */
+.page-content h2.tentativo {
+  background: linear-gradient(90deg, var(--viaje-tentativo) 0%, var(--viaje-tentativo-2) 100%);
+  border-left: 4px solid #86efac;
+  position: relative;
+}
+.page-content h2.tentativo::after {
+  content: "TENTATIVO";
+  position: absolute;
+  right: var(--viaje-page-padding);
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.92);
+  font-family: var(--viaje-body-font);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/* ── H3 TENTATIVO ── */
+.page-content h3.tentativo {
+  color: var(--viaje-tentativo-2);
+  border-bottom: 1px solid #86efac;
+}
+.page-content h3.tentativo::after {
+  content: " ✦ tentativo";
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  color: #86efac;
+  letter-spacing: 0.5px;
 }
 
 /* ── H3 ── */

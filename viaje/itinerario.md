@@ -293,11 +293,11 @@ title: "Viaje — Jonathan & Alejandra"
 
 ---
 
-## Días 11–20 — Frankfurt → Munich (5 MAY – 16 MAY)
+## Días 11–16 — Frankfurt y Munich (5 MAY – 16 MAY)
 
-> ⚠️ **Verificar fecha:** el bus Frankfurt → Munich figura con fecha **lunes 4 de Mayo** en el ticket, pero ese día también están tomando el bus nocturno Bruselas → Frankfurt. Confirmar la fecha correcta con FlixBus.
+> ⚠️ **Verificar fecha del bus:** el ticket Frankfurt→Munich figura con fecha **lunes 4 de Mayo**, pero ese día están tomando el bus Bruselas→Frankfurt (22:30). La reserva del Airbnb en Munich empieza el **martes 5 de Mayo** — lo más lógico es que el bus sea el 5 de Mayo también. Confirmar con FlixBus.
 
-### 🚌 FlixBus Frankfurt → Munich
+### 🚌 FlixBus Frankfurt → Munich *(fecha a confirmar: probable 5 de Mayo)*
 
 | | |
 |---|---|
@@ -307,6 +307,153 @@ title: "Viaje — Jonathan & Alejandra"
 | **Asientos** | Jonathan: 5C · Alejandra: 5D |
 | **Equipaje incluido** | 1 bolso de mano (7kg) + 1 maleta bodega (20kg) por persona |
 | **Precio total** | EUR 52,95 |
+
+### 🏨 Alojamiento en Munich (segunda estadía)
+
+| | |
+|---|---|
+| **Nombre** | Quiet room in shared flat |
+| **Anfitrión** | Stergios |
+| **Dirección** | [Schaffhauser Straße 4, München 81476](https://maps.google.com/?q=Schaffhauser+Straße+4+Munich+81476) |
+| **Check-in** | Martes 5 de Mayo — **14:00 hs** (caja de seguridad para llaves — contactar al anfitrión) |
+| **Check-out** | Miércoles 6 de Mayo — **11:00 hs** |
+| **Huéspedes** | 2 |
+| **Código de confirmación** | [HMJTMPKTNQ](https://www.airbnb.com.ar/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMJTMPKTNQ) |
+| ⚠️ **Cancelación** | No reembolsable (plazo ya vencido — 28 de Abril) |
+
+---
+
+## Días 17–20 — Munich (6 MAY – 16 MAY)
+
+### 🏨 Airbnb Munich — Noche 6 al 8 de Mayo
+
+| | |
+|---|---|
+| **Nombre** | Zimmer Nähe Messe / nur an Frauen oder Pärchen |
+| **Anfitriona** | Sara |
+| **Dirección** | [Am Mitterfeld 29, München 81829](https://maps.google.com/?q=Am+Mitterfeld+29+Munich+81829) |
+| **Check-in** | Miércoles 6 de Mayo — **15:00 hs** (caja de seguridad para llaves — contactar a Sara) |
+| **Check-out** | Viernes 8 de Mayo — **12:00 hs** |
+| **Huéspedes** | 2 |
+| **Código de confirmación** | [HMMSNEMNF9](https://www.airbnb.com.ar/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMMSNEMNF9) |
+| ⚠️ **Cancelación** | Reembolso parcial si se cancela antes del check-in (6 Mayo 15:00) · Cancelación gratuita antes del 5 de Mayo 15:00 |
+
+> Alojamiento pendiente para las noches del 8 al 16 de Mayo. El vuelo de regreso sale el 17 de Mayo a las 09:35 hs — hay que estar en el aeropuerto antes de las 08:00.
+
+---
+
+## Días 12–20 — Ruta Europa Central: Praga · Viena · Budapest (8–16 MAY)
+
+<span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">✦ TENTATIVO</span>
+
+> **Ruta recomendada:** Munich → Praga → Viena → Budapest → Munich  
+> Todos los traslados son buses nocturnos para ahorrar noches de alojamiento.  
+> ⚠️ Reservas pendientes — los links de abajo son puntos de partida para buscar.
+
+## 🗓️ Resumen de la ruta
+
+| Noche | Transporte | Salida | Llegada | Precio aprox. |
+|---|---|---|---|---|
+| 8 → 9 Mayo | 🚌 Munich → Praga | ~22:00 MUC | ~03:00 PRG | EUR 15–25 pp |
+| 10 → 11 Mayo | 🚌 Praga → Viena | ~22:00 PRG | ~02:30 VIE | EUR 10–20 pp |
+| 12 → 13 Mayo | 🚌 Viena → Budapest | ~22:00 VIE | ~01:30 BUD | EUR 10–15 pp |
+| 14 → 15 Mayo | 🚌 Budapest → Munich | ~21:00 BUD | ~05:30 MUC | EUR 25–40 pp |
+
+> Dónde buscar: [FlixBus](https://www.flixbus.com) · [RegioJet](https://www.regiojet.com) · [Omio](https://www.omio.com)  
+> RegioJet suele ser el más barato en los tramos Praga–Viena y Viena–Budapest.
+
+---
+
+## 🏙️ Día 12 — Viernes 8 de Mayo · Munich → Praga (bus nocturno)
+
+<span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">✦ TENTATIVO</span>
+
+**Mañana/tarde libre en Munich** después del checkout de Sara a las 12:00.
+
+- 🎒 Guardar equipaje en el alojamiento hasta la noche (o en consigna de la estación)
+- Pasear por el Englischer Garten o el barrio de Maxvorstadt
+- **~21:00–22:00:** Salida del bus nocturno Munich → Praga
+
+> <span style="display:inline-block;background:#b45309;color:#fef3c7;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">⚠ SIN RESERVAR</span> bus Munich → Praga para el 8 de Mayo
+
+---
+
+## 🏙️ Días 13–14 — Sábado 9 y Domingo 10 de Mayo · Praga 🇨🇿
+
+<span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">✦ TENTATIVO</span>
+
+Llegan de madrugada (~03:00–04:00). Dejar maletas en el hostel y descansar.
+
+**Qué ver:**
+- Barrio Antiguo (Staré Město) + Reloj Astronómico (cada hora en punto)
+- Puente Carlos al amanecer (sin turistas)
+- Castillo de Praga + Catedral de San Vito
+- Barrio Malá Strana
+- Cena con cerveza checa barata (Praga es una de las ciudades más baratas de Europa)
+
+> 💰 Presupuesto referencia: alojamiento hostel €25–40/noche para 2 · comida ~€8–12 por persona
+
+**Noche del domingo 10:** Bus nocturno Praga → Viena (~22:00)
+
+> <span style="display:inline-block;background:#b45309;color:#fef3c7;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">⚠ SIN RESERVAR</span> hostel/Airbnb Praga (noches 9 y 10 de Mayo) + bus Praga → Viena
+
+---
+
+## 🏙️ Días 15–16 — Lunes 11 y Martes 12 de Mayo · Viena 🇦🇹
+
+<span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">✦ TENTATIVO</span>
+
+Llegan de madrugada (~02:30–03:00). Check-in al mediodía.
+
+**Qué ver:**
+- Palacio de Schönbrunn + jardines (entrada €18 por persona con tour básico)
+- Belvedere Palacio + El Beso de Klimt
+- Naschmarkt (mercado, ideal para el almuerzo)
+- Ringstrasse a pie: Ópera, Kunsthistorisches Museum, Parlamento
+- Noche en el barrio de Spittelberg o Prater (rueda gigante histórica, libre)
+
+> 💰 Viena es más cara que Praga: hostel €35–55/noche para 2
+
+**Noche del martes 12:** Bus nocturno Viena → Budapest (~22:00–23:00)
+
+> <span style="display:inline-block;background:#b45309;color:#fef3c7;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">⚠ SIN RESERVAR</span> hostel/Airbnb Viena (noches 11 y 12 de Mayo) + bus Viena → Budapest
+
+---
+
+## 🏙️ Días 17–18 — Miércoles 13 y Jueves 14 de Mayo · Budapest 🇭🇺
+
+<span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">✦ TENTATIVO</span>
+
+Llegan de madrugada (~01:30–02:00). Una de las ciudades más lindas y baratas de Europa.
+
+**Qué ver:**
+- Bastión de los Pescadores + Castillo de Buda al amanecer
+- Puente de las Cadenas
+- Parlamento (tour desde €15) visto desde el Danubio
+- Baños Széchenyi (termales al aire libre, ~€20 — experiencia única)
+- Ruin bars del barrio judío (Ruin Bar Szimpla Kert, imperdible)
+- Gran Mercado Central para comprar paprika y recuerdos baratos
+
+> 💰 Budapest: hostel €20–35/noche para 2 · comida increíblemente barata
+
+**Noche del jueves 14:** Bus nocturno Budapest → Munich (~21:00–22:00)
+
+> <span style="display:inline-block;background:#b45309;color:#fef3c7;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">⚠ SIN RESERVAR</span> hostel/Airbnb Budapest (noches 13 y 14 de Mayo) + bus Budapest → Munich
+
+---
+
+## 🏙️ Días 19–20 — Viernes 15 y Sábado 16 de Mayo · Munich (regreso)
+
+<span style="display:inline-block;background:#166534;color:#fff;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">✦ TENTATIVO</span>
+
+Llegan de madrugada del 15 (~05:00–06:00).
+
+- Descanso y baño antes del vuelo del día siguiente
+- Opción: dejar maletas en consigna en la Hauptbahnhof y dar una última vuelta por Munich
+- **Noche del 16:** alojamiento cerca del aeropuerto o en la ciudad
+
+> <span style="display:inline-block;background:#b45309;color:#fef3c7;font-size:10px;font-weight:700;letter-spacing:1.2px;padding:2px 10px;border-radius:99px;font-family:sans-serif;text-transform:uppercase;">⚠ SIN RESERVAR</span> hostel/Airbnb Munich para las noches 15 y 16 de Mayo  
+> Tip: buscar cerca de la [S-Bahn línea S1/S8](https://maps.google.com/?q=Munich+Airport+S-Bahn) para llegar al aeropuerto en 40 min.
 
 ---
 
