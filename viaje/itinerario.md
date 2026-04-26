@@ -1,7 +1,113 @@
 ---
 layout: viaje
 title: "Viaje — Jonathan & Alejandra"
+puppeteer:
+  landscape: true
+  format: "A3"
+  margin:
+    top: "14mm"
+    bottom: "14mm"
+    left: "18mm"
+    right: "18mm"
+print_background: true
 ---
+
+<style>
+/* ── Layout multi-columna · MPE (.markdown-preview) y web Jekyll (.page-content) ── */
+
+@media screen {
+  :is(.markdown-preview, .page-content) {
+    max-width: 1400px !important;
+    padding: 24px 32px !important;
+  }
+}
+
+/* ── 2 columnas ── */
+:is(.markdown-preview, .page-content) {
+  columns: 2;
+  column-gap: 36px;
+  column-rule: 2px solid rgba(14, 107, 142, 0.2);
+}
+
+/* H1: full-ancho */
+:is(.markdown-preview, .page-content) h1 {
+  column-span: all;
+  margin-bottom: 20px !important;
+}
+
+/* Párrafos de intro (Ruta / Fechas): full-ancho */
+:is(.markdown-preview, .page-content) h1 + p,
+:is(.markdown-preview, .page-content) h1 + p + p {
+  column-span: all;
+  color: #0e6b8e;
+  font-size: 13px;
+}
+
+/* HR de intro: full-ancho */
+:is(.markdown-preview, .page-content) h1 ~ hr:first-of-type {
+  column-span: all;
+}
+
+/* H2 (cada día): fuerza inicio de columna nueva */
+:is(.markdown-preview, .page-content) h2 {
+  break-before: column;
+  break-after: avoid;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  font-size: 11px !important;
+  padding: 7px 14px 7px 18px !important;
+}
+
+/* Primer H2: no fuerza salto innecesario */
+:is(.markdown-preview, .page-content) h2:first-of-type {
+  break-before: avoid;
+}
+
+/* H3, tablas, blockquotes: sin cortes internos */
+:is(.markdown-preview, .page-content) h3 {
+  break-after: avoid;
+  break-inside: avoid;
+  font-size: 12px;
+  margin: 12px 0 6px !important;
+}
+
+:is(.markdown-preview, .page-content) table {
+  break-inside: avoid;
+  font-size: 11px;
+  width: 100%;
+}
+
+:is(.markdown-preview, .page-content) thead th,
+:is(.markdown-preview, .page-content) tbody td {
+  padding: 4px 8px !important;
+}
+
+:is(.markdown-preview, .page-content) blockquote {
+  break-inside: avoid;
+  padding: 6px 12px;
+  font-size: 11px;
+  margin: 8px 0;
+}
+
+/* HR entre días */
+:is(.markdown-preview, .page-content) hr {
+  margin: 10px 0;
+  break-after: avoid;
+}
+
+/* Chips de estado */
+:is(.markdown-preview, .page-content) span[style*="border-radius:99px"] {
+  white-space: nowrap;
+  font-size: 9px !important;
+  padding: 1px 7px !important;
+}
+
+/* Sección OPCIONAL y rutas alternativas: full-ancho */
+:is(.markdown-preview, .page-content) div[style*="text-align:center"],
+:is(.markdown-preview, .page-content) div[style*="font-family"] table {
+  column-span: all;
+}
+</style>
 
 # Viaje — Jonathan & Alejandra
 
@@ -385,6 +491,7 @@ title: "Viaje — Jonathan & Alejandra"
 Llegan de madrugada (~03:00–04:00). Dejar maletas en el hostel y descansar.
 
 **Qué ver:**
+
 - Barrio Antiguo (Staré Město) + Reloj Astronómico (cada hora en punto)
 - Puente Carlos al amanecer (sin turistas)
 - Castillo de Praga + Catedral de San Vito
