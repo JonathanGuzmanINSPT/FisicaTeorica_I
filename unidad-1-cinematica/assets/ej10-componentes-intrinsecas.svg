@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 350" width="450" height="350">
+  <!-- Fondo -->
+  <rect width="450" height="350" fill="#fafafa"/>
+  
+  <!-- Título -->
+  <text x="225" y="30" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Relación a = -ω²r y componentes intrínsecas</text>
+  
+  <!-- Ejes coordenados -->
+  <line x1="80" y1="180" x2="380" y2="180" stroke="#333" stroke-width="1.5"/>
+  <line x1="230" y1="60" x2="230" y2="300" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Flechas de ejes -->
+  <polygon points="380,180 370,175 370,185" fill="#333"/>
+  <polygon points="230,60 225,70 235,70" fill="#333"/>
+  
+  <!-- Etiquetas de ejes -->
+  <text x="385" y="185" font-family="serif" font-size="16" font-style="italic">x</text>
+  <text x="235" y="55" font-family="serif" font-size="16" font-style="italic">y</text>
+  <text x="215" y="170" font-family="serif" font-size="14">O</text>
+  
+  <!-- Circunferencia -->
+  <circle cx="230" cy="180" r="100" fill="none" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Punto P -->
+  <circle cx="300" cy="109" r="5" fill="#dc2626"/>
+  <text x="310" y="105" font-family="serif" font-size="14" font-weight="bold">P</text>
+  
+  <!-- Vector r (verde) -->
+  <line x1="230" y1="180" x2="295" y2="114" stroke="#16a34a" stroke-width="2.5"/>
+  <polygon points="295,109 288,118 298,116" fill="#16a34a"/>
+  <text x="265" y="140" font-family="serif" font-size="14" fill="#16a34a" font-style="italic">r</text>
+  
+  <!-- Vector a (naranja, hacia el centro) -->
+  <line x1="300" y1="109" x2="240" y2="170" stroke="#ea580c" stroke-width="2.5"/>
+  <polygon points="240,170 250,165 245,175" fill="#ea580c"/>
+  <text x="255" y="130" font-family="serif" font-size="14" fill="#ea580c" font-style="italic">a = -ω²r</text>
+  
+  <!-- Vector v (púrpura, tangencial) -->
+  <line x1="300" y1="109" x2="355" y2="145" stroke="#9333ea" stroke-width="2.5"/>
+  <polygon points="355,145 345,140 350,150" fill="#9333ea"/>
+  <text x="335" y="135" font-family="serif" font-size="14" fill="#9333ea" font-style="italic">v</text>
+  
+  <!-- Componente normal a_n -->
+  <line x1="300" y1="109" x2="240" y2="170" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="250" y="155" font-family="sans-serif" font-size="11" fill="#ea580c">a_n = Aω²</text>
+  
+  <!-- Componente tangencial a_t = 0 -->
+  <text x="310" y="165" font-family="sans-serif" font-size="12" fill="#666">a_t = 0</text>
+  
+  <!-- Radio de curvatura ρ = A -->
+  <line x1="230" y1="180" x2="300" y2="109" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="275" y="135" font-family="sans-serif" font-size="11" fill="#dc2626">ρ = A</text>
+  
+  <!-- Ángulo φ -->
+  <path d="M 260,180 A 30,30 0 0,0 248,165" fill="none" stroke="#666" stroke-width="1.5"/>
+  <text x="265" y="175" font-family="serif" font-size="12" fill="#666" font-style="italic">φ</text>
+  
+  <!-- Panel derecho: descomposición de vectores -->
+  <rect x="385" y="60" width="60" height="200" fill="white" stroke="#ccc" stroke-width="1" rx="5"/>
+  
+  <!-- Base polar -->
+  <text x="415" y="85" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Base polar</text>
+  
+  <!-- e_r -->
+  <line x1="400" y1="110" x2="430" y2="110" stroke="#16a34a" stroke-width="2"/>
+  <polygon points="430,110 425,105 425,115" fill="#16a34a"/>
+  <text x="415" y="130" font-family="serif" font-size="11" fill="#16a34a" text-anchor="middle">ê_r</text>
+  
+  <!-- e_φ -->
+  <line x1="400" y1="150" x2="400" y2="120" stroke="#9333ea" stroke-width="2"/>
+  <polygon points="400,120 395,128 405,128" fill="#9333ea"/>
+  <text x="415" y="165" font-family="serif" font-size="11" fill="#9333ea" text-anchor="middle">ê_φ</text>
+  
+  <!-- Relaciones -->
+  <text x="415" y="195" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#333">v = Aω ê_φ</text>
+  <text x="415" y="215" font-family="sans-serif" font-size="9" text-anchor="middle" fill="#333">a = -Aω² ê_r</text>
+  
+  <!-- Leyenda inferior -->
+  <rect x="80" y="290" width="280" height="50" fill="white" stroke="#ccc" stroke-width="1" rx="5"/>
+  <line x1="95" y1="310" x2="115" y2="310" stroke="#16a34a" stroke-width="2"/>
+  <text x="120" y="315" font-family="sans-serif" font-size="11">r = posición</text>
+  <line x1="95" y1="330" x2="115" y2="330" stroke="#9333ea" stroke-width="2"/>
+  <text x="120" y="335" font-family="sans-serif" font-size="11">v = velocidad (tangencial)</text>
+  <line x1="200" y1="310" x2="220" y2="310" stroke="#ea580c" stroke-width="2"/>
+  <text x="225" y="315" font-family="sans-serif" font-size="11">a = aceleración (centrípeta)</text>
+  <line x1="200" y1="330" x2="220" y2="330" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="225" y="335" font-family="sans-serif" font-size="11">ρ = radio de curvatura = A</text>
+</svg>
