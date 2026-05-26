@@ -24,13 +24,13 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 |---|---|---|---|---|
 | Preguntas Teóricas | 4 | 0 | 0 | 0% |
 | Cinemática 1D | 5 | 5 | 0 | 100% |
-| Movimiento Plano (Cartesianas) | 1 | 0 | 0 | 0% |
-| Coordenadas Polares | 3 | 0 | 0 | 0% |
+| Movimiento Plano (Cartesianas) | 1 | 1 | 0 | 100% |
+| Coordenadas Polares | 3 | 1 | 0 | 33.3% |
 | Análisis de Movimiento 2D | 2 | 0 | 0 | 0% |
 | Rotación Rígida y Cinemática Angular | 3 | 0 | 0 | 0% |
 | Coordenadas Cilíndricas y Esféricas | 3 | 0 | 0 | 0% |
 | Movimiento Complejo 3D | 5 | 0 | 0 | 0% |
-| **Total** | **26** | **5** | **0** | **19.2%** |
+| **Total** | **26** | **7** | **0** | **26.9%** |
 
 ---
 
@@ -265,7 +265,8 @@ e) Los vectores velocidad y aceleración en coordenadas polares.
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <a href="ejercicio-10-solucion.md" style="margin-left: 12px; text-decoration: none; background: #e8eaf6; color: #3f51b5; padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📖 Ver solución</a>
 </div>
 
 ---
@@ -291,12 +292,13 @@ c) El radio de curvatura.
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <a href="ejercicio-11-solucion.md" style="margin-left: 12px; text-decoration: none; background: #e8eaf6; color: #3f51b5; padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📖 Ver solución</a>
 </div>
 
 ---
 
-## Ejercicio 11.
+## Ejercicio 12.
 
 <div style="display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap;">
   <span style="background: #c5cae9; color: #3f51b5; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">🔄 Bloque 3</span>
@@ -307,7 +309,8 @@ c) El radio de curvatura.
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <a href="ejercicio-12-solucion.md" style="margin-left: 12px; text-decoration: none; background: #e8eaf6; color: #3f51b5; padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📖 Ver solución</a>
 </div>
 
 ---
@@ -324,7 +327,8 @@ La Tierra rota uniformemente con respecto a su eje. Calcular la velocidad y la a
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <a href="ejercicio-13-solucion.md" style="margin-left: 12px; text-decoration: none; background: #e8eaf6; color: #3f51b5; padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📖 Ver solución</a>
 </div>
 
 ---
@@ -345,6 +349,7 @@ La Tierra rota uniformemente con respecto a su eje. Calcular la velocidad y la a
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
   <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <a href="ejercicio-14-solucion.md" style="margin-left: 12px; text-decoration: none; background: #e8eaf6; color: #3f51b5; padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📖 Ver solución</a>
 </div>
 
 ---

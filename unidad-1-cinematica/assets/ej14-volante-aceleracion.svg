@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" width="500" height="420">
+  <!-- Fondo -->
+  <rect width="500" height="420" fill="#fafafa"/>
+
+  <!-- Círculo exterior del volante (llanta) -->
+  <circle cx="210" cy="210" r="150" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="210" cy="210" r="145" fill="none" stroke="#2563eb" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="210" cy="210" r="155" fill="none" stroke="#2563eb" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Rayos del volante -->
+  <line x1="210" y1="60" x2="210" y2="360" stroke="#93c5fd" stroke-width="1.5"/>
+  <line x1="60" y1="210" x2="360" y2="210" stroke="#93c5fd" stroke-width="1.5"/>
+  <line x1="75" y1="75" x2="345" y2="345" stroke="#93c5fd" stroke-width="1.5"/>
+  <line x1="345" y1="75" x2="75" y2="345" stroke="#93c5fd" stroke-width="1.5"/>
+
+  <!-- Eje central -->
+  <circle cx="210" cy="210" r="12" fill="#333" stroke="#111" stroke-width="1.5"/>
+  <circle cx="210" cy="210" r="5" fill="#666"/>
+
+  <!-- Punto P en el borde (ángulo ~30° desde la horizontal) -->
+  <circle cx="340" cy="135" r="6" fill="#dc2626"/>
+  <text x="350" y="130" font-family="serif" font-size="18" font-weight="bold" fill="#dc2626">P</text>
+
+  <!-- Radio R desde el centro hasta P -->
+  <line x1="210" y1="210" x2="340" y2="135" stroke="#666" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="250" y="180" font-family="serif" font-size="16" font-style="italic" fill="#666">R</text>
+
+  <!-- Versor radial e_r (desde centro hacia P) -->
+  <line x1="210" y1="210" x2="320" y2="146" stroke="#16a34a" stroke-width="2.5"/>
+  <polygon points="320,146 310,152 318,141" fill="#16a34a"/>
+  <text x="255" y="155" font-family="serif" font-size="16" fill="#16a34a" font-style="italic">ê_r</text>
+
+  <!-- Versor transversal e_phi (tangente, perpendicular a e_r, sentido anti-horario) -->
+  <!-- e_phi = (-sinφ, cosφ). En P, φ ≈ 30° desde horizontal:
+       vector desde P: (-sin30, cos30) = (-0.5, 0.866). Longitud ~60 -->
+  <line x1="340" y1="135" x2="307" y2="84" stroke="#ca8a04" stroke-width="2.5"/>
+  <polygon points="307,84 313,93 302,90" fill="#ca8a04"/>
+  <text x="290" y="75" font-family="serif" font-size="16" fill="#ca8a04" font-style="italic">ê_ϕ</text>
+
+  <!-- Aceleración normal a_n (hacia el centro, dirección -e_r) -->
+  <line x1="340" y1="135" x2="248" y2="199" stroke="#dc2626" stroke-width="3.5"/>
+  <polygon points="248,199 260,195 252,207" fill="#dc2626"/>
+  <text x="245" y="220" font-family="serif" font-size="18" fill="#dc2626" font-style="italic">a</text>
+  <text x="270" y="238" font-family="serif" font-size="14" fill="#dc2626">(centrípeta)</text>
+
+  <!-- Aceleración tangencial a_t (opuesta a e_phi, frenando) -->
+  <line x1="340" y1="135" x2="373" y2="186" stroke="#ea580c" stroke-width="3"/>
+  <polygon points="373,186 363,180 371,192" fill="#ea580c"/>
+  <text x="380" y="200" font-family="serif" font-size="17" fill="#ea580c" font-style="italic">a</text>
+  <text x="378" y="218" font-family="serif" font-size="14" fill="#ea580c">(tangencial)</text>
+
+  <!-- Flecha de giro (curva indicando sentido de rotación, antihorario) -->
+  <path d="M 100,120 A 130,130 0 0,1 160,70" fill="none" stroke="#6366f1" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="160,70 150,73 155,63" fill="#6366f1"/>
+  <text x="70" y="115" font-family="serif" font-size="15" fill="#6366f1" font-style="italic">φ̇</text>
+
+  <!-- Leyenda -->
+  <rect x="20" y="340" width="460" height="65" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  
+  <circle cx="45" cy="362" r="5" fill="#16a34a"/>
+  <text x="58" y="367" font-family="serif" font-size="14">ê_r — radial (desde el centro)</text>
+  
+  <circle cx="45" cy="382" r="5" fill="#ca8a04"/>
+  <text x="58" y="387" font-family="serif" font-size="14">ê_ϕ — transversal (tangente a la trayectoria)</text>
+
+  <line x1="260" y1="358" x2="290" y2="358" stroke="#dc2626" stroke-width="3"/>
+  <text x="298" y="363" font-family="serif" font-size="14">a_n — normal (centrípeta)</text>
+
+  <line x1="260" y1="378" x2="290" y2="378" stroke="#ea580c" stroke-width="3"/>
+  <text x="298" y="383" font-family="serif" font-size="14">a_t — tangencial (frenado)</text>
+</svg>

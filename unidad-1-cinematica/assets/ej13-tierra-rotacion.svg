@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <marker id="arrow-red" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 12 4, 0 8" fill="#c62828"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 12 4, 0 8" fill="#1565c0"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 12 4, 0 8" fill="#7b1fa2"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 12 4, 0 8" fill="#e65100"/>
+    </marker>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+    <!-- Clip path to hide ellipses that go "behind" the Earth -->
+    <clipPath id="earthClip">
+      <circle cx="250" cy="225" r="150"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo -->
+  <rect x="0" y="0" width="500" height="450" fill="#f0f5fa" rx="8"/>
+
+  <!-- Título -->
+  <text x="250" y="30" font-size="15" font-family="sans-serif" font-weight="bold" fill="#222" text-anchor="middle">Ejercicio 13: Rotación terrestre — Buenos Aires</text>
+  <text x="250" y="47" font-size="12" font-family="Georgia, serif" font-style="italic" fill="#555" text-anchor="middle">Latitud 34°S — Rotación uniforme ω = 2π / 24 h</text>
+
+  <!-- Leyenda -->
+  <rect x="10" y="10" width="175" height="135" fill="white" stroke="#ccc" stroke-width="1" rx="6" opacity="0.93"/>
+  <text x="22" y="30" font-size="13" font-family="sans-serif" font-weight="bold" fill="#333">Leyenda</text>
+
+  <line x1="22" y1="48" x2="52" y2="48" stroke="#c62828" stroke-width="2.5" marker-end="url(#arrow-red)"/>
+  <text x="60" y="52" font-size="11" font-family="sans-serif" fill="#555">Vector posición r</text>
+
+  <line x1="22" y1="68" x2="52" y2="68" stroke="#1565c0" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+  <text x="60" y="72" font-size="11" font-family="sans-serif" fill="#555">Velocidad v</text>
+
+  <line x1="22" y1="88" x2="52" y2="88" stroke="#7b1fa2" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <text x="60" y="92" font-size="11" font-family="sans-serif" fill="#555">Aceleración a</text>
+
+  <line x1="22" y1="108" x2="52" y2="108" stroke="#e65100" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+  <text x="60" y="112" font-size="11" font-family="sans-serif" fill="#555">Rotación ω</text>
+
+  <line x1="22" y1="128" x2="52" y2="128" stroke="#999" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="60" y="132" font-size="11" font-family="sans-serif" fill="#555">Radio del paralelo</text>
+
+  <!-- Ejes de coordenadas (3D projection) -->
+  <g stroke="#444" stroke-width="1.5">
+    <!-- Eje z (rotación terrestre, norte-sur) -->
+    <line x1="250" y1="50" x2="250" y2="400" marker-end="url(#arrow-gray)"/>
+    <!-- Eje x (hacia la derecha) -->
+    <line x1="100" y1="225" x2="400" y2="225" marker-end="url(#arrow-gray)"/>
+  </g>
+
+  <!-- Etiquetas de ejes -->
+  <text x="245" y="45" font-size="14" font-family="Georgia, serif" font-style="italic" fill="#333">z (NS)</text>
+  <text x="405" y="230" font-size="14" font-family="Georgia, serif" font-style="italic" fill="#333">x</text>
+
+  <!-- Polo Norte y Sur -->
+  <text x="250" y="68" font-size="11" font-family="sans-serif" fill="#555" text-anchor="middle">N</text>
+  <text x="250" y="410" font-size="11" font-family="sans-serif" fill="#555" text-anchor="middle">S</text>
+
+  <!-- Línea del Ecuador -->
+  <ellipse cx="250" cy="225" rx="150" ry="40" fill="none" stroke="#90caf9" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.6"/>
+  <text x="390" y="245" font-size="10" font-family="sans-serif" font-style="italic" fill="#90caf9">Ecuador</text>
+
+  <!-- La Tierra (esfera/globo) -->
+  <defs>
+    <radialGradient id="earthGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#1565c0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="250" cy="225" r="150" fill="url(#earthGrad)" stroke="#0d47a1" stroke-width="2"/>
+
+  <!-- Meridiano de Buenos Aires (perfil curvo) -->
+  <path d="M 250,75 Q 300,225 250,375" fill="none" stroke="#90caf9" stroke-width="1" opacity="0.5"/>
+  <!-- Meridiano opuesto -->
+  <path d="M 250,75 Q 200,225 250,375" fill="none" stroke="#90caf9" stroke-width="1" opacity="0.3"/>
+
+  <!-- Continentes simplificados (Sudamérica) -->
+  <g fill="#4caf50" opacity="0.5" clip-path="url(#earthClip)">
+    <!-- Sudamérica aproximada -->
+    <path d="M 220,140 Q 230,145 235,155 Q 240,170 238,185 Q 235,200 240,210 Q 245,215 250,210 Q 255,205 253,195 Q 250,180 252,170 Q 255,160 250,150 Q 245,145 235,140 Z"/>
+    <!-- África -->
+    <path d="M 280,155 Q 285,160 283,175 Q 280,195 278,210 Q 282,225 280,240 Q 275,250 270,245 Q 268,230 270,215 Q 273,200 275,185 Q 276,170 275,160 Z"/>
+    <!-- América del Norte -->
+    <path d="M 205,110 Q 215,105 220,115 Q 225,125 220,135 Q 210,130 205,120 Z"/>
+  </g>
+
+  <!-- Paralelo de Buenos Aires (latitud 34°S) -->
+  <!-- Buenos Aires está a 34°S: la proyección del paralelo es una elipse -->
+  <!-- Centro del paralelo en el eje z a: -150·sin(34°) = -83.9 px desde el centro -->
+  <!-- Radio horizontal: 150·cos(34°) = 124.4 px -->
+  <!-- Radio vertical de la elipse: 124.4·sin(proyección) aprox 124.4·(40/150) = 33.2 px -->
+  <ellipse cx="250" cy="309" rx="124.4" ry="33.2" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Buenos Aires: en el meridiano, a 34°S -->
+  <!-- Ángulo desde el centro: 34° hacia el sur desde el ecuador -->
+  <!-- x = 250 + 150·cos(34°)·cos(φ), y = 225 + 150·sin(34°) (sur = +y pues en SVG y va hacia abajo) -->
+  <!-- Para φ=0 (meridiano principal): x = 250 + 124.4 = 374.4, y = 225 + 83.9 = 308.9 -->
+  <circle cx="374.4" cy="308.9" r="6" fill="#c62828"/>
+  <circle cx="374.4" cy="308.9" r="4" fill="white"/>
+  <circle cx="374.4" cy="308.9" r="2.5" fill="#c62828"/>
+  <text x="380" y="303" font-size="13" font-family="sans-serif" font-weight="bold" fill="#c62828">BA</text>
+
+  <!-- Línea punteada: desde BA hasta el eje de rotación (proyección de r sobre el plano xy) -->
+  <!-- Desde BA(374.4, 308.9) hasta (250, 308.9) sobre el eje -->
+  <line x1="374.4" y1="308.9" x2="250" y2="308.9" stroke="#999" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <!-- Etiqueta: R·cos(λ) -->
+  <text x="305" y="325" font-size="11" font-family="Georgia, serif" fill="#999">R·cos λ</text>
+
+  <!-- Ángulo de latitud λ -->
+  <path d="M 350,225 A 100,100 0 0,0 349.6,248" fill="none" stroke="#666" stroke-width="1.2"/>
+  <text x="348" y="242" font-size="12" font-family="Georgia, serif" font-style="italic" fill="#666">λ</text>
+
+  <!-- Línea desde el origen hasta BA (vector posición r) - ROJO -->
+  <line x1="250" y1="225" x2="374.4" y2="308.9" stroke="#c62828" stroke-width="2.5" marker-end="url(#arrow-red)"/>
+  <text x="295" y="260" font-size="15" font-family="Georgia, serif" font-style="italic" fill="#c62828" font-weight="bold">r</text>
+
+  <!-- Etiqueta R (en el vector) -->
+  <text x="275" y="240" font-size="11" font-family="Georgia, serif" fill="#c62828">R</text>
+
+  <!-- Vector velocidad tangencial v - AZUL (saliendo de la pantalla / en dirección ĵ) -->
+  <!-- En 2D se ve como tangente al paralelo, perpendicular al plano del meridiano -->
+  <!-- v va en dirección ĵ (hacia dentro/fuera de la pantalla) - lo dibujamos como un círculo con cruz/punto -->
+  <!-- En proyección 2D, la velocidad es perpendicular al plano del dibujo -->
+  <circle cx="395" cy="290" r="4" fill="none" stroke="#1565c0" stroke-width="2"/>
+  <text x="400" y="294" font-size="14" font-family="Georgia, serif" font-style="italic" fill="#1565c0">v</text>
+
+  <!-- Representación de v como flecha tangente al paralelo (en 3D) -->
+  <path d="M 374.4,308.9 Q 395,330 380,345" fill="none" stroke="#1565c0" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+
+  <!-- Vector aceleración a - VIOLETA (apunta hacia el eje de rotación) -->
+  <!-- Aceleración centrípeta: desde BA hacia el eje (dirección -x desde BA) -->
+  <line x1="374.4" y1="308.9" x2="330" y2="308.9" stroke="#7b1fa2" stroke-width="2.5" marker-end="url(#arrow-purple)"/>
+  <text x="335" y="325" font-size="14" font-family="Georgia, serif" font-style="italic" fill="#7b1fa2">a</text>
+
+  <!-- Vector velocidad angular ω - NARANJA (a lo largo del eje z) -->
+  <line x1="250" y1="85" x2="250" y2="75" stroke="#e65100" stroke-width="3" marker-end="url(#arrow-orange)"/>
+  <text x="258" y="80" font-size="14" font-family="Georgia, serif" font-style="italic" fill="#e65100" font-weight="bold">ω</text>
+
+  <!-- Indicador de sentido de rotación (flecha curva alrededor del eje) -->
+  <path d="M 300,85 A 60,60 0 0,1 310,145" fill="none" stroke="#e65100" stroke-width="1.5" marker-end="url(#arrow-orange)" opacity="0.6"/>
+  <text x="318" y="110" font-size="11" font-family="Georgia, serif" font-style="italic" fill="#e65100" opacity="0.7">ωt</text>
+
+  <!-- Círculo del paralelo con la trayectoria marcada -->
+  <circle cx="250" cy="308.9" r="124.4" fill="none" stroke="#1565c0" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+
+  <!-- Tabla de resultados -->
+  <rect x="310" y="370" width="180" height="70" fill="white" stroke="#ccc" stroke-width="1" rx="6" opacity="0.95"/>
+  <text x="320" y="388" font-size="12" font-family="sans-serif" font-weight="bold" fill="#333">Resultados</text>
+  <text x="320" y="404" font-size="11" font-family="sans-serif" fill="#555">v = ω·R·cos λ ≈ 384 m/s</text>
+  <text x="320" y="420" font-size="11" font-family="sans-serif" fill="#555">a = ω²·R·cos λ ≈ 0.028 m/s²</text>
+  <text x="320" y="436" font-size="10" font-family="sans-serif" fill="#888">(≈ 0.0029 g)</text>
+</svg>

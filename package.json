@@ -1,0 +1,27 @@
+{
+  "name": "fisica-teorica-i-2026",
+  "version": "1.0.0",
+  "description": "**Profesor:** Carlos Dibarbora   **Período:** Abril — Julio 2026   **Objetivo:** Preparación para final oral con profundidad temática.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/neonplus/fisica-teorica-i-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/neonplus/fisica-teorica-i-2026/issues"
+  },
+  "homepage": "https://gitlab.com/neonplus/fisica-teorica-i-2026#readme",
+  "dependencies": {
+    "bmad-builder": "^1.1.0",
+    "bmad-creative-intelligence-suite": "^0.1.9"
+  }
+}
