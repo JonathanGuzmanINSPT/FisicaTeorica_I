@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#fafafa"/>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c62828"/>
+    </marker>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1565c0"/>
+    </marker>
+  </defs>
+
+  <text x="200" y="25" font-family="sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Guía Circular Horizontal — Resistencia ~ v²</text>
+
+  <!-- Guía circular (vista desde arriba) -->
+  <circle cx="200" cy="155" r="100" fill="none" stroke="#333" stroke-width="8" stroke-opacity="0.15"/>
+  <circle cx="200" cy="155" r="100" fill="none" stroke="#666" stroke-width="2.5"/>
+
+  <!-- Centro -->
+  <circle cx="200" cy="155" r="4" fill="#333"/>
+  <text x="195" y="175" font-family="serif" font-size="12" font-style="italic" fill="#333">O</text>
+
+  <!-- Radio R -->
+  <line x1="200" y1="155" x2="270" y2="115" stroke="#999" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="230" y="130" font-family="serif" font-size="12" font-style="italic" fill="#666">R</text>
+
+  <!-- Esfera en un punto -->
+  <circle cx="270" cy="115" r="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="270" y="120" font-family="serif" font-size="12" font-weight="bold" fill="#1565c0" text-anchor="middle">m</text>
+
+  <!-- Velocidad tangencial v -->
+  <line x1="282" y1="115" x2="318" y2="105" stroke="#1565c0" stroke-width="2.5" marker-end="url(#ar2)"/>
+  <text x="322" y="108" font-family="serif" font-size="14" font-style="italic" fill="#1565c0">v</text>
+
+  <!-- Fuerza resistente (opuesta a v) -->
+  <line x1="270" y1="115" x2="240" y2="128" stroke="#c62828" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="225" y="140" font-family="serif" font-size="11" font-style="italic" fill="#c62828">F_res = −kv²</text>
+
+  <!-- Flecha de sentido de giro -->
+  <path d="M 275 200 A 80 80 0 0 1 295 165" fill="none" stroke="#e65100" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="290" y="215" font-family="serif" font-size="11" font-style="italic" fill="#e65100">sentido del movimiento</text>
+
+  <!-- Fórmulas -->
+  <rect x="40" y="235" width="320" height="55" rx="6" fill="#f5f5f5" stroke="#ccc" stroke-width="1"/>
+  <text x="200" y="255" font-family="serif" font-size="13" fill="#333" text-anchor="middle">Ecuación de movimiento (tangencial):</text>
+  <text x="200" y="278" font-family="serif" font-size="14" fill="#c62828" text-anchor="middle">m R φ̈ = −k (R φ̇)² → ω̇ = −(kR/m) ω²</text>
+  <text x="200" y="295" font-family="serif" font-size="12" fill="#1565c0" text-anchor="middle">ω(t) = ω₀/(1 + kRω₀t/m) → v(t) = v₀/(1 + kv₀t/m)</text>
+
+</svg>

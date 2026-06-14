@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 520" width="750" height="520">
+  <rect width="750" height="520" fill="#fafafa"/>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333"/>
+    </marker>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1565c0"/>
+    </marker>
+    <!-- Degradado para el mapa de calor -->
+    <linearGradient id="heat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff3e0"/>
+      <stop offset="25%" stop-color="#ffe0b2"/>
+      <stop offset="50%" stop-color="#ffcc80"/>
+      <stop offset="75%" stop-color="#ff9800"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+    <!-- Degradado para el mapa de acción -->
+    <linearGradient id="actionGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3f2fd"/>
+      <stop offset="50%" stop-color="#bbdefb"/>
+      <stop offset="100%" stop-color="#64b5f6"/>
+    </linearGradient>
+    <!-- Fondo de rejilla con valor escalar -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="none"/>
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#ddd" stroke-width="0.5"/>
+      <line x1="40" y1="0" x2="40" y2="40" stroke="#ddd" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Título -->
+  <text x="375" y="30" font-family="sans-serif" font-size="17" font-weight="bold" fill="#333" text-anchor="middle">Principio de Mínima Acción — Interpretación Geométrica del Lagrangiano</text>
+
+  <!-- ========== GRÁFICO PRINCIPAL: Espacio de configuraciones (q, t) ========== -->
+  <rect x="15" y="48" width="500" height="460" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="265" y="70" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Espacio de Configuraciones — Valor del Lagrangiano ℒ(q, q̇, t)</text>
+
+  <!-- Ejes -->
+  <!-- Eje temporal t -->
+  <line x1="50" y1="470" x2="490" y2="470" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="495" y="475" font-family="serif" font-size="15" font-style="italic" fill="#333">t</text>
+  <!-- Eje de coordenada q -->
+  <line x1="50" y1="470" x2="50" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="38" y="78" font-family="serif" font-size="15" font-style="italic" fill="#333">q</text>
+
+  <!-- Tick labels -->
+  <text x="35" y="475" font-family="serif" font-size="12" fill="#666">0</text>
+  <text x="150" y="485" font-family="serif" font-size="12" fill="#666">t₁</text>
+  <text x="420" y="485" font-family="serif" font-size="12" fill="#666">t₂</text>
+  <text x="35" y="380" font-family="serif" font-size="12" fill="#666">q₁</text>
+  <text x="35" y="160" font-family="serif" font-size="12" fill="#666">q₂</text>
+
+  <!-- Líneas de t₁ y t₂ -->
+  <line x1="140" y1="80" x2="140" y2="470" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="420" y1="80" x2="420" y2="470" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ========== REJILLA CON VALORES ESCALARES ========== -->
+
+  <!-- Matriz de 10×9 puntos con valores ℒ -->
+  <!-- Fila 0 (q baja) -->
+  <rect x="50" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="435" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 1 -->
+  <rect x="50" y="402" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="402" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="402" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="402" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="402" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="402" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="402" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="402" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="402" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 2 -->
+  <rect x="50" y="370" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="370" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="370" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="370" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="370" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="370" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="370" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="370" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="370" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 3 (zona de mínimo) -->
+  <rect x="50" y="338" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="338" width="40" height="30" fill="#ff9800" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="338" width="40" height="30" fill="#e3f2fd" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="338" width="40" height="30" fill="#bbdefb" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="338" width="40" height="30" fill="#90caf9" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="338" width="40" height="30" fill="#64b5f6" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="338" width="40" height="30" fill="#90caf9" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="338" width="40" height="30" fill="#bbdefb" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="338" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 4 -->
+  <rect x="50" y="306" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="306" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="306" width="40" height="30" fill="#bbdefb" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="306" width="40" height="30" fill="#64b5f6" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="306" width="40" height="30" fill="#42a5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="306" width="40" height="30" fill="#2196f3" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="306" width="40" height="30" fill="#42a5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="306" width="40" height="30" fill="#64b5f6" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="306" width="40" height="30" fill="#bbdefb" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 5 -->
+  <rect x="50" y="274" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="274" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="274" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="274" width="40" height="30" fill="#bbdefb" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="274" width="40" height="30" fill="#90caf9" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="274" width="40" height="30" fill="#64b5f6" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="274" width="40" height="30" fill="#90caf9" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="274" width="40" height="30" fill="#bbdefb" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="274" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 6 -->
+  <rect x="50" y="242" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="242" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="242" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="242" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="242" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="242" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="242" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="242" width="40" height="30" fill="#ffcc80" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="242" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 7 -->
+  <rect x="50" y="210" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="210" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="210" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="210" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="210" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="210" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="210" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="210" width="40" height="30" fill="#ffe0b2" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="210" width="40" height="30" fill="#fff3e0" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Fila 8 -->
+  <rect x="50" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="93" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="137" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="180" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="223" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="267" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="310" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="353" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+  <rect x="397" y="178" width="40" height="30" fill="#f5f5f5" stroke="#ddd" stroke-width="0.3" rx="2"/>
+
+  <!-- Algunos valores numéricos de ℒ en las celdas -->
+  <text x="70" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">3</text>
+  <text x="113" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">4</text>
+  <text x="157" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="200" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="243" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="287" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">8</text>
+  <text x="330" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="373" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="417" y="425" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+
+  <text x="70" y="392" font-family="serif" font-size="8" fill="#999" text-anchor="middle">4</text>
+  <text x="113" y="392" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="157" y="392" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="200" y="360" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="243" y="360" font-family="serif" font-size="8" fill="#999" text-anchor="middle">9</text>
+  <text x="287" y="360" font-family="serif" font-size="8" fill="#999" text-anchor="middle">8</text>
+  <text x="330" y="360" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="373" y="392" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="417" y="392" font-family="serif" font-size="8" fill="#999" text-anchor="middle">4</text>
+
+  <text x="70" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="113" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="157" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">8</text>
+  <text x="200" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">9</text>
+  <text x="243" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">12</text>
+  <text x="287" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">10</text>
+  <text x="330" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">8</text>
+  <text x="373" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="417" y="358" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+
+  <text x="70" y="328" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="113" y="328" font-family="serif" font-size="8" fill="#999" text-anchor="middle">8</text>
+  <text x="200" y="328" font-family="serif" font-size="8" fill="#1565c0" text-anchor="middle">8</text>
+  <text x="243" y="328" font-family="serif" font-size="8" fill="#1565c0" text-anchor="middle">10</text>
+  <text x="287" y="328" font-family="serif" font-size="8" fill="#1565c0" text-anchor="middle">12</text>
+
+  <text x="70" y="296" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="113" y="296" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="200" y="296" font-family="serif" font-size="8" fill="#1565c0" text-anchor="middle">6</text>
+  <text x="243" y="296" font-family="serif" font-size="8" fill="#1565c0" text-anchor="middle">8</text>
+  <text x="287" y="296" font-family="serif" font-size="8" fill="#1565c0" text-anchor="middle">10</text>
+
+  <text x="70" y="264" font-family="serif" font-size="8" fill="#999" text-anchor="middle">4</text>
+  <text x="113" y="264" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="200" y="264" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="243" y="264" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="287" y="264" font-family="serif" font-size="8" fill="#999" text-anchor="middle">9</text>
+
+  <text x="70" y="232" font-family="serif" font-size="8" fill="#999" text-anchor="middle">3</text>
+  <text x="113" y="232" font-family="serif" font-size="8" fill="#999" text-anchor="middle">5</text>
+  <text x="157" y="232" font-family="serif" font-size="8" fill="#999" text-anchor="middle">6</text>
+  <text x="200" y="232" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+  <text x="243" y="232" font-family="serif" font-size="8" fill="#999" text-anchor="middle">8</text>
+  <text x="287" y="232" font-family="serif" font-size="8" fill="#999" text-anchor="middle">7</text>
+
+  <!-- ========== TRAYECTORIAS CANDIDATAS ========== -->
+
+  <!-- Trayectoria 1 (q̇ grande) — arco alto -->
+  <path d="M 70 440 Q 140 160 200 150 Q 280 140 370 130 Q 400 125 420 120" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="230" y="145" font-family="serif" font-size="10" fill="#999" font-style="italic">q̇ alto → ℒ grande</text>
+
+  <!-- Trayectoria 2 (q̇ pequeño) — arco bajo -->
+  <path d="M 70 440 Q 140 400 250 380 Q 350 365 420 350" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="260" y="395" font-family="serif" font-size="10" fill="#999" font-style="italic">q̇ bajo → ℒ pequeño</text>
+
+  <!-- Trayectoria 3 (oscilante) — no física -->
+  <path d="M 70 440 Q 100 370 140 420 Q 180 350 220 400 Q 260 320 310 370 Q 350 280 420 350" fill="none" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="280" y="340" font-family="serif" font-size="9" fill="#bdbdbd" font-style="italic">trayectoria no física</text>
+
+  <!-- ========== TRAYECTORIA REAL (MÍNIMA ACCIÓN) ========== -->
+  <!-- Pasa por la zona azul (valores mínimos de ℒ) siguiendo el "valle" -->
+  <path d="M 70 440 Q 110 425 155 360 Q 190 330 223 315 Q 260 300 310 295 Q 350 295 390 310 Q 410 320 420 330" fill="none" stroke="#c62828" stroke-width="3.5"/>
+  <path d="M 70 440 Q 110 425 155 360 Q 190 330 223 315 Q 260 300 310 295 Q 350 295 390 310 Q 410 320 420 330" fill="none" stroke="#e53935" stroke-width="2"/>
+
+  <!-- Puntos sobre la trayectoria real -->
+  <circle cx="155" cy="360" r="4" fill="#c62828"/>
+  <circle cx="223" cy="315" r="4" fill="#c62828"/>
+  <circle cx="310" cy="295" r="4" fill="#c62828"/>
+  <circle cx="390" cy="310" r="4" fill="#c62828"/>
+
+  <!-- Punto inicial y final -->
+  <circle cx="70" cy="440" r="5" fill="#1565c0"/>
+  <text x="60" y="455" font-family="serif" font-size="11" font-weight="bold" fill="#1565c0">(t₁, q₁)</text>
+  <circle cx="420" cy="330" r="5" fill="#1565c0"/>
+  <text x="425" y="325" font-family="serif" font-size="11" font-weight="bold" fill="#1565c0">(t₂, q₂)</text>
+
+  <!-- Etiqueta trayectoria real -->
+  <text x="260" y="280" font-family="serif" font-size="12" font-weight="bold" fill="#c62828" text-anchor="middle">Trayectoria real</text>
+  <text x="260" y="268" font-family="serif" font-size="10" fill="#c62828" text-anchor="middle">δS = 0 (acción estacionaria)</text>
+
+  <!-- ========== LEYENDA ========== -->
+  <rect x="50" y="83" width="135" height="85" rx="5" fill="#f8f9fa" stroke="#ccc" stroke-width="1"/>
+  <text x="117" y="100" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">Leyenda</text>
+  <rect x="58" y="108" width="12" height="12" fill="#fff3e0" stroke="#ccc" stroke-width="0.5"/>
+  <text x="75" y="118" font-family="serif" font-size="9" fill="#555">ℒ alto (naranja)</text>
+  <rect x="58" y="126" width="12" height="12" fill="#64b5f6" stroke="#ccc" stroke-width="0.5"/>
+  <text x="75" y="136" font-family="serif" font-size="9" fill="#555">ℒ bajo (azul)</text>
+  <line x1="58" y1="149" x2="80" y2="149" stroke="#c62828" stroke-width="2.5"/>
+  <text x="86" y="153" font-family="serif" font-size="9" fill="#c62828">Tray. real (δS=0)</text>
+  <line x1="58" y1="163" x2="80" y2="163" stroke="#999" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="86" y="166" font-family="serif" font-size="9" fill="#999">Tray. candidatas</text>
+  <line x1="58" y1="177" x2="80" y2="177" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="86" y="180" font-family="serif" font-size="9" fill="#bdbdbd">No física</text>
+
+  <!-- ========== PANEL DERECHO: Explicación ========== -->
+  <rect x="525" y="48" width="215" height="240" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="632" y="70" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">Principio de Mínima Acción</text>
+
+  <text x="540" y="95" font-family="serif" font-size="14" font-weight="bold" fill="#333">S[q(t)] = ∫ ℒ dt</text>
+
+  <text x="540" y="120" font-family="sans-serif" font-size="11" fill="#555">De todas las trayectorias</text>
+  <text x="540" y="136" font-family="sans-serif" font-size="11" fill="#555">posibles q(t) que conectan</text>
+  <text x="540" y="152" font-family="sans-serif" font-size="11" fill="#555">(t₁,q₁) y (t₂,q₂), la</text>
+  <text x="540" y="168" font-family="sans-serif" font-size="11" fill="#555">naturaleza elige aquella</text>
+  <text x="540" y="184" font-family="sans-serif" font-size="11" fill="#555">que hace la acción S</text>
+  <text x="540" y="200" font-family="sans-serif" font-size="11" fill="#555"><tspan font-weight="bold" fill="#c62828">estacionaria</tspan> (δS = 0).</text>
+
+  <line x1="540" y1="210" x2="725" y2="210" stroke="#ddd" stroke-width="1"/>
+
+  <text x="540" y="230" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">Visualización:</text>
+  <text x="540" y="248" font-family="sans-serif" font-size="10" fill="#555">Cada celda muestra el valor</text>
+  <text x="540" y="263" font-family="sans-serif" font-size="10" fill="#555">de ℒ(q,q̇,t) en esa región.</text>
+  <text x="540" y="278" font-family="sans-serif" font-size="10" fill="#555">El gradiente de color va de</text>
+  <text x="540" y="293" font-family="sans-serif" font-size="10" fill="#555"><tspan fill="#e65100" font-weight="bold">naranja</tspan> (ℒ alto) a</text>
+  <text x="540" y="308" font-family="sans-serif" font-size="10" fill="#555"><tspan fill="#1565c0" font-weight="bold">azul</tspan> (ℒ bajo). La</text>
+  <text x="540" y="323" font-family="sans-serif" font-size="10" fill="#555">trayectoria real sigue el</text>
+  <text x="540" y="338" font-family="sans-serif" font-size="10" fill="#555">“valle” de ℒ minimizando</text>
+  <text x="540" y="353" font-family="sans-serif" font-size="10" fill="#555">la acción total S = ∫ℒ dt.</text>
+
+  <!-- Panel ecuaciones de Lagrange -->
+  <rect x="525" y="300" width="215" height="90" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="632" y="322" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1565c0" text-anchor="middle">Ecuaciones de Euler-Lagrange</text>
+  <text x="632" y="348" font-family="serif" font-size="14" fill="#1565c0" text-anchor="middle">d ⎛ ∂ℒ ⎞   ∂ℒ</text>
+  <text x="632" y="362" font-family="serif" font-size="14" fill="#1565c0" text-anchor="middle">── ⎜ ── ⎟ − ── = 0</text>
+  <text x="632" y="376" font-family="serif" font-size="14" fill="#1565c0" text-anchor="middle">dt ⎝ ∂q̇ ⎠   ∂q</text>
+
+  <!-- Panel abajo-derecha: acción -->
+  <rect x="525" y="400" width="215" height="108" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="632" y="422" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7b1fa2" text-anchor="middle">Analogía</text>
+  <text x="632" y="445" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">Como un río que busca el</text>
+  <text x="632" y="462" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">camino de menor altitud</text>
+  <text x="632" y="479" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">(mínima energía potencial),</text>
+  <text x="632" y="496" font-family="sans-serif" font-size="11" fill="#555" text-anchor="middle">la naturaleza minimiza la acción.</text>
+
+</svg>

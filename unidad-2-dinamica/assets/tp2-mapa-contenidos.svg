@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 130" width="700" height="130">
+  <rect width="700" height="130" fill="#fafafa" rx="10"/>
+
+  <!-- Título -->
+  <text x="350" y="28" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">TP2 — Dinámica: Mapa de Contenidos</text>
+
+  <!-- Bloque 1 -->
+  <rect x="10" y="45" width="108" height="70" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="64" y="65" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1565c0" text-anchor="middle">⚖️ Leyes de</text>
+  <text x="64" y="78" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1565c0" text-anchor="middle">Newton</text>
+  <text x="64" y="95" font-family="serif" font-size="9" fill="#1565c0" text-anchor="middle">Ej 1–3</text>
+
+  <!-- Bloque 2 -->
+  <rect x="125" y="45" width="108" height="70" rx="6" fill="#fce4ec" stroke="#c62828" stroke-width="1.5"/>
+  <text x="179" y="65" font-family="sans-serif" font-size="10" font-weight="bold" fill="#c62828" text-anchor="middle">🚄 Galileo</text>
+  <text x="179" y="78" font-family="sans-serif" font-size="10" font-weight="bold" fill="#c62828" text-anchor="middle">y SNI</text>
+  <text x="179" y="95" font-family="serif" font-size="9" fill="#c62828" text-anchor="middle">Ej 4–7</text>
+
+  <!-- Bloque 3 -->
+  <rect x="240" y="45" width="108" height="70" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="1.5"/>
+  <text x="294" y="65" font-family="sans-serif" font-size="10" font-weight="bold" fill="#e65100" text-anchor="middle">🌊 Fzas.</text>
+  <text x="294" y="78" font-family="sans-serif" font-size="10" font-weight="bold" fill="#e65100" text-anchor="middle">de velocidad</text>
+  <text x="294" y="95" font-family="serif" font-size="9" fill="#e65100" text-anchor="middle">Ej 8–10</text>
+
+  <!-- Bloque 4 -->
+  <rect x="355" y="45" width="108" height="70" rx="6" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="409" y="65" font-family="sans-serif" font-size="10" font-weight="bold" fill="#7b1fa2" text-anchor="middle">⚡ Campos</text>
+  <text x="409" y="78" font-family="sans-serif" font-size="10" font-weight="bold" fill="#7b1fa2" text-anchor="middle">y vínculos</text>
+  <text x="409" y="95" font-family="serif" font-size="9" fill="#7b1fa2" text-anchor="middle">Ej 11–12</text>
+
+  <!-- Bloque 5 -->
+  <rect x="470" y="45" width="108" height="70" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="524" y="65" font-family="sans-serif" font-size="10" font-weight="bold" fill="#2e7d32" text-anchor="middle">📐 Mec.</text>
+  <text x="524" y="78" font-family="sans-serif" font-size="10" font-weight="bold" fill="#2e7d32" text-anchor="middle">Analítica</text>
+  <text x="524" y="95" font-family="serif" font-size="9" fill="#2e7d32" text-anchor="middle">Ej 13–14</text>
+
+  <!-- Bloque 6 -->
+  <rect x="585" y="45" width="108" height="70" rx="6" fill="#e0f7fa" stroke="#00695c" stroke-width="1.5"/>
+  <text x="639" y="65" font-family="sans-serif" font-size="10" font-weight="bold" fill="#00695c" text-anchor="middle">🚀 Masa</text>
+  <text x="639" y="78" font-family="sans-serif" font-size="10" font-weight="bold" fill="#00695c" text-anchor="middle">Variable</text>
+  <text x="639" y="95" font-family="serif" font-size="9" fill="#00695c" text-anchor="middle">Ej 15–18</text>
+
+  <!-- Flechas entre bloques -->
+  <line x1="118" y1="80" x2="122" y2="80" stroke="#ccc" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="233" y1="80" x2="237" y2="80" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="348" y1="80" x2="352" y2="80" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="463" y1="80" x2="467" y2="80" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="578" y1="80" x2="582" y2="80" stroke="#ccc" stroke-width="1.5"/>
+
+  <!-- Apunte de teoría -->
+  <rect x="250" y="105" width="200" height="20" rx="4" fill="#f5f5f5" stroke="#999" stroke-width="0.8"/>
+  <text x="350" y="119" font-family="sans-serif" font-size="9" fill="#666" text-anchor="middle">📖 Ver apuntes: unidad-2-dinamica/01-*.md ... 08-*.md</text>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ccc"/>
+    </marker>
+  </defs>
+
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="700" height="460">
+  <rect width="700" height="460" fill="#fafafa"/>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c62828"/>
+    </marker>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1565c0"/>
+    </marker>
+    <marker id="ar3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e65100"/>
+    </marker>
+  </defs>
+
+  <text x="350" y="28" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Sistemas de Masa Variable</text>
+
+  <!-- ============= COHETE (Ej 15 y 16) ============= -->
+  <rect x="10" y="45" width="330" height="200" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="175" y="68" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1565c0" text-anchor="middle">Cohete vertical</text>
+
+  <!-- Cuerpo del cohete -->
+  <polygon points="175,85 160,180 190,180" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <polygon points="175,85 168,95 182,95" fill="#1565c0"/>
+  <text x="175" y="120" font-family="serif" font-size="12" fill="#1565c0" text-anchor="middle">m(t)</text>
+  <text x="175" y="140" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">m₀ − αt</text>
+  <text x="175" y="175" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">combustible</text>
+
+  <!-- Gases expulsados -->
+  <path d="M 155 185 Q 140 220 130 240" fill="none" stroke="#e65100" stroke-width="2.5" marker-end="url(#ar3)"/>
+  <path d="M 195 185 Q 210 220 220 240" fill="none" stroke="#e65100" stroke-width="2.5" marker-end="url(#ar3)"/>
+  <text x="175" y="210" font-family="serif" font-size="11" fill="#e65100" text-anchor="middle">gases: u (relativa)</text>
+
+  <!-- Fuerzas -->
+  <!-- Peso -->
+  <line x1="175" y1="180" x2="175" y2="210" stroke="#c62828" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="180" y="220" font-family="serif" font-size="11" font-style="italic" fill="#c62828">mg</text>
+  <!-- Empuje -->
+  <line x1="175" y1="180" x2="175" y2="145" stroke="#1565c0" stroke-width="2" marker-end="url(#ar2)"/>
+  <text x="185" y="155" font-family="serif" font-size="11" font-style="italic" fill="#1565c0">E = αu</text>
+
+  <!-- Ecuaciones -->
+  <rect x="20" y="210" width="310" height="28" rx="4" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <text x="175" y="230" font-family="serif" font-size="11" fill="#333" text-anchor="middle">m dv/dt = −mg + αu (α = ṁ)</text>
+
+  <!-- ============= GOTA CONDENSACIÓN (Ej 17) ============= -->
+  <rect x="350" y="45" width="340" height="200" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="520" y="68" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1565c0" text-anchor="middle">Gota con condensación</text>
+
+  <!-- Gotas en crecimiento (va de izquierda a derecha) -->
+  <circle cx="400" cy="130" r="12" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" fill-opacity="0.6"/>
+  <text x="400" y="165" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">t₁</text>
+
+  <circle cx="460" cy="130" r="20" fill="#90caf9" stroke="#1565c0" stroke-width="1.5" fill-opacity="0.6"/>
+  <text x="460" y="168" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">t₂</text>
+
+  <circle cx="530" cy="130" r="28" fill="#64b5f6" stroke="#1565c0" stroke-width="1.5" fill-opacity="0.6"/>
+  <text x="530" y="175" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">t₃</text>
+
+  <circle cx="610" cy="130" r="36" fill="#42a5f5" stroke="#1565c0" stroke-width="1.5" fill-opacity="0.6"/>
+  <text x="610" y="182" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">t₄</text>
+
+  <!-- Flecha del tiempo -->
+  <line x1="380" y1="200" x2="640" y2="200" stroke="#666" stroke-width="1.5" marker-end="url(#ar2)"/>
+  <text x="500" y="215" font-family="serif" font-size="12" font-weight="bold" fill="#666" text-anchor="middle">t (el radio crece: r = kt)</text>
+
+  <!-- Vapor siendo incorporado -->
+  <text x="520" y="90" font-family="serif" font-size="10" fill="#e65100" text-anchor="middle">m(t) = ⁴⁄₃πρk³t³</text>
+  <text x="520" y="232" font-family="serif" font-size="12" fill="#333" text-anchor="middle">d(mv)/dt = mg → v(t) = ¼ g t</text>
+
+  <!-- ============= CADENA SOBRE BALANZA (Ej 18) ============= -->
+  <rect x="10" y="255" width="330" height="195" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="175" y="278" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1565c0" text-anchor="middle">Cadena sobre una balanza</text>
+
+  <!-- Cadena cayendo -->
+  <path d="M 120 80 Q 115 100 120 120 Q 125 140 120 160 Q 115 180 120 200" fill="none" stroke="#333" stroke-width="3" stroke-dasharray="6,3"/>
+  <path d="M 127 80 Q 122 100 127 120 Q 132 140 127 160 Q 122 180 127 200" fill="none" stroke="#333" stroke-width="3" stroke-dasharray="6,3"/>
+
+  <!-- Cadena apilada -->
+  <rect x="115" y="200" width="18" height="40" fill="#ccc"/>
+  <rect x="115" y="240" width="18" height="20" fill="#bbb"/>
+
+  <!-- Balanza -->
+  <rect x="90" y="280" width="80" height="12" rx="2" fill="#666" stroke="#333" stroke-width="1"/>
+  <rect x="100" y="292" width="60" height="40" rx="3" fill="#999"/>
+  <text x="130" y="315" font-family="serif" font-size="10" fill="#333" text-anchor="middle">Balanza</text>
+
+  <!-- Piso -->
+  <line x1="85" y1="335" x2="195" y2="335" stroke="#999" stroke-width="2"/>
+
+  <!-- Longitudes -->
+  <text x="95" y="155" font-family="serif" font-size="11" fill="#666">l − x</text>
+  <text x="95" y="240" font-family="serif" font-size="11" fill="#666">x</text>
+  <text x="80" y="110" font-family="serif" font-size="10" fill="#333">v = √(2gx)</text>
+
+  <!-- Ecuación -->
+  <rect x="25" y="395" width="300" height="45" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="175" y="414" font-family="serif" font-size="13" font-weight="bold" fill="#e65100" text-anchor="middle">Lectura balanza: F = 3μxg</text>
+
+  <!-- ============= ECUACIÓN COHETE ============= -->
+  <rect x="350" y="255" width="340" height="195" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="520" y="278" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1565c0" text-anchor="middle">Ecuación de Tsiolkovsky</text>
+
+  <!-- Cohete simple -->
+  <polygon points="520,285 505,380 535,380" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <line x1="520" y1="285" x2="520" y2="310" stroke="#c62828" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="525" y="305" font-family="serif" font-size="10" fill="#c62828">v</text>
+
+  <!-- Masa inicial / final -->
+  <text x="520" y="360" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">m₀</text>
+
+  <line x1="490" y1="390" x2="550" y2="390" stroke="#666" stroke-width="1"/>
+  <text x="520" y="388" font-family="serif" font-size="9" fill="#666" text-anchor="middle">m(t) = m₀ − αt</text>
+
+  <!-- Ecuación -->
+  <rect x="370" y="310" width="300" height="55" rx="6" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <text x="520" y="330" font-family="serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">v(t) = u ln(m₀/m) − gt</text>
+  <text x="520" y="352" font-family="serif" font-size="11" fill="#555" text-anchor="middle">v_max = u ln(m₀/(m₀−m_c)) − g(m_c/α)</text>
+
+  <!-- Flechas empuje/peso -->
+  <text x="520" y="425" font-family="serif" font-size="11" fill="#333" text-anchor="middle">Despegue: αu > m₀g ➜ u_min = m₀g/α</text>
+
+</svg>

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" width="700" height="470">
+  <rect width="700" height="470" fill="#fafafa"/>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c62828"/>
+    </marker>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1565c0"/>
+    </marker>
+    <marker id="ar3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e65100"/>
+    </marker>
+  </defs>
+
+  <text x="350" y="28" font-family="sans-serif" font-size="17" font-weight="bold" fill="#333" text-anchor="middle">Mecánica Analítica — Sistemas con Lagrange</text>
+
+  <!-- ============= PÉNDULO SIMPLE ============= -->
+  <rect x="10" y="45" width="220" height="200" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="120" y="68" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2e7d32" text-anchor="middle">Péndulo simple</text>
+
+  <!-- Techo -->
+  <line x1="50" y1="80" x2="190" y2="80" stroke="#666" stroke-width="2"/>
+  <!-- Cuerda -->
+  <line x1="120" y1="80" x2="100" y2="180" stroke="#333" stroke-width="2"/>
+  <!-- Masa -->
+  <circle cx="100" cy="180" r="10" fill="#e65100"/>
+  <text x="100" y="198" font-family="serif" font-size="11" fill="#e65100" text-anchor="middle">m</text>
+  <!-- θ -->
+  <path d="M 120 90 Q 115 100 110 108" fill="none" stroke="#1565c0" stroke-width="1.5" marker-end="url(#ar2)"/>
+  <text x="125" y="105" font-family="serif" font-size="13" font-style="italic" fill="#1565c0">θ</text>
+  <!-- l -->
+  <text x="108" y="135" font-family="serif" font-size="11" font-style="italic" fill="#666">l</text>
+  <!-- mg -->
+  <line x1="100" y1="180" x2="100" y2="215" stroke="#c62828" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="105" y="218" font-family="serif" font-size="10" font-style="italic" fill="#c62828">mg</text>
+
+  <!-- Lagrangiano -->
+  <text x="120" y="235" font-family="serif" font-size="11" fill="#333" text-anchor="middle">ℒ = ½ml²θ̇² + mgl cos θ</text>
+
+  <!-- ============= MÁQUINA DE ATWOOD ============= -->
+  <rect x="240" y="45" width="220" height="200" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="350" y="68" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2e7d32" text-anchor="middle">Máquina de Atwood</text>
+
+  <!-- Polea -->
+  <circle cx="350" cy="90" r="16" fill="none" stroke="#666" stroke-width="2"/>
+  <circle cx="350" cy="90" r="3" fill="#333"/>
+  <!-- Soporte -->
+  <rect x="345" y="40" width="10" height="34" fill="#666"/>
+  <line x1="320" y1="40" x2="380" y2="40" stroke="#666" stroke-width="2"/>
+
+  <!-- Cuerdas -->
+  <line x1="340" y1="105" x2="340" y2="160" stroke="#333" stroke-width="2"/>
+  <line x1="360" y1="105" x2="360" y2="160" stroke="#333" stroke-width="2"/>
+
+  <!-- Masa 1 -->
+  <rect x="325" y="160" width="30" height="25" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="340" y="177" font-family="serif" font-size="11" fill="#1565c0" text-anchor="middle">m₁</text>
+
+  <!-- Masa 2 -->
+  <rect x="345" y="160" width="30" height="25" rx="3" fill="#fce4ec" stroke="#c62828" stroke-width="1.5"/>
+  <text x="360" y="177" font-family="serif" font-size="11" fill="#c62828" text-anchor="middle">m₂</text>
+
+  <!-- Etiqueta polea -->
+  <text x="350" y="198" font-family="serif" font-size="10" fill="#666" text-anchor="middle">ℒ = ½(m₁+m₂)ẏ² + (m₁−m₂)gy</text>
+  <text x="350" y="213" font-family="serif" font-size="11" fill="#333" text-anchor="middle">a = g(m₂−m₁)/(m₁+m₂)</text>
+
+  <!-- Flechas de aceleración -->
+  <line x1="340" y1="185" x2="340" y2="200" stroke="#1565c0" stroke-width="1.5" marker-end="url(#ar2)"/>
+  <line x1="360" y1="185" x2="360" y2="170" stroke="#c62828" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ============= PÉNDULO DOBLE ============= -->
+  <rect x="470" y="45" width="220" height="200" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="580" y="68" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2e7d32" text-anchor="middle">Péndulo doble</text>
+
+  <!-- Techo -->
+  <line x1="510" y1="80" x2="650" y2="80" stroke="#666" stroke-width="2"/>
+
+  <!-- Primera cuerda -->
+  <line x1="580" y1="80" x2="560" y2="150" stroke="#333" stroke-width="2"/>
+  <circle cx="560" cy="150" r="8" fill="#1565c0"/>
+  <text x="560" y="137" font-family="serif" font-size="11" fill="#1565c0" text-anchor="middle">m₁</text>
+  <path d="M 580 88 Q 575 95 572 100" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="582" y="100" font-family="serif" font-size="11" font-style="italic" fill="#2e7d32">θ₁</text>
+
+  <!-- Segunda cuerda -->
+  <line x1="560" y1="150" x2="540" y2="210" stroke="#333" stroke-width="2"/>
+  <circle cx="540" cy="210" r="8" fill="#c62828"/>
+  <text x="540" y="197" font-family="serif" font-size="11" fill="#c62828" text-anchor="middle">m₂</text>
+  <path d="M 560 155 Q 555 165 552 172" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="560" y="172" font-family="serif" font-size="11" font-style="italic" fill="#2e7d32">θ₂</text>
+
+  <text x="580" y="240" font-family="sans-serif" font-size="10" fill="#666" text-anchor="middle">2 GDL: θ₁, θ₂ — EDOs acopladas</text>
+
+  <!-- ============= POLEAS TP2-Ej3 ============= -->
+  <rect x="10" y="255" width="680" height="205" rx="8" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="350" y="278" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Sistema de Poleas — TP2 Ejercicio 3</text>
+
+  <!-- Polea superior -->
+  <circle cx="350" cy="300" r="14" fill="none" stroke="#666" stroke-width="2"/>
+  <circle cx="350" cy="300" r="3" fill="#333"/>
+  <!-- Soporte -->
+  <rect x="346" y="260" width="8" height="26" fill="#666"/>
+  <line x1="310" y1="260" x2="390" y2="260" stroke="#666" stroke-width="2"/>
+
+  <!-- Cuerda principal -->
+  <path d="M 340 314 L 340 350 L 250 350 L 250 380" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 360 314 L 360 380" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Polea móvil -->
+  <circle cx="250" cy="390" r="10" fill="none" stroke="#666" stroke-width="1.5"/>
+  <circle cx="250" cy="390" r="2" fill="#333"/>
+  <path d="M 243 398 L 230 430 L 190 430" fill="none" stroke="#333" stroke-width="1.5"/>
+  <path d="M 257 398 L 270 430 L 300 430" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- m1 -->
+  <rect x="340" y="370" width="40" height="30" rx="4" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="360" y="390" font-family="serif" font-size="12" font-weight="bold" fill="#1565c0" text-anchor="middle">m₁</text>
+  <text x="360" y="357" font-family="serif" font-size="10" fill="#1565c0" text-anchor="middle">5 kg</text>
+
+  <!-- m2 -->
+  <rect x="340" y="340" width="40" height="30" rx="4" fill="#fce4ec" stroke="#c62828" stroke-width="1.5"/>
+  <text x="360" y="360" font-family="serif" font-size="12" font-weight="bold" fill="#c62828" text-anchor="middle">m₂</text>
+  <text x="360" y="328" font-family="serif" font-size="10" fill="#c62828" text-anchor="middle">15 kg</text>
+
+  <!-- m3 -->
+  <rect x="185" y="430" width="40" height="30" rx="4" fill="#fff3e0" stroke="#e65100" stroke-width="1.5"/>
+  <text x="205" y="450" font-family="serif" font-size="12" font-weight="bold" fill="#e65100" text-anchor="middle">m₃</text>
+  <text x="205" y="420" font-family="serif" font-size="10" fill="#e65100" text-anchor="middle">10 kg (+Δm)</text>
+
+  <!-- Tensión T -->
+  <text x="290" y="370" font-family="serif" font-size="11" font-style="italic" fill="#7b1fa2">T</text>
+  <text x="325" y="362" font-family="serif" font-size="11" font-style="italic" fill="#7b1fa2">T</text>
+  <text x="215" y="400" font-family="serif" font-size="10" font-style="italic" fill="#7b1fa2">T</text>
+
+  <!-- Relación de ligadura -->
+  <rect x="420" y="310" width="250" height="45" rx="6" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="545" y="330" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7b1fa2" text-anchor="middle">Relación de ligadura</text>
+  <text x="545" y="348" font-family="serif" font-size="12" fill="#7b1fa2" text-anchor="middle">a₁ + a₂ + 2a₃ = 0</text>
+
+  <!-- DCL -->
+  <rect x="420" y="365" width="250" height="80" rx="6" fill="#f5f5f5" stroke="#ccc" stroke-width="1"/>
+  <text x="545" y="383" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle">Ecuaciones del movimiento</text>
+  <text x="545" y="400" font-family="serif" font-size="11" fill="#333" text-anchor="middle">m₁: T − m₁g = m₁a₁</text>
+  <text x="545" y="415" font-family="serif" font-size="11" fill="#333" text-anchor="middle">m₂: T − m₂g = −m₂a₂</text>
+  <text x="545" y="430" font-family="serif" font-size="11" fill="#333" text-anchor="middle">m₃: m₃g − 2T = m₃a₃</text>
+
+</svg>
