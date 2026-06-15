@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/>
+    </marker>
+  </defs>
+
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">Caída libre con Coriolis — Tierra como SNI</text>
+
+  <!-- Globo terráqueo esquemático -->
+  <circle cx="350" cy="270" r="180" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/>
+  <!-- Ecuador -->
+  <ellipse cx="350" cy="270" rx="180" ry="35" fill="none" stroke="#888" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="350" y="312" text-anchor="middle" font-size="11" font-style="italic" fill="#555">ecuador</text>
+
+  <!-- Eje de rotación -->
+  <line x1="260" y1="80" x2="440" y2="460" stroke="#444" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="445" y="100" font-size="11" font-style="italic" fill="#444">eje</text>
+
+  <!-- Vector omega -->
+  <line x1="260" y1="80" x2="240" y2="60" stroke="#1565c0" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <text x="210" y="58" font-size="14" font-weight="700" fill="#1565c0">ω</text>
+
+  <!-- Punto de la superficie (latitud φ) -->
+  <circle cx="420" cy="190" r="3" fill="#c62828"/>
+  <text x="430" y="190" font-size="12" font-weight="600" fill="#c62828">P (latitud φ)</text>
+
+  <!-- Sistema local (ejes î, ĵ, k̂) -->
+  <line x1="420" y1="190" x2="420" y2="160" stroke="#c62828" stroke-width="2" marker-end="url(#arr-red)"/>
+  <text x="427" y="172" font-size="13" font-weight="700" fill="#c62828">k̂ (radial)</text>
+
+  <line x1="420" y1="190" x2="450" y2="190" stroke="#2e7d32" stroke-width="2" marker-end="url(#arr-green)"/>
+  <text x="455" y="194" font-size="13" font-weight="700" fill="#2e7d32">ĵ (este)</text>
+
+  <line x1="420" y1="190" x2="395" y2="220" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arr-green)"/>
+  <text x="375" y="225" font-size="13" font-weight="700" fill="#7b1fa2">î (sur)</text>
+
+  <!-- Cuerpo cayendo con trayectoria desviada -->
+  <circle cx="450" cy="270" r="9" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+  <!-- Trayectoria curva: desde arriba cae y se desvía al este -->
+  <path d="M 420 180 Q 415 230 450 270" fill="none" stroke="#e65100" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <text x="465" y="265" font-size="11" font-style="italic" font-weight="600" fill="#e65100">trayectoria</text>
+
+  <!-- Vector velocidad (en el cuerpo, hacia abajo y un poco al este) -->
+  <line x1="450" y1="270" x2="453" y2="298" stroke="#e65100" stroke-width="2" marker-end="url(#arr-orange)"/>
+
+  <!-- Caption -->
+  <text x="350" y="465" text-anchor="middle" font-size="11" font-style="italic" fill="#555">Desviación hacia el este debida a la fuerza de Coriolis en el hemisferio norte (si ĵ apunta al este).</text>
+</svg>

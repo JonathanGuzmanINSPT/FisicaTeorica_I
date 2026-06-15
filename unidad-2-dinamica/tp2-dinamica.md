@@ -284,7 +284,7 @@ Una partícula de masa $m$ y carga $q$ se deja en libertad en el origen de coord
   <span style="background: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⭐⭐ Intermedio</span>
   <span style="background: #e7f3ff; color: #004085; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">⏱️ 20 min</span>
 </div>
-
+    
 Una partícula de masa $m$ está colocada en el punto más alto de una esfera fija lisa de radio $b$. La partícula se desplaza ligeramente para que deslice sobre la esfera. ¿En qué punto se separará de la esfera?
 
 <div align="center">

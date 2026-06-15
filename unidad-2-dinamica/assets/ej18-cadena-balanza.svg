@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">Ejercicio 18 — Cadena cayendo sobre balanza</text>
+
+  <!-- Balanza (placa horizontal) -->
+  <line x1="80" y1="500" x2="380" y2="500" stroke="#444" stroke-width="4"/>
+  <rect x="100" y="500" width="260" height="10" fill="#999" stroke="#444" stroke-width="1"/>
+  <text x="230" y="540" text-anchor="middle" font-size="11" font-style="italic" fill="#444">balanza</text>
+  <!-- Soporte de balanza -->
+  <line x1="220" y1="510" x2="220" y2="555" stroke="#444" stroke-width="2"/>
+  <line x1="180" y1="555" x2="260" y2="555" stroke="#444" stroke-width="3"/>
+
+  <!-- Cadena en posición inicial (colgando toda) -->
+  <g id="cadena-inicial">
+    <!-- Cadena completa de longitud l (vertical, antes de tocar) -->
+    <line x1="230" y1="100" x2="230" y2="490" stroke="#1565c0" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+    <text x="245" y="300" font-size="11" font-weight="700" fill="#0d47a1">cadena</text>
+    <text x="245" y="315" font-size="11" font-style="italic" fill="#0d47a1">(longitud l)</text>
+    <text x="200" y="130" text-anchor="end" font-size="10" font-style="italic" fill="#444">inicio</text>
+  </g>
+
+  <!-- Posición intermedia: parte sobre la balanza, parte cayendo -->
+  <g id="cadena-intermedia" transform="translate(380, 0)">
+    <text x="20" y="80" font-size="11" font-weight="700" fill="#0c5460">Instante intermedio</text>
+    <!-- Porción x sobre la balanza -->
+    <rect x="0" y="500" width="40" height="6" fill="#1565c0"/>
+    <text x="20" y="490" text-anchor="middle" font-size="10" fill="#0d47a1">μx</text>
+    <!-- Porción l-x cayendo -->
+    <line x1="20" y1="100" x2="20" y2="500" stroke="#1565c0" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+    <text x="35" y="300" font-size="10" fill="#0d47a1">l − x</text>
+
+    <!-- Vector velocidad (hacia abajo) de la cadena que cae -->
+    <line x1="0" y1="350" x2="-20" y2="380" stroke="#2e7d32" stroke-width="2" marker-end="url(#arr-green)"/>
+    <text x="-50" y="370" font-size="10" font-weight="600" fill="#2e7d32">v</text>
+    <text x="-50" y="385" font-size="9" font-style="italic" fill="#2e7d32">= √(2gx)</text>
+
+    <!-- Vector de impacto (reacción sobre la balanza, hacia arriba) -->
+    <line x1="0" y1="465" x2="-20" y2="445" stroke="#c62828" stroke-width="2" marker-end="url(#arr-red)"/>
+    <text x="-50" y="445" font-size="10" font-weight="600" fill="#c62828">F_imp</text>
+    <text x="-50" y="460" font-size="9" font-style="italic" fill="#c62828">= 2μgx</text>
+
+    <!-- Flecha indicando la balanza "siente" F -->
+    <text x="20" y="530" text-anchor="middle" font-size="11" font-weight="700" fill="#c62828">F = 3μgx</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="300" y="585" text-anchor="middle" font-size="12" font-style="italic" fill="#555">
+    La balanza indica 3 veces el peso de la porción depositada: μgx (peso) + 2μgx (impacto).
+  </text>
+</svg>

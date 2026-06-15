@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+    </marker>
+    <marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e65100"/>
+    </marker>
+  </defs>
+
+  <!-- ============== PANEL IZQUIERDO: SRI (Tierra) ============== -->
+  <g id="panel-sri">
+    <text x="225" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">SRI: Sistema exterior (inercial)</text>
+
+    <!-- Tambor de la centrifugadora (vista superior) -->
+    <circle cx="225" cy="240" r="140" fill="none" stroke="#444" stroke-width="2.5"/>
+    <circle cx="225" cy="240" r="2.5" fill="#000"/>
+    <text x="225" y="395" text-anchor="middle" font-size="12" font-style="italic" fill="#444">centrifugadora (vista superior)</text>
+
+    <!-- Cuerpo en dos posiciones: t1 (mitad del radio) y t2 (borde) -->
+    <circle cx="225" cy="170" r="8" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="245" y="170" font-size="12" font-weight="600" fill="#0d47a1">m (en r = R/2)</text>
+
+    <!-- Trayectoria circular (línea punteada) del radio R -->
+    <line x1="225" y1="240" x2="365" y2="240" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="295" y="232" text-anchor="middle" font-size="12" font-style="italic" fill="#666">R</text>
+
+    <!-- Vector tangente de la velocidad (en el cuerpo) -->
+    <line x1="225" y1="160" x2="190" y2="150" stroke="#1565c0" stroke-width="2.5" marker-end="url(#arr-blue)"/>
+    <text x="195" y="142" font-size="12" font-weight="600" fill="#1565c0">v (tangente)</text>
+
+    <!-- Vector normal centrípeto (apunta al centro) -->
+    <line x1="225" y1="178" x2="225" y2="210" stroke="#c62828" stroke-width="2.5" marker-end="url(#arr-red)"/>
+    <text x="180" y="200" text-anchor="middle" font-size="12" font-weight="600" fill="#c62828">N (centrípeta)</text>
+
+    <!-- Flecha de rotación -->
+    <path d="M 380 240 A 30 30 0 0 1 365 200" fill="none" stroke="#2e7d32" stroke-width="2" marker-end="url(#arr-red)"/>
+    <text x="395" y="225" font-size="13" font-weight="700" fill="#2e7d32">ω</text>
+
+    <!-- Caption -->
+    <text x="225" y="430" text-anchor="middle" font-size="11" font-style="italic" fill="#555">En el SRI, N apunta al centro: la pared empuja al cuerpo hacia adentro.</text>
+  </g>
+
+  <!-- ============== PANEL DERECHO: SNI (centrifugadora) ============== -->
+  <g id="panel-sni">
+    <text x="675" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">SNI: Sistema fijo al tambor (rotante)</text>
+
+    <!-- Tambor -->
+    <circle cx="675" cy="240" r="140" fill="none" stroke="#444" stroke-width="2.5"/>
+    <circle cx="675" cy="240" r="2.5" fill="#000"/>
+    <text x="675" y="395" text-anchor="middle" font-size="12" font-style="italic" fill="#444">centrifugadora (rotante)</text>
+
+    <!-- Cuerpo en posición intermedia -->
+    <circle cx="675" cy="170" r="8" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="640" y="160" font-size="12" font-weight="600" fill="#0d47a1">m</text>
+
+    <!-- Radio vector hacia afuera (hacia el cuerpo) -->
+    <line x1="675" y1="240" x2="675" y2="170" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="685" y="210" font-size="12" font-style="italic" fill="#666">r̂ (radial saliente)</text>
+
+    <!-- Fuerza centrífuga (hacia afuera) -->
+    <line x1="675" y1="160" x2="675" y2="110" stroke="#e65100" stroke-width="3" marker-end="url(#arr-orange)"/>
+    <text x="675" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#e65100">F_cf = m ω² r</text>
+
+    <!-- Fuerza centrípeta (real, de la pared hacia adentro) -->
+    <line x1="675" y1="180" x2="675" y2="225" stroke="#c62828" stroke-width="2" marker-end="url(#arr-red)"/>
+    <text x="635" y="205" font-size="11" font-weight="600" fill="#c62828">−N (reacción pared)</text>
+
+    <!-- Caption -->
+    <text x="675" y="430" text-anchor="middle" font-size="11" font-style="italic" fill="#555">En el SNI, F_cf empuja al cuerpo hacia el borde (opuesta a N).</text>
+  </g>
+</svg>

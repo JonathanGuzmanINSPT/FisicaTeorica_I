@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arr-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b1fa2"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">Ejercicio 11 — Partícula en campos $\vec{E}\perp\vec{B}$ cruzados</text>
+
+  <!-- Marco 3D: ejes X, Y, Z -->
+  <g id="axes">
+    <!-- Eje X: hacia la derecha y adelante -->
+    <line x1="100" y1="450" x2="430" y2="450" stroke="#222" stroke-width="1.5" marker-end="url(#ah)"/>
+    <text x="438" y="455" font-size="15" font-style="italic" fill="#222">x</text>
+    <!-- Eje Z: vertical (hacia arriba) -->
+    <line x1="100" y1="450" x2="100" y2="100" stroke="#222" stroke-width="1.5" marker-end="url(#ah)"/>
+    <text x="90" y="95" font-size="15" font-style="italic" fill="#222">z</text>
+    <!-- Eje Y: hacia adentro del plano (representado con dashed) -->
+    <line x1="100" y1="450" x2="100" y2="470" stroke="#222" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="100" y="490" font-size="14" font-style="italic" fill="#222">y (hacia el observador)</text>
+
+    <!-- Símbolo ⊗ para B en -y (entra al plano) -->
+    <circle cx="60" cy="220" r="14" fill="none" stroke="#c62828" stroke-width="2.5"/>
+    <line x1="46" y1="206" x2="74" y2="234" stroke="#c62828" stroke-width="2.5"/>
+    <line x1="74" y1="206" x2="46" y2="234" stroke="#c62828" stroke-width="2.5"/>
+    <text x="60" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">B (−ŷ)</text>
+
+    <!-- Vector E en +z -->
+    <line x1="200" y1="430" x2="200" y2="370" stroke="#1565c0" stroke-width="3" marker-end="url(#arr-blue)"/>
+    <text x="180" y="395" text-anchor="middle" font-size="13" font-weight="700" fill="#1565c0">E = E ẑ</text>
+  </g>
+
+  <!-- Trayectoria cicloide (parametrizada) -->
+  <!-- Para t = 0: x=0, z=0
+       Para t = π/ωc: x ≈ 0.42·T, z = 2/(Bωc)·E
+       El camino es una cicloide que avanza en x y oscila en z -->
+  <path d="M 100 450
+           Q 140 380 200 380
+           Q 260 380 300 450
+           Q 340 380 400 380
+           Q 460 380 500 450
+           Q 540 380 600 380
+           Q 660 380 700 450"
+        fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+
+  <!-- Etiquetas en la cicloide -->
+  <text x="100" y="475" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">t = 0</text>
+  <text x="200" y="370" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">π/ωc</text>
+  <text x="300" y="475" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">2π/ωc</text>
+  <text x="400" y="370" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">3π/ωc</text>
+  <text x="500" y="475" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">4π/ωc</text>
+  <text x="600" y="370" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">5π/ωc</text>
+  <text x="700" y="475" text-anchor="middle" font-size="11" font-weight="600" fill="#2e7d32">t</text>
+
+  <!-- Vector velocidad de deriva -->
+  <line x1="700" y1="430" x2="700" y2="450" stroke="#7b1fa2" stroke-width="2.5" marker-end="url(#arr-purple)"/>
+  <text x="700" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#7b1fa2">v_d = E/B</text>
+
+  <!-- Caption -->
+  <text x="400" y="540" text-anchor="middle" font-size="12" font-style="italic" fill="#555">
+    Trayectoria cicloide: la partícula avanza con velocidad de deriva E/B en x y oscila con frecuencia ciclotrón ωc en z.
+  </text>
+
+  <!-- Box con ecuaciones -->
+  <rect x="100" y="555" width="600" height="35" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" rx="4"/>
+  <text x="400" y="578" text-anchor="middle" font-size="12" fill="#222">
+    <tspan font-weight="700">v_deriva = E/B</tspan>     |     <tspan font-weight="700">ωc = |q|B/m</tspan>     |     <tspan font-weight="700">v_x(t) = (E/B)(1 − cos ωc t)</tspan>
+  </text>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">Ejercicio 13 — Tres sistemas resueltos con Lagrange</text>
+
+  <!-- ============== PANEL 1: Tiro oblicuo ============== -->
+  <g id="panel-tiro">
+    <text x="150" y="75" text-anchor="middle" font-size="15" font-weight="700" fill="#0c5460">1. Tiro oblicuo</text>
+
+    <!-- Ejes -->
+    <line x1="50" y1="450" x2="270" y2="450" stroke="#222" stroke-width="1.2" marker-end="url(#ah)"/>
+    <line x1="60" y1="500" x2="60" y2="80" stroke="#222" stroke-width="1.2" marker-end="url(#ah)"/>
+    <text x="278" y="455" font-size="12" font-style="italic" fill="#222">x</text>
+    <text x="50" y="78" font-size="12" font-style="italic" fill="#222">z</text>
+
+    <!-- Vector velocidad inicial -->
+    <line x1="80" y1="430" x2="125" y2="395" stroke="#1565c0" stroke-width="2.5" marker-end="url(#arr-blue)"/>
+    <text x="105" y="395" font-size="11" font-weight="700" fill="#1565c0">v₀</text>
+
+    <!-- Trayectoria parabólica -->
+    <path d="M 80 430 Q 130 360 170 300 T 230 260" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-dasharray="5 3"/>
+    <circle cx="80" cy="430" r="8" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="80" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#0d47a1">m</text>
+
+    <!-- Vector peso -->
+    <line x1="80" y1="440" x2="80" y2="475" stroke="#c62828" stroke-width="2.5" marker-end="url(#arr-red)"/>
+    <text x="55" y="465" font-size="12" font-weight="700" fill="#c62828">mg</text>
+
+    <!-- Caption -->
+    <text x="150" y="540" text-anchor="middle" font-size="11" font-style="italic" fill="#555">q₁=x, q₂=z</text>
+    <text x="150" y="558" text-anchor="middle" font-size="11" font-style="italic" fill="#555">$\ddot{x}=0$, $\ddot{z}=-g$</text>
+  </g>
+
+  <!-- ============== PANEL 2: Péndulo simple ============== -->
+  <g id="panel-pendulo">
+    <text x="450" y="75" text-anchor="middle" font-size="15" font-weight="700" fill="#0c5460">2. Péndulo simple</text>
+
+    <!-- Techo -->
+    <line x1="320" y1="100" x2="580" y2="100" stroke="#444" stroke-width="3"/>
+    <rect x="380" y="92" width="20" height="10" fill="#444"/>
+
+    <!-- Hilo (inclinado, ángulo theta) -->
+    <line x1="450" y1="100" x2="395" y2="220" stroke="#222" stroke-width="1.8"/>
+
+    <!-- Masa -->
+    <circle cx="395" cy="220" r="11" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="395" y="225" text-anchor="middle" font-size="12" font-weight="700" fill="#0d47a1">m</text>
+
+    <!-- Arco del ángulo theta (entre vertical y el hilo) -->
+    <path d="M 450 160 A 50 50 0 0 0 432 145" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+    <text x="425" y="135" font-size="14" font-style="italic" font-weight="700" fill="#7b1fa2">θ</text>
+
+    <!-- Vertical de referencia (punteada) -->
+    <line x1="450" y1="100" x2="450" y2="240" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Vector peso -->
+    <line x1="395" y1="232" x2="395" y2="270" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#arr-green)"/>
+    <text x="375" y="255" font-size="12" font-weight="700" fill="#2e7d32">mg</text>
+
+    <!-- Caption -->
+    <text x="450" y="540" text-anchor="middle" font-size="11" font-style="italic" fill="#555">q = θ</text>
+    <text x="450" y="558" text-anchor="middle" font-size="11" font-style="italic" fill="#555">$\ddot{\theta} + (g/l)\sin\theta = 0$</text>
+  </g>
+
+  <!-- ============== PANEL 3: Atwood ============== -->
+  <g id="panel-atwood">
+    <text x="750" y="75" text-anchor="middle" font-size="15" font-weight="700" fill="#0c5460">3. Máquina de Atwood</text>
+
+    <!-- Techo / soporte -->
+    <line x1="650" y1="100" x2="850" y2="100" stroke="#444" stroke-width="3"/>
+    <!-- Polea -->
+    <circle cx="750" cy="130" r="20" fill="none" stroke="#444" stroke-width="2.5"/>
+    <circle cx="750" cy="130" r="3" fill="#000"/>
+    <line x1="730" y1="130" x2="770" y2="130" stroke="#888" stroke-width="1.5"/>
+
+    <!-- Cuerda -->
+    <line x1="750" y1="150" x2="710" y2="240" stroke="#222" stroke-width="1.5"/>
+    <line x1="750" y1="150" x2="790" y2="240" stroke="#222" stroke-width="1.5"/>
+
+    <!-- Masa 1 (izquierda) -->
+    <rect x="690" y="240" width="40" height="40" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="710" y="265" text-anchor="middle" font-size="11" font-weight="700" fill="#0d47a1">m₁</text>
+    <!-- Vector peso m1 -->
+    <line x1="710" y1="285" x2="710" y2="320" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#arr-green)"/>
+
+    <!-- Masa 2 (derecha) -->
+    <rect x="770" y="240" width="40" height="40" fill="#ffecb3" stroke="#e65100" stroke-width="2"/>
+    <text x="790" y="265" text-anchor="middle" font-size="11" font-weight="700" fill="#e65100">m₂</text>
+    <!-- Vector peso m2 -->
+    <line x1="790" y1="285" x2="790" y2="320" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#arr-green)"/>
+
+    <!-- Vector aceleración m1 (hacia abajo) -->
+    <line x1="710" y1="240" x2="710" y2="265" stroke="#c62828" stroke-width="2" stroke-dasharray="3 2" marker-end="url(#arr-red)"/>
+    <!-- Vector aceleración m2 (hacia arriba) -->
+    <line x1="790" y1="240" x2="790" y2="220" stroke="#c62828" stroke-width="2" stroke-dasharray="3 2" marker-end="url(#arr-red)"/>
+
+    <!-- Etiquetas de movimiento -->
+    <text x="690" y="200" font-size="10" font-style="italic" fill="#c62828">baja</text>
+    <text x="795" y="200" font-size="10" font-style="italic" fill="#c62828">sube</text>
+
+    <!-- Caption -->
+    <text x="750" y="540" text-anchor="middle" font-size="11" font-style="italic" fill="#555">q = y₁</text>
+    <text x="750" y="558" text-anchor="middle" font-size="11" font-style="italic" fill="#555">$\ddot{y}_1 = \frac{m_1-m_2}{m_1+m_2}g$</text>
+  </g>
+</svg>

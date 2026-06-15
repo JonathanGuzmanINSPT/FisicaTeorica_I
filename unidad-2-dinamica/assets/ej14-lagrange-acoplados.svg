@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">Ejercicio 14 — Sistemas acoplados con Lagrange</text>
+
+  <!-- ============== PANEL 1: Péndulo doble ============== -->
+  <g id="panel-pendulo-doble">
+    <text x="220" y="75" text-anchor="middle" font-size="15" font-weight="700" fill="#0c5460">1. Péndulo doble</text>
+
+    <!-- Techo -->
+    <line x1="100" y1="100" x2="350" y2="100" stroke="#444" stroke-width="3"/>
+    <rect x="200" y="92" width="20" height="10" fill="#444"/>
+
+    <!-- Pivote del primer péndulo -->
+    <circle cx="210" cy="110" r="3" fill="#000"/>
+
+    <!-- Hilo 1 (longitud l1) - inclinado theta1 -->
+    <line x1="210" y1="110" x2="170" y2="240" stroke="#222" stroke-width="1.8"/>
+    <circle cx="170" cy="240" r="10" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="170" y="244" text-anchor="middle" font-size="11" font-weight="700" fill="#0d47a1">m₁</text>
+
+    <!-- Hilo 2 (longitud l2) - inclinado theta2 (distinto de theta1) -->
+    <line x1="170" y1="240" x2="105" y2="370" stroke="#222" stroke-width="1.8"/>
+    <circle cx="105" cy="370" r="10" fill="#ffecb3" stroke="#e65100" stroke-width="2"/>
+    <text x="105" y="374" text-anchor="middle" font-size="11" font-weight="700" fill="#e65100">m₂</text>
+
+    <!-- Verticales de referencia (punteadas) -->
+    <line x1="210" y1="110" x2="210" y2="280" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="170" y1="240" x2="170" y2="410" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Arcos de los ángulos -->
+    <path d="M 210 170 A 60 60 0 0 0 196 153" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+    <text x="186" y="142" font-size="13" font-style="italic" font-weight="700" fill="#7b1fa2">θ₁</text>
+
+    <path d="M 170 300 A 60 60 0 0 0 156 283" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+    <text x="146" y="272" font-size="13" font-style="italic" font-weight="700" fill="#7b1fa2">θ₂</text>
+
+    <!-- Etiquetas de longitudes -->
+    <text x="195" y="180" font-size="11" font-style="italic" fill="#444">l₁</text>
+    <text x="145" y="310" font-size="11" font-style="italic" fill="#444">l₂</text>
+
+    <!-- Pesos -->
+    <line x1="170" y1="252" x2="170" y2="285" stroke="#2e7d32" stroke-width="2" marker-end="url(#arr-green)"/>
+    <line x1="105" y1="382" x2="105" y2="415" stroke="#2e7d32" stroke-width="2" marker-end="url(#arr-green)"/>
+
+    <!-- Caption -->
+    <text x="220" y="540" text-anchor="middle" font-size="11" font-style="italic" fill="#555">q₁ = θ₁, q₂ = θ₂ (2 GDL acoplados)</text>
+  </g>
+
+  <!-- ============== PANEL 2: Péndulo elástico ============== -->
+  <g id="panel-pendulo-elastico">
+    <text x="680" y="75" text-anchor="middle" font-size="15" font-weight="700" fill="#0c5460">2. Péndulo elástico (2D)</text>
+
+    <!-- Techo / pivote del resorte -->
+    <line x1="500" y1="100" x2="850" y2="100" stroke="#444" stroke-width="3"/>
+    <rect x="660" y="92" width="20" height="10" fill="#444"/>
+    <circle cx="670" cy="110" r="3" fill="#000"/>
+
+    <!-- Resorte (representado como zig-zag) -->
+    <path d="M 670 113 L 685 130 L 670 145 L 685 165 L 670 185 L 690 210 L 670 235 L 695 265 L 700 290"
+          fill="none" stroke="#222" stroke-width="1.8"/>
+    <text x="675" y="200" font-size="11" font-style="italic" fill="#444">r, k</text>
+
+    <!-- Masa al final del resorte (con desplazamiento angular theta) -->
+    <circle cx="700" cy="290" r="12" fill="#bbdefb" stroke="#0d47a1" stroke-width="2"/>
+    <text x="700" y="295" text-anchor="middle" font-size="12" font-weight="700" fill="#0d47a1">m</text>
+
+    <!-- Línea radial (desde pivote a la masa) -->
+    <line x1="670" y1="110" x2="700" y2="290" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="640" y="200" font-size="11" font-style="italic" fill="#666">r</text>
+
+    <!-- Vertical de referencia (punteada) -->
+    <line x1="670" y1="110" x2="670" y2="350" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Arco del ángulo theta -->
+    <path d="M 670 230 A 80 80 0 0 0 660 220" fill="none" stroke="#7b1fa2" stroke-width="1.5"/>
+    <text x="655" y="210" font-size="13" font-style="italic" font-weight="700" fill="#7b1fa2">θ</text>
+
+    <!-- Vector peso (hacia abajo) -->
+    <line x1="700" y1="305" x2="700" y2="350" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#arr-green)"/>
+    <text x="715" y="335" font-size="12" font-weight="700" fill="#2e7d32">mg</text>
+
+    <!-- Vector tensión (a lo largo del resorte hacia el pivote) -->
+    <line x1="700" y1="290" x2="675" y2="120" stroke="#1565c0" stroke-width="2" stroke-dasharray="3 2" marker-end="url(#arr-blue)"/>
+    <text x="725" y="200" font-size="11" font-weight="600" fill="#1565c0">T = k(r − l₀)</text>
+
+    <!-- Caption -->
+    <text x="680" y="540" text-anchor="middle" font-size="11" font-style="italic" fill="#555">q₁ = r, q₂ = θ (2 GDL)</text>
+  </g>
+
+  <!-- Ecuaciones de resumen en la parte inferior -->
+  <text x="450" y="580" text-anchor="middle" font-size="11" fill="#444">
+    Ambos producen EDOs acopladas no lineales en general. Linealizando se obtienen los modos normales.
+  </text>
+</svg>

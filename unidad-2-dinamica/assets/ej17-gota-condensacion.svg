@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1565c0"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#0c5460">Ejercicio 17 — Gota con condensación</text>
+
+  <!-- Eje vertical -->
+  <line x1="80" y1="80" x2="80" y2="550" stroke="#222" stroke-width="1.2" marker-end="url(#ah)"/>
+  <text x="65" y="78" font-size="13" font-style="italic" fill="#222">z (↓)</text>
+
+  <!-- Etiqueta "aire saturado de vapor" -->
+  <rect x="120" y="100" width="200" height="380" fill="#f0f4ff" stroke="#aab" stroke-width="1" stroke-dasharray="3 3" rx="4"/>
+  <text x="220" y="125" text-anchor="middle" font-size="11" font-style="italic" fill="#555">aire saturado de vapor</text>
+
+  <!-- Gota en t pequeño -->
+  <circle cx="220" cy="180" r="10" fill="#bbdefb" stroke="#0d47a1" stroke-width="1.5"/>
+  <text x="220" y="184" text-anchor="middle" font-size="9" font-weight="700" fill="#0d47a1">m</text>
+  <text x="245" y="178" font-size="10" font-style="italic" fill="#444">r(t)</text>
+  <text x="245" y="190" font-size="10" font-style="italic" fill="#444">v(t) = gt/4</text>
+
+  <!-- Gota en t más grande -->
+  <circle cx="220" cy="330" r="22" fill="#bbdefb" stroke="#0d47a1" stroke-width="1.5"/>
+  <text x="220" y="334" text-anchor="middle" font-size="11" font-weight="700" fill="#0d47a1">m(t)</text>
+  <line x1="240" y1="312" x2="240" y2="345" stroke="#666" stroke-width="1"/>
+  <line x1="220" y1="312" x2="220" y2="312" stroke="#666" stroke-width="1"/>
+  <text x="248" y="330" font-size="10" font-style="italic" fill="#444">r crece</text>
+  <text x="248" y="345" font-size="10" font-style="italic" fill="#444">a razón k</text>
+
+  <!-- Vapor condensándose (flechas hacia adentro) -->
+  <g id="vapor">
+    <text x="380" y="290" font-size="11" font-style="italic" fill="#555">vapor de agua</text>
+    <text x="380" y="305" font-size="11" font-style="italic" fill="#555">(u = 0, en reposo)</text>
+    <line x1="370" y1="290" x2="270" y2="320" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arr-blue)" stroke-dasharray="3 2"/>
+    <line x1="370" y1="320" x2="270" y2="335" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arr-blue)" stroke-dasharray="3 2"/>
+    <line x1="370" y1="350" x2="270" y2="345" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arr-blue)" stroke-dasharray="3 2"/>
+  </g>
+
+  <!-- Vector velocidad (hacia abajo) -->
+  <line x1="220" y1="352" x2="220" y2="395" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <text x="180" y="380" font-size="11" font-weight="700" fill="#2e7d32">v(t)</text>
+
+  <!-- Diagrama inferior: gráfico de v(t) vs t -->
+  <g id="grafico" transform="translate(360, 380)">
+    <text x="100" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#0c5460">v(t)</text>
+    <!-- Ejes -->
+    <line x1="20" y1="120" x2="200" y2="120" stroke="#222" stroke-width="1" marker-end="url(#ah)"/>
+    <line x1="30" y1="160" x2="30" y2="20" stroke="#222" stroke-width="1" marker-end="url(#ah)"/>
+    <text x="210" y="125" font-size="10" font-style="italic" fill="#222">t</text>
+    <text x="20" y="15" font-size="10" font-style="italic" fill="#222">v</text>
+    <!-- Línea v = gt/4 -->
+    <line x1="30" y1="155" x2="200" y2="20" stroke="#1565c0" stroke-width="2.5"/>
+    <!-- Línea de referencia g (caída libre) -->
+    <line x1="30" y1="155" x2="100" y2="20" stroke="#c62828" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="105" y="25" font-size="10" font-style="italic" fill="#c62828">caída libre</text>
+    <text x="155" y="55" font-size="10" font-style="italic" fill="#1565c0">gota: g/4</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="300" y="580" text-anchor="middle" font-size="12" font-style="italic" fill="#555">
+    La masa crece como m(t) = (4/3)πρk³t³, lo que hace que la aceleración efectiva sea g/4.
+  </text>
+</svg>
