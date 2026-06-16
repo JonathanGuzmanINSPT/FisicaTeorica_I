@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Fondo -->
+  <rect width="1200" height="900" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Mecánica Analítica — Ecuaciones de Lagrange
+  </text>
+  
+  <!-- Panel 1: Coordenadas Generalizadas -->
+  <rect x="20" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Coordenadas Generalizadas (q_i)
+  </text>
+  
+  <!-- Partícula libre (3D) -->
+  <circle cx="150" cy="200" r="20" fill="#2196f3" opacity="0.8"/>
+  <text x="150" y="207" font-size="12" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  
+  <!-- Ejes cartesianos -->
+  <line x1="100" y1="250" x2="250" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="255" y="255" font-size="12" fill="#333">x</text>
+  <line x1="100" y1="250" x2="100" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="85" y="155" font-size="12" fill="#333">y</text>
+  <line x1="100" y1="250" x2="130" y2="280" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="135" y="295" font-size="12" fill="#333">z</text>
+  
+  <text x="150" y="320" font-size="14" text-anchor="middle" fill="#333">
+    GDL = 3 (x, y, z)
+  </text>
+  
+  <!-- Péndulo simple -->
+  <circle cx="400" cy="200" r="20" fill="#4caf50" opacity="0.8"/>
+  <text x="400" y="207" font-size="12" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  <line x1="400" y1="150" x2="400" y2="200" stroke="#333" stroke-width="2"/>
+  
+  <!-- Ángulo θ -->
+  <path d="M 400 170 A 20 20 0 0 1 415 160" stroke="#f44336" stroke-width="2" fill="none"/>
+  <text x="420" y="155" font-size="14" fill="#f44336">θ</text>
+  
+  <text x="400" y="320" font-size="14" text-anchor="middle" fill="#333">
+    GDL = 1 (θ)
+  </text>
+  
+  <!-- Máquina de Atwood -->
+  <circle cx="150" cy="450" r="15" fill="#2196f3" opacity="0.8"/>
+  <text x="150" y="455" font-size="10" text-anchor="middle" fill="white">m₁</text>
+  
+  <circle cx="150" cy="520" r="15" fill="#4caf50" opacity="0.8"/>
+  <text x="150" y="525" font-size="10" text-anchor="middle" fill="white">m₂</text>
+  
+  <line x1="150" y1="435" x2="150" y2="350" stroke="#333" stroke-width="2"/>
+  <line x1="150" y1="535" x2="150" y2="620" stroke="#333" stroke-width="2"/>
+  
+  <text x="150" y="650" font-size="14" text-anchor="middle" fill="#333">
+    GDL = 1 (x)
+  </text>
+  
+  <!-- Tabla de GDL -->
+  <rect x="300" y="380" width="260" height="250" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="430" y="410" font-size="16" text-anchor="middle" fill="#1565c0" font-weight="bold">Grados de Libertad</text>
+  
+  <text x="310" y="440" font-size="12" fill="#333" font-family="monospace">• Partícula libre 3D: 3</text>
+  <text x="310" y="465" font-size="12" fill="#333" font-family="monospace">• Tiro oblicuo (plano): 2</text>
+  <text x="310" y="490" font-size="12" fill="#333" font-family="monospace">• Péndulo simple: 1</text>
+  <text x="310" y="515" font-size="12" fill="#333" font-family="monospace">• Máquina Atwood: 1</text>
+  <text x="310" y="540" font-size="12" fill="#333" font-family="monospace">• Péndulo doble: 2</text>
+  <text x="310" y="565" font-size="12" fill="#333" font-family="monospace">• Partícula en esfera: 2</text>
+  <text x="310" y="590" font-size="12" fill="#333" font-family="monospace">• Gas ideal: 3N</text>
+  
+  <text x="430" y="620" font-size="14" text-anchor="middle" fill="#333" font-weight="bold" font-family="monospace">GDL = 3N - V</text>
+  
+  <!-- Panel 2: Lagrangiano y Euler-Lagrange -->
+  <rect x="620" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Lagrangiano y Ecuaciones de Euler-Lagrange
+  </text>
+  
+  <!-- Definición de L -->
+  <rect x="650" y="130" width="510" height="80" fill="#fff3cd" stroke="#ff9800" stroke-width="1" rx="5"/>
+  <text x="905" y="160" font-size="18" text-anchor="middle" fill="#333" font-weight="bold" font-family="monospace">L = T - U</text>
+  <text x="905" y="190" font-size="14" text-anchor="middle" fill="#333">(Energía cinética - Energía potencial)</text>
+  
+  <!-- Ecuaciones de Euler-Lagrange -->
+  <rect x="650" y="230" width="510" height="200" fill="#d4edda" stroke="#155724" stroke-width="1" rx="5"/>
+  <text x="905" y="260" font-size="16" text-anchor="middle" fill="#155724" font-weight="bold">
+    Ecuaciones de Euler-Lagrange:
+  </text>
+  
+  <text x="665" y="290" font-size="14" fill="#333" font-family="monospace">d/dt (∂L/∂q̇_i) - ∂L/∂q_i = 0</text>
+  
+  <text x="665" y="320" font-size="12" fill="#666">
+    Donde:
+  </text>
+  <text x="680" y="345" font-size="12" fill="#333" font-family="monospace">• q_i = coordenada generalizada</text>
+  <text x="680" y="370" font-size="12" fill="#333" font-family="monospace">• q̇_i = dq_i/dt (velocidad generalizada)</text>
+  <text x="680" y="395" font-size="12" fill="#333" font-family="monospace">• ∂L/∂q̇_i = momento generalizado p_i</text>
+  <text x="680" y="420" font-size="12" fill="#333" font-family="monospace">• ∂L/∂q_i = fuerza generalizada F_i</text>
+  
+  <!-- Ventajas -->
+  <rect x="650" y="450" width="510" height="80" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="905" y="480" font-size="14" text-anchor="middle" fill="#1565c0" font-weight="bold">
+    Ventajas sobre Newton:
+  </text>
+  <text x="665" y="505" font-size="12" fill="#333">✓ No necesita calcular fuerzas de vínculo</text>
+  <text x="665" y="525" font-size="12" fill="#333">✓ Sistemático para sistemas complejos</text>
+  
+  <!-- Panel 3: Ejemplo - Péndulo Simple -->
+  <rect x="20" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Ejemplo: Péndulo Simple
+  </text>
+  
+  <!-- Péndulo -->
+  <line x1="300" y1="550" x2="300" y2="650" stroke="#333" stroke-width="2"/>
+  <circle cx="300" cy="660" r="25" fill="#2196f3" opacity="0.8"/>
+  <text x="300" y="667" font-size="12" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  
+  <!-- Coordenadas -->
+  <text x="300" y="710" font-size="14" text-anchor="middle" fill="#333">
+    q = θ (coordenada generalizada)
+  </text>
+  
+  <!-- Energías -->
+  <rect x="50" y="730" width="500" height="130" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="5"/>
+  <text x="300" y="760" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Energías:</text>
+  
+  <text x="65" y="790" font-size="12" fill="#333" font-family="monospace">T = ½ m l² θ̇²</text>
+  <text x="65" y="815" font-size="12" fill="#333" font-family="monospace">U = mgl(1 - cosθ) ≈ ½ mgl θ²</text>
+  <text x="65" y="840" font-size="12" fill="#333" font-family="monospace">L = T - U = ½ m l² θ̇² + mgl cosθ</text>
+  
+  <!-- Ecuación resultante -->
+  <text x="300" y="890" font-size="14" text-anchor="middle" fill="#1565c0" font-weight="bold" font-family="monospace">θ̈ + (g/l) sinθ = 0</text>
+  
+  <!-- Panel 4: Aplicaciones -->
+  <rect x="620" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Aplicaciones de Lagrange
+  </text>
+  
+  <!-- Lista de problemas -->
+  <circle cx="660" cy="570" r="8" fill="#1565c0"/>
+  <text x="680" y="575" font-size="14" fill="#333">Péndulo doble (caos)</text>
+  
+  <circle cx="660" cy="620" r="8" fill="#1565c0"/>
+  <text x="680" y="625" font-size="14" fill="#333">Sistemas acoplados</text>
+  
+  <circle cx="660" cy="670" r="8" fill="#1565c0"/>
+  <text x="680" y="675" font-size="14" fill="#333">Partícula en superficie curva</text>
+  
+  <circle cx="660" cy="720" r="8" fill="#1565c0"/>
+  <text x="680" y="725" font-size="14" fill="#333">Mecanismo de 4 barras</text>
+  
+  <circle cx="660" cy="770" r="8" fill="#1565c0"/>
+  <text x="680" y="775" font-size="14" fill="#333">Satélite en órbita</text>
+  
+  <circle cx="660" cy="820" r="8" fill="#1565c0"/>
+  <text x="680" y="825" font-size="14" fill="#333">Cuerpo rígido (rotación)</text>
+  
+  <circle cx="660" cy="870" y="8" fill="#1565c0"/>
+  <text x="680" y="875" font-size="14" fill="#333">Campo de fuerzas conservativas</text>
+  
+  <!-- Esquema de un péndulo doble -->
+  <line x1="1000" y1="600" x2="1000" y2="680" stroke="#333" stroke-width="2"/>
+  <circle cx="1000" cy="690" r="15" fill="#2196f3" opacity="0.8"/>
+  
+  <line x1="1000" y1="690" x2="1050" y2="750" stroke="#333" stroke-width="2"/>
+  <circle cx="1050" cy="760" r="15" fill="#4caf50" opacity="0.8"/>
+  
+  <text x="1025" y="850" font-size="12" text-anchor="middle" fill="#333">Péndulo doble</text>
+  <text x="1025" y="870" font-size="12" text-anchor="middle" fill="#666">GDL = 2 (θ₁, θ₂)</text>
+  
+  <!-- Definiciones de flechas -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff9800"/>
+    </marker>
+    <marker id="arrowblack" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

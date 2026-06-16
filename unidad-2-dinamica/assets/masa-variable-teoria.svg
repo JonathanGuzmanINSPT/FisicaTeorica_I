@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Fondo -->
+  <rect width="1200" height="900" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Sistemas de Masa Variable
+  </text>
+  
+  <!-- Panel 1: Cohete (Ecuación de Tsiolkovsky) -->
+  <rect x="20" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Cohete — Ecuación de Tsiolkovsky
+  </text>
+  
+  <!-- Cohete -->
+  <polygon points="300,200 280,280 320,280" fill="#f44336" opacity="0.8"/>
+  <rect x="270" y="280" width="60" height="80" fill="#2196f3" opacity="0.8"/>
+  <text x="300" y="325" font-size="14" text-anchor="middle" fill="white" font-weight="bold">m(t)</text>
+  
+  <!-- Gases expulsados -->
+  <path d="M 280 280 Q 250 300 230 320 L 240 330 Q 260 310 280 290" fill="#ff9800" opacity="0.6"/>
+  <text x="220" y="350" font-size="12" fill="#ff9800">Gases</text>
+  
+  <!-- Velocidad de expulsión u -->
+  <line x1="280" y1="280" x2="220" y2="280" stroke="#ff5722" stroke-width="3" marker-start="url(#arrowdeeporange)"/>
+  <text x="195" y="275" font-size="12" fill="#ff5722">u (expulsión)</text>
+  
+  <!-- Ecuación del cohete -->
+  <rect x="50" y="380" width="500" height="60" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="300" y="405" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">m·dv/dt = -m·g + α·u</text>
+  <text x="300" y="430" font-size="12" text-anchor="middle" fill="#666">(α = tasa de expulsión de masa)</text>
+  
+  <!-- Solución (sin gravedad) -->
+  <rect x="50" y="450" width="500" height="60" fill="#d4edda" stroke="#155724" stroke-width="1" rx="5"/>
+  <text x="300" y="480" font-size="14" text-anchor="middle" fill="#155724" font-weight="bold" font-family="monospace">v = v₀ + u·ln(m₀/m(t))</text>
+  
+  <!-- Panel 2: Condición de despegue -->
+  <rect x="620" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Condición de Despegue
+  </text>
+  
+  <!-- Cohete en la rampa -->
+  <polygon points="900,200 880,280 920,280" fill="#f44336" opacity="0.8"/>
+  <rect x="870" y="280" width="60" height="80" fill="#2196f3" opacity="0.8"/>
+  
+  <!-- Fuerzas -->
+  <!-- Peso -->
+  <line x1="900" y1="360" x2="900" y2="420" stroke="#333" stroke-width="3" marker-end="url(#arrowblack)"/>
+  <text x="915" y="410" font-size="12" fill="#333">mg</text>
+  
+  <!-- Empuje -->
+  <line x1="900" y1="280" x2="900" y2="220" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="915" y="215" font-size="12" fill="#4caf50">Empuje = αu</text>
+  
+  <!-- Condición -->
+  <rect x="650" y="380" width="510" height="60" fill="#fff3cd" stroke="#ff9800" stroke-width="1" rx="5"/>
+  <text x="905" y="405" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Despegue si: αu > mg</text>
+  <text x="905" y="430" font-size="12" text-anchor="middle" fill="#666">u > m₀g/α (velocidad mínima de expulsión)</text>
+  
+  <!-- Panel 3: Gota con condensación -->
+  <rect x="20" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Gota con Condensación (Ejemplo 7.5)
+  </text>
+  
+  <!-- Gota -->
+  <circle cx="300" cy="600" r="40" fill="#2196f3" opacity="0.6"/>
+  <text x="300" y="607" font-size="14" text-anchor="middle" fill="white" font-weight="bold">m(t)</text>
+  
+  <!-- Vapor condensándose -->
+  <path d="M 250 580 Q 230 570 220 560" stroke="#9c27b0" stroke-width="2" fill="none" marker-end="url(#arrowpurple)"/>
+  <path d="M 340 580 Q 360 570 370 560" stroke="#9c27b0" stroke-width="2" fill="none" marker-end="url(#arrowpurple)"/>
+  <text x="300" y="550" font-size="12" text-anchor="middle" fill="#9c27b0">Vapor (u = 0)</text>
+  
+  <!-- Crecimiento del radio -->
+  <path d="M 300 560 A 40 40 0 0 1 340 600" stroke="#ff9800" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <text x="350" y="580" font-size="12" fill="#ff9800">dr/dt = k</text>
+  
+  <!-- Ecuación diferencial -->
+  <rect x="50" y="650" width="500" height="80" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="300" y="680" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">d(mv)/dt = mg + ṁ·u</text>
+  <text x="300" y="710" font-size="12" text-anchor="middle" fill="#666">Como u = 0 (vapor en reposo): dv/dt = g - (ṁ/m)v</text>
+  
+  <!-- Solución -->
+  <rect x="50" y="740" width="500" height="60" fill="#d4edda" stroke="#155724" stroke-width="1" rx="5"/>
+  <text x="300" y="770" font-size="14" text-anchor="middle" fill="#155724" font-weight="bold" font-family="monospace">v(t) = (g/4)t (si parte del reposo)</text>
+  
+  <!-- Panel 4: Cadena sobre balanza -->
+  <rect x="620" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Cadena cayendo sobre balanza
+  </text>
+  
+  <!-- Balanza -->
+  <rect x="750" y="650" width="200" height="20" fill="#795548" opacity="0.8"/>
+  <rect x="770" y="670" width="40" height="60" fill="#795548" opacity="0.6"/>
+  <rect x="890" y="670" width="40" height="60" fill="#795548" opacity="0.6"/>
+  <text x="850" y="760" font-size="14" text-anchor="middle" fill="#333">Balanza</text>
+  
+  <!-- Cadena cayendo -->
+  <line x1="850" y1="480" x2="850" y2="650" stroke="#333" stroke-width="4"/>
+  <text x="870" y="560" font-size="14" fill="#333">Cadena</text>
+  <text x="870" y="585" font-size="12" fill="#666">(masa variable)</text>
+  
+  <!-- Fuerza en la balanza -->
+  <rect x="650" y="780" width="510" height="80" fill="#fff3cd" stroke="#ff9800" stroke-width="1" rx="5"/>
+  <text x="905" y="810" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">
+    Fuerza en balanza:
+  </text>
+  <text x="905" y="840" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">F = mg + ṁ·v = 3mg</text>
+  <text x="905" y="865" font-size="12" text-anchor="middle" fill="#666">(El impacto duplica el peso)</text>
+  
+  <!-- Definiciones de flechas -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff9800"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9c27b0"/>
+    </marker>
+    <marker id="arrowdeeporange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff5722"/>
+    </marker>
+    <marker id="arrowblack" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

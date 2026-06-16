@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Fondo -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+
+  <!-- Título -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Cómo Plantear Condiciones Iniciales
+  </text>
+
+  <!-- Subtítulo -->
+  <text x="600" y="68" font-size="14" text-anchor="middle" fill="#666" font-style="italic">
+    La condición inicial "fija" la solución particular. Para una EDO de orden n, se necesitan n condiciones.
+  </text>
+
+  <!-- Panel 1: Tres lanzamientos verticales -->
+  <rect x="20" y="90" width="380" height="430" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="210" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Caso A: "Lanzado hacia arriba"
+  </text>
+
+  <!-- Eje vertical -->
+  <line x1="200" y1="170" x2="200" y2="450" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Posición inicial (suelo) -->
+  <line x1="120" y1="450" x2="280" y2="450" stroke="#795548" stroke-width="3"/>
+  <text x="290" y="455" font-size="11" fill="#795548">suelo</text>
+
+  <!-- Pelota en el origen -->
+  <circle cx="200" cy="450" r="15" fill="#f44336"/>
+  <text x="200" y="455" font-size="11" text-anchor="middle" fill="white">m</text>
+
+  <!-- Vector velocidad inicial (hacia arriba) -->
+  <line x1="200" y1="450" x2="200" y2="380" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="210" y="420" font-size="12" fill="#4caf50" font-weight="bold">v₀ = 20 m/s ↑</text>
+
+  <!-- Curva de trayectoria -->
+  <path d="M 200 450 Q 200 350 200 280 Q 200 380 200 450" fill="none" stroke="#ff9800" stroke-width="2" stroke-dasharray="4,2"/>
+
+  <!-- Condiciones -->
+  <rect x="40" y="480" width="340" height="35" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="210" y="503" font-size="12" text-anchor="middle" fill="#333" font-family="monospace">
+    y(0) = 0,   ẏ(0) = +20 m/s
+  </text>
+
+  <!-- Solución -->
+  <text x="210" y="538" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Solución: y(t) = 20t − ½gt²</text>
+  <text x="210" y="555" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Altura máx: t* = v₀/g ≈ 2.04 s</text>
+  <text x="210" y="572" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Vuelve al suelo: t = 2·v₀/g ≈ 4.08 s</text>
+  <text x="210" y="589" font-size="11" text-anchor="middle" fill="#666" font-style="italic">(2 condiciones para EDO de 2° orden ✓)</text>
+
+  <!-- Panel 2: Caso B: "Soltado desde altura h" -->
+  <rect x="410" y="90" width="380" height="430" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="600" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Caso B: "Soltado desde altura h"
+  </text>
+
+  <!-- Eje vertical -->
+  <line x1="590" y1="170" x2="590" y2="450" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Suelo -->
+  <line x1="510" y1="450" x2="670" y2="450" stroke="#795548" stroke-width="3"/>
+  <text x="680" y="455" font-size="11" fill="#795548">suelo</text>
+
+  <!-- Altura h -->
+  <line x1="540" y1="450" x2="540" y2="280" stroke="#9c27b0" stroke-width="2" marker-end="url(#arrowpurple)"/>
+  <line x1="540" y1="280" x2="565" y2="280" stroke="#9c27b0" stroke-width="2" marker-end="url(#arrowpurple)"/>
+  <text x="525" y="370" font-size="12" fill="#9c27b0" font-weight="bold">h</text>
+
+  <!-- Pelota arriba -->
+  <circle cx="590" cy="280" r="15" fill="#2196f3"/>
+  <text x="590" y="285" font-size="11" text-anchor="middle" fill="white">m</text>
+
+  <!-- Sin velocidad inicial -->
+  <text x="640" y="285" font-size="12" fill="#666" font-style="italic">"soltado"</text>
+  <text x="640" y="300" font-size="11" fill="#666">v = 0</text>
+
+  <!-- Trayectoria -->
+  <line x1="590" y1="280" x2="590" y2="450" stroke="#ff9800" stroke-width="2" stroke-dasharray="4,2"/>
+
+  <!-- Condiciones -->
+  <rect x="430" y="480" width="340" height="35" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="600" y="503" font-size="12" text-anchor="middle" fill="#333" font-family="monospace">
+    y(0) = h,   ẏ(0) = 0
+  </text>
+
+  <!-- Solución -->
+  <text x="600" y="538" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Solución: y(t) = h − ½gt²</text>
+  <text x="600" y="555" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Llega al suelo: t_f = √(2h/g)</text>
+  <text x="600" y="572" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Velocidad final: v_f = −√(2gh)</text>
+  <text x="600" y="589" font-size="11" text-anchor="middle" fill="#666" font-style="italic">(2 condiciones ✓)</text>
+
+  <!-- Panel 3: Caso C: Velocidad terminal alcanzada -->
+  <rect x="800" y="90" width="380" height="430" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="990" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Caso C: "Velocidad terminal"
+  </text>
+
+  <!-- Esfera con gotita cayendo -->
+  <line x1="990" y1="170" x2="990" y2="450" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Resistencia del aire (flechas hacia arriba) -->
+  <line x1="950" y1="320" x2="970" y2="320" stroke="#9c27b0" stroke-width="2" marker-end="url(#arrowpurple)"/>
+  <text x="900" y="320" font-size="11" fill="#9c27b0">F_resist</text>
+  <text x="900" y="335" font-size="10" fill="#9c27b0">= kv²</text>
+
+  <!-- Peso -->
+  <line x1="990" y1="320" x2="990" y2="370" stroke="#f44336" stroke-width="2" marker-end="url(#arrowred)"/>
+  <text x="1000" y="350" font-size="11" fill="#f44336">mg</text>
+
+  <!-- Partícula en v_t -->
+  <circle cx="990" cy="320" r="18" fill="#0288d1"/>
+  <text x="990" y="325" font-size="11" text-anchor="middle" fill="white">m</text>
+
+  <!-- Vector velocidad (hacia abajo, magnitud v_t) -->
+  <line x1="990" y1="338" x2="990" y2="395" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="1000" y="380" font-size="12" fill="#4caf50" font-weight="bold">v_t</text>
+
+  <!-- Condiciones -->
+  <rect x="820" y="480" width="340" height="35" fill="#fff3e0" stroke="#ff9800" stroke-width="1" rx="5"/>
+  <text x="990" y="503" font-size="12" text-anchor="middle" fill="#333" font-family="monospace">
+    v(0) = v_t,   v̇(0) = 0
+  </text>
+
+  <!-- Solución -->
+  <text x="990" y="538" font-size="11" text-anchor="middle" fill="#666" font-style="italic">v_t = √(mg/k)</text>
+  <text x="990" y="555" font-size="11" text-anchor="middle" fill="#666" font-style="italic">Régimen permanente: v̇ = 0</text>
+  <text x="990" y="572" font-size="11" text-anchor="middle" fill="#666" font-style="italic">No hay oscilación, equilibrio</text>
+  <text x="990" y="589" font-size="11" text-anchor="middle" fill="#666" font-style="italic">de fuerzas.</text>
+
+  <!-- Panel inferior: tabla resumen -->
+  <rect x="20" y="545" width="1160" height="235" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="600" y="575" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Tabla resumen: Expresiones del problema → Condiciones
+  </text>
+
+  <!-- Cabecera de tabla -->
+  <g transform="translate(50, 595)">
+    <rect x="0" y="0" width="1100" height="30" fill="#1565c0" opacity="0.15" stroke="#1565c0"/>
+    <text x="20" y="20" font-size="13" font-weight="bold" fill="#1565c0">Expresión en el enunciado</text>
+    <text x="450" y="20" font-size="13" font-weight="bold" fill="#1565c0">t = 0 (condiciones)</text>
+    <text x="800" y="20" font-size="13" font-weight="bold" fill="#1565c0">¿Cuántas?</text>
+
+    <line x1="0" y1="35" x2="1100" y2="35" stroke="#1565c0" stroke-width="0.5"/>
+    <text x="20" y="55" font-size="12" fill="#333">"desde el reposo"</text>
+    <text x="450" y="55" font-size="12" font-family="monospace" fill="#333">v(0) = 0</text>
+    <text x="800" y="55" font-size="12" fill="#666">1 condición</text>
+
+    <line x1="0" y1="65" x2="1100" y2="65" stroke="#ccc" stroke-width="0.5"/>
+    <text x="20" y="85" font-size="12" fill="#333">"lanzado con velocidad v₀"</text>
+    <text x="450" y="85" font-size="12" font-family="monospace" fill="#333">v(0) = v₀ (con signo)</text>
+    <text x="800" y="85" font-size="12" fill="#666">1 condición (sobre v)</text>
+
+    <line x1="0" y1="95" x2="1100" y2="95" stroke="#ccc" stroke-width="0.5"/>
+    <text x="20" y="115" font-size="12" fill="#333">"en el origen" / "posición x₀"</text>
+    <text x="450" y="115" font-size="12" font-family="monospace" fill="#333">x(0) = 0 o x(0) = x₀</text>
+    <text x="800" y="115" font-size="12" fill="#666">1 condición (sobre x)</text>
+
+    <line x1="0" y1="125" x2="1100" y2="125" stroke="#ccc" stroke-width="0.5"/>
+    <text x="20" y="145" font-size="12" fill="#333">"comienza a caer"</text>
+    <text x="450" y="145" font-size="12" font-family="monospace" fill="#333">v(0) = 0, y(0) = h</text>
+    <text x="800" y="145" font-size="12" fill="#666">2 condiciones</text>
+
+    <line x1="0" y1="155" x2="1100" y2="155" stroke="#ccc" stroke-width="0.5"/>
+    <text x="20" y="175" font-size="12" fill="#333">"velocidad terminal alcanzada"</text>
+    <text x="450" y="175" font-size="12" font-family="monospace" fill="#333">v(0) = v_t, v̇(0) = 0</text>
+    <text x="800" y="175" font-size="12" fill="#666">2 condiciones</text>
+  </g>
+
+  <!-- Regla mnemotécnica -->
+  <text x="600" y="765" font-size="12" text-anchor="middle" fill="#1565c0" font-weight="bold">
+    📌 Regla: EDO de orden n ⟹ necesitas n condiciones iniciales independientes
+  </text>
+
+  <!-- Defs -->
+  <defs>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9c27b0"/>
+    </marker>
+  </defs>
+</svg>

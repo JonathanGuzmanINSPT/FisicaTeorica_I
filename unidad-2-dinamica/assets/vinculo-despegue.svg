@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Fondo -->
+  <rect width="1200" height="900" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Fuerzas de Vínculo y Problemas de Despegue
+  </text>
+  
+  <!-- Panel 1: Esfera lisa - Problema clásico -->
+  <rect x="20" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Esfera Lisa — Despegue (θ = arccos(2/3))
+  </text>
+  
+  <!-- Esfera -->
+  <circle cx="300" cy="300" r="120" fill="none" stroke="#333" stroke-width="3"/>
+  
+  <!-- Partícula en ángulo θ -->
+  <circle cx="300" cy="180" r="20" fill="#2196f3" opacity="0.8"/>
+  <text x="300" y="185" font-size="12" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  
+  <!-- Ángulo θ -->
+  <path d="M 300 180 A 30 30 0 0 1 325 165" stroke="#f44336" stroke-width="2" fill="none"/>
+  <text x="330" y="160" font-size="14" fill="#f44336">θ</text>
+  
+  <!-- Fuerzas -->
+  <!-- Peso -->
+  <line x1="300" y1="200" x2="300" y2="260" stroke="#f44336" stroke-width="3" marker-end="url(#arrowred)"/>
+  <text x="315" y="240" font-size="12" fill="#f44336">mg</text>
+  
+  <!-- Componente del peso -->
+  <line x1="300" y1="200" x2="365" y2="200" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arroworange)"/>
+  <text x="370" y="195" font-size="10" fill="#ff9800">mg sinθ</text>
+  
+  <line x1="300" y1="200" x2="260" y2="150" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arroworange)"/>
+  <text x="230" y="140" font-size="10" fill="#ff9800">mg cosθ</text>
+  
+  <!-- Normal -->
+  <line x1="300" y1="180" x2="260" y2="230" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="235" y="225" font-size="12" fill="#4caf50">N</text>
+  
+  <!-- Centro de la esfera -->
+  <circle cx="300" cy="300" r="5" fill="#333"/>
+  <text x="315" y="315" font-size="12" fill="#333">Centro</text>
+  
+  <!-- Ecuación de despegue -->
+  <rect x="50" y="430" width="500" height="80" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="300" y="460" font-size="16" text-anchor="middle" fill="#1565c0" font-weight="bold">Condición de despegue:</text>
+  <text x="300" y="490" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">N = mg cosθ - m(v²/b) = 0</text>
+  
+  <!-- Panel 2: Conservación de energía -->
+  <rect x="620" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Conservación de Energía Mecánica
+  </text>
+  
+  <!-- Diagrama de energías -->
+  <!-- Energía potencial -->
+  <path d="M 650 150 L 1150 150 L 1150 300 L 650 300 Z" fill="#fff3cd" stroke="#ff9800" stroke-width="2"/>
+  <text x="900" y="230" font-size="16" text-anchor="middle" fill="#ff9800" font-weight="bold">U = mgh</text>
+  
+  <!-- Energía cinética -->
+  <path d="M 650 350 L 1150 350 L 1150 500 L 650 500 Z" fill="#d4edda" stroke="#155724" stroke-width="2"/>
+  <text x="900" y="430" font-size="16" text-anchor="middle" fill="#155724" font-weight="bold">K = ½mv²</text>
+  
+  <!-- Igualdad -->
+  <text x="900" y="540" font-size="20" text-anchor="middle" fill="#1565c0" font-weight="bold">E_m = K + U = cte</text>
+  
+  <!-- Aplicación al despegue -->
+  <rect x="650" y="570" width="510" height="80" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="905" y="600" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">mgb = ½mv² + mgb cosθ</text>
+  <text x="905" y="630" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">v² = 2gb(1 - cosθ)</text>
+  
+  <!-- Panel 3: Método general -->
+  <rect x="20" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Método General para Despegue
+  </text>
+  
+  <!-- Pasos numerados -->
+  <circle cx="60" cy="570" r="20" fill="#1565c0"/>
+  <text x="60" y="577" font-size="16" text-anchor="middle" fill="white" font-weight="bold">1</text>
+  <text x="90" y="577" font-size="14" fill="#333">Identificar la fuerza de vínculo (N, T, etc.)</text>
+  
+  <circle cx="60" cy="630" r="20" fill="#1565c0"/>
+  <text x="60" y="637" font-size="16" text-anchor="middle" fill="white" font-weight="bold">2</text>
+  <text x="90" y="637" font-size="14" fill="#333">Escribir ΣF en la dirección del vínculo</text>
+  
+  <circle cx="60" cy="690" r="20" fill="#1565c0"/>
+  <text x="60" y="697" font-size="16" text-anchor="middle" fill="white" font-weight="bold">3</text>
+  <text x="90" y="697" font-size="14" fill="#333">Usar conservación de energía: ½mv² + U = cte</text>
+  
+  <circle cx="60" cy="750" r="20" fill="#1565c0"/>
+  <text x="60" y="757" font-size="16" text-anchor="middle" fill="white" font-weight="bold">4</text>
+  <text x="90" y="757" font-size="14" fill="#333">Imponer N = 0 (condición de despegue)</text>
+  
+  <circle cx="60" cy="810" r="20" fill="#1565c0"/>
+  <text x="60" y="817" font-size="16" text-anchor="middle" fill="white" font-weight="bold">5</text>
+  <text x="90" y="817" font-size="14" fill="#333">Resolver para la posición (θ, h, x, etc.)</text>
+  
+  <!-- Ejemplo: péndulo -->
+  <text x="300" y="870" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">Ejemplo: Péndulo de hilo</text>
+  <text x="300" y="895" font-size="12" text-anchor="middle" fill="#666">Despegue cuando T = 0 → cosθ = 2/3 (igual que esfera)</text>
+  
+  <!-- Panel 4: Otros problemas de vínculo -->
+  <rect x="620" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Otros Problemas de Vínculo
+  </text>
+  
+  <!-- Anillo en alambre -->
+  <circle cx="750" cy="600" r="40" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="750" cy="600" r="15" fill="#2196f3" opacity="0.8"/>
+  <text x="750" y="605" font-size="10" text-anchor="middle" fill="white">m</text>
+  <text x="750" y="660" font-size="14" text-anchor="middle" fill="#333">Anillo en alambre</text>
+  <text x="750" y="680" font-size="12" text-anchor="middle" fill="#666">N = 0 → se suelta</text>
+  
+  <!-- Bloque en superficie curva -->
+  <path d="M 950 580 Q 1000 620 1050 580" stroke="#333" stroke-width="2" fill="none"/>
+  <rect x="1020" y="570" width="30" height="20" fill="#2196f3" opacity="0.8"/>
+  <text x="1035" y="584" font-size="10" text-anchor="middle" fill="white">m</text>
+  <text x="1050" y="660" font-size="14" text-anchor="middle" fill="#333">Bloque en curva</text>
+  <text x="1050" y="680" font-size="12" text-anchor="middle" fill="#666">N = mg - mv²/R</text>
+  
+  <!-- Resorte con masa -->
+  <line x1="850" y1="750" x2="950" y2="750" stroke="#333" stroke-width="2"/>
+  <line x1="850" y1="740" x2="850" y2="760" stroke="#333" stroke-width="3"/>
+  <circle cx="950" cy="750" r="20" fill="#2196f3" opacity="0.8"/>
+  <text x="950" y="755" font-size="10" text-anchor="middle" fill="white">m</text>
+  <text x="900" y="790" font-size="14" text-anchor="middle" fill="#333">Masa en resorte</text>
+  <text x="900" y="810" font-size="12" text-anchor="middle" fill="#666">Vínculo: fuerza elástica</text>
+  
+  <!-- Definiciones de flechas -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff9800"/>
+    </marker>
+    <marker id="arrowblack" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

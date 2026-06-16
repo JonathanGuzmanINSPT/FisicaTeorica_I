@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Fondo -->
+  <rect width="1200" height="900" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Fuerza de Lorentz y Movimiento en Campos
+  </text>
+  
+  <!-- Panel 1: Fuerza de Lorentz -->
+  <rect x="20" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Fuerza de Lorentz: F = q(E + v × B)
+  </text>
+  
+  <!-- Partícula cargada -->
+  <circle cx="300" cy="200" r="30" fill="#2196f3" opacity="0.8"/>
+  <text x="300" y="207" font-size="14" text-anchor="middle" fill="white" font-weight="bold">q, m</text>
+  
+  <!-- Campo E (hacia arriba) -->
+  <line x1="300" y1="230" x2="300" y2="300" stroke="#f44336" stroke-width="3" marker-end="url(#arrowred)"/>
+  <text x="315" y="270" font-size="14" fill="#f44336">E</text>
+  
+  <!-- Campo B (entrante, -y) -->
+  <ellipse cx="200" cy="200" rx="15" ry="40" fill="none" stroke="#4caf50" stroke-width="2"/>
+  <line x1="200" y1="160" x2="200" y2="240" stroke="#4caf50" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="160" y="200" font-size="14" fill="#4caf50">B (-y)</text>
+  
+  <!-- Velocidad v -->
+  <line x1="270" y1="200" x2="150" y2="200" stroke="#ff9800" stroke-width="3" marker-start="url(#arroworange)"/>
+  <text x="200" y="185" font-size="14" fill="#ff9800">v</text>
+  
+  <!-- Fuerza eléctrica -->
+  <line x1="300" y1="170" x2="300" y2="120" stroke="#e91e63" stroke-width="3" marker-end="url(#arrowpink)"/>
+  <text x="315" y="130" font-size="12" fill="#e91e63">F_E = qE</text>
+  
+  <!-- Fuerza magnética (v × B) -->
+  <line x1="330" y1="200" x2="400" y2="200" stroke="#9c27b0" stroke-width="3" marker-end="url(#arrowpurple)"/>
+  <text x="405" y="195" font-size="12" fill="#9c27b0">F_B = q(v × B)</text>
+  
+  <!-- Producto vectorial -->
+  <rect x="50" y="320" width="500" height="110" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="300" y="350" font-size="16" text-anchor="middle" fill="#1565c0" font-weight="bold">Producto vectorial:</text>
+  <text x="300" y="380" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">v × B = |v||B|sin(θ) n̂</text>
+  <text x="300" y="410" font-size="12" text-anchor="middle" fill="#666">
+    (Perpendicular a v y B, no realiza trabajo)
+  </text>
+  
+  <!-- Panel 2: Movimiento en campos cruzados -->
+  <rect x="620" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Movimiento en campos cruzados (E ⊥ B)
+  </text>
+  
+  <!-- Campos y trayectoria -->
+  <!-- Eje z (campo E) -->
+  <line x1="900" y1="200" x2="900" y2="350" stroke="#f44336" stroke-width="3" marker-end="url(#arrowred)"/>
+  <text x="915" y="280" font-size="14" fill="#f44336">E (z)</text>
+  
+  <!-- Eje y (campo B entrante) -->
+  <ellipse cx="800" cy="275" rx="10" ry="30" fill="none" stroke="#4caf50" stroke-width="2"/>
+  <text x="770" y="275" font-size="14" fill="#4caf50">B (-y)</text>
+  
+  <!-- Trayectoria cicloide -->
+  <path d="M 850 275 Q 900 250 950 275 Q 1000 300 950 325 Q 900 350 850 325 Q 800 300 850 275" 
+        stroke="#2196f3" stroke-width="3" fill="none"/>
+  <text x="1000" y="310" font-size="12" fill="#2196f3">Cicloide</text>
+  
+  <!-- Velocidad de deriva -->
+  <line x1="850" y1="275" x2="1000" y2="275" stroke="#ff9800" stroke-width="3" marker-end="url(#arroworange)"/>
+  <text x="920" y="260" font-size="12" fill="#ff9800">v_deriva = E/B</text>
+  
+  <!-- Ecuaciones -->
+  <rect x="650" y="380" width="510" height="60" fill="#fff3cd" stroke="#ff9800" stroke-width="1" rx="5"/>
+  <text x="905" y="405" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">x(t) = (E/B)(t - (1/ω_c)sin(ω_c t))</text>
+  <text x="905" y="430" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">z(t) = (E/(Bω_c))(1 - cos(ω_c t))</text>
+  
+  <!-- Panel 3: Movimiento en campo magnético uniforme -->
+  <rect x="20" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Movimiento en campo B uniforme (E = 0)
+  </text>
+  
+  <!-- Campo B entrante (perpendicular al papel) -->
+  <circle cx="300" cy="650" r="80" fill="none" stroke="#4caf50" stroke-width="3"/>
+  <text x="300" y="655" font-size="14" text-anchor="middle" fill="#4caf50" font-weight="bold">B</text>
+  <text x="300" y="675" font-size="12" text-anchor="middle" fill="#4caf50">(entrante)</text>
+  
+  <!-- Trayectoria circular -->
+  <circle cx="300" cy="650" r="50" fill="none" stroke="#2196f3" stroke-width="3"/>
+  <circle cx="300" cy="650" r="5" fill="#2196f3"/>
+  
+  <!-- Velocidad tangencial -->
+  <line x1="350" y1="650" x2="380" y2="620" stroke="#ff9800" stroke-width="3" marker-end="url(#arroworange)"/>
+  <text x="385" y="615" font-size="12" fill="#ff9800">v</text>
+  
+  <!-- Fuerza magnética (centrípeta) -->
+  <line x1="350" y1="650" x2="300" y2="650" stroke="#9c27b0" stroke-width="3" marker-start="url(#arrowpurple)"/>
+  <text x="315" y="640" font-size="12" fill="#9c27b0">F_B</text>
+  
+  <!-- Radio de la trayectoria -->
+  <line x1="300" y1="650" x2="350" y2="650" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="320" y="670" font-size="14" fill="#333">R = mv/(qB)</text>
+  
+  <!-- Panel 4: Espectrómetro de masas -->
+  <rect x="620" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Aplicación: Espectrómetro de masas
+  </text>
+  
+  <!-- Esquema del espectrómetro -->
+  <!-- Fuente -->
+  <rect x="650" y="600" width="40" height="60" fill="#795548" opacity="0.8"/>
+  <text x="670" y="635" font-size="12" text-anchor="middle" fill="white">Fuente</text>
+  
+  <!-- Aceleración -->
+  <line x1="690" y1="630" x2="750" y2="630" stroke="#f44336" stroke-width="2" marker-end="url(#arrowred)"/>
+  <text x="720" y="620" font-size="12" fill="#f44336">E_acel</text>
+  
+  <!-- Campo magnético -->
+  <circle cx="850" cy="630" r="40" fill="none" stroke="#4caf50" stroke-width="2"/>
+  <text x="850" y="635" font-size="12" text-anchor="middle" fill="#4caf50">B</text>
+  
+  <!-- Trayectoria circular -->
+  <path d="M 750 630 A 80 80 0 0 1 910 630" stroke="#2196f3" stroke-width="3" fill="none"/>
+  
+  <!-- Detector -->
+  <line x1="910" y1="550" x2="910" y2="710" stroke="#333" stroke-width="4"/>
+  <text x="920" y="630" font-size="12" fill="#333">Detector</text>
+  
+  <!-- Diferencia de masas -->
+  <text x="850" y="750" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">
+    Diferentes masas → Diferentes radios
+  </text>
+  <text x="850" y="780" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">R = mv/(qB) ∝ √m</text>
+  <text x="850" y="810" font-size="12" text-anchor="middle" fill="#666">
+    (Útil para separar isótopos)
+  </text>
+  
+  <!-- Definiciones de flechas -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff9800"/>
+    </marker>
+    <marker id="arrowpurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9c27b0"/>
+    </marker>
+    <marker id="arrowpink" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e91e63"/>
+    </marker>
+    <marker id="arrowblack" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

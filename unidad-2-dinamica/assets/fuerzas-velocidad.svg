@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Fondo -->
+  <rect width="1200" height="900" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Fuerzas Dependientes de la Velocidad
+  </text>
+  
+  <!-- Panel 1: Fuerza resistente lineal (F = -kv) -->
+  <rect x="20" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Caso 1: Fuerza lineal F = -kv
+  </text>
+  
+  <!-- Partícula con resistencia -->
+  <circle cx="150" cy="200" r="25" fill="#2196f3" opacity="0.8"/>
+  <text x="150" y="207" font-size="14" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  
+  <!-- Velocidad -->
+  <line x1="175" y1="200" x2="250" y2="200" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="255" y="195" font-size="14" fill="#4caf50">v</text>
+  
+  <!-- Fuerza resistente -->
+  <line x1="125" y1="200" x2="50" y2="200" stroke="#f44336" stroke-width="3" marker-start="url(#arrowred)"/>
+  <text x="20" y="195" font-size="14" fill="#f44336">F = -kv</text>
+  
+  <!-- Ecuación diferencial -->
+  <rect x="50" y="250" width="500" height="80" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="300" y="280" font-size="16" text-anchor="middle" fill="#333" font-family="monospace">m·dv/dt = -kv</text>
+  <text x="300" y="310" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">dv/v = -(k/m)·dt</text>
+  
+  <!-- Solución v(t) -->
+  <rect x="50" y="350" width="500" height="80" fill="#d4edda" stroke="#155724" stroke-width="1" rx="5"/>
+  <text x="300" y="380" font-size="16" text-anchor="middle" fill="#155724" font-weight="bold">Solución:</text>
+  <text x="300" y="410" font-size="14" text-anchor="middle" fill="#155724" font-family="monospace">v(t) = v₀·e^(-(k/m)t)</text>
+  
+  <!-- Gráfico v(t) -->
+  <rect x="620" y="70" width="560" height="380" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="100" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Gráficos v(t) y x(t)
+  </text>
+  
+  <!-- Eje y (v) -->
+  <line x1="680" y1="200" x2="680" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="665" y="195" font-size="12" fill="#333">v</text>
+  
+  <!-- Eje x (t) -->
+  <line x1="680" y1="400" x2="1050" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="1060" y="405" font-size="12" fill="#333">t</text>
+  
+  <!-- Curva v(t) exponencial -->
+  <path d="M 680 250 Q 750 280 850 350 L 850 400" stroke="#f44336" stroke-width="3" fill="none"/>
+  <path d="M 850 350 Q 950 380 1050 395" stroke="#f44336" stroke-width="3" fill="none"/>
+  <text x="900" y="330" font-size="12" fill="#f44336">v(t) = v₀·e^(-kt/m)</text>
+  
+  <!-- Eje y (x) -->
+  <line x1="680" y1="430" x2="680" y2="630" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="665" y="425" font-size="12" fill="#333">x</text>
+  
+  <!-- Eje x (t) para x(t) -->
+  <line x1="680" y1="630" x2="1050" y2="630" stroke="#333" stroke-width="2" marker-end="url(#arrowblack)"/>
+  <text x="1060" y="635" font-size="12" fill="#333">t</text>
+  
+  <!-- Curva x(t) asintótica -->
+  <path d="M 680 600 Q 780 580 880 560 L 880 630" stroke="#4caf50" stroke-width="3" fill="none"/>
+  <path d="M 880 560 Q 980 545 1050 540" stroke="#4caf50" stroke-width="3" fill="none"/>
+  <line x1="680" y1="530" x2="1050" y2="530" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="900" y="520" font-size="12" fill="#ff9800">x∞ = mv₀/k</text>
+  <text x="900" y="570" font-size="12" fill="#4caf50">x(t) = (mv₀/k)·(1 - e^(-kt/m))</text>
+  
+  <!-- Panel 2: Fuerza resistente cuadrática (F = -kv²) -->
+  <rect x="20" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="300" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Caso 2: Fuerza cuadrática F = -kv²
+  </text>
+  
+  <!-- Partícula con resistencia cuadrática -->
+  <circle cx="150" cy="600" r="25" fill="#2196f3" opacity="0.8"/>
+  <text x="150" y="607" font-size="14" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  
+  <!-- Velocidad -->
+  <line x1="175" y1="600" x2="250" y2="600" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowgreen)"/>
+  <text x="255" y="595" font-size="14" fill="#4caf50">v</text>
+  
+  <!-- Fuerza resistente cuadrática -->
+  <line x1="125" y1="600" x2="50" y2="600" stroke="#f44336" stroke-width="3" marker-start="url(#arrowred)"/>
+  <text x="10" y="595" font-size="14" fill="#f44336">F = -kv²</text>
+  
+  <!-- Ecuación diferencial -->
+  <rect x="50" y="650" width="500" height="80" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" rx="5"/>
+  <text x="300" y="680" font-size="16" text-anchor="middle" fill="#333" font-family="monospace">m·dv/dt = -kv²</text>
+  <text x="300" y="710" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">dv/v² = -(k/m)·dt</text>
+  
+  <!-- Solución v(t) -->
+  <rect x="50" y="750" width="500" height="110" fill="#d4edda" stroke="#155724" stroke-width="1" rx="5"/>
+  <text x="300" y="780" font-size="16" text-anchor="middle" fill="#155724" font-weight="bold">Solución:</text>
+  <text x="300" y="810" font-size="14" text-anchor="middle" fill="#155724" font-family="monospace">v(t) = v₀/(1 + (kv₀/m)·t)</text>
+  <text x="300" y="840" font-size="12" text-anchor="middle" fill="#666">
+    (Decae como 1/t, más lento que caso lineal)
+  </text>
+  
+  <!-- Panel 3: Comparación y velocidad terminal -->
+  <rect x="620" y="480" width="560" height="400" fill="white" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="900" y="510" font-size="20" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Velocidad Terminal y Comparación
+  </text>
+  
+  <!-- Diagrama de fuerzas en caída -->
+  <circle cx="750" cy="600" r="30" fill="#2196f3" opacity="0.8"/>
+  <text x="750" y="607" font-size="14" text-anchor="middle" fill="white" font-weight="bold">m</text>
+  
+  <!-- Peso hacia abajo -->
+  <line x1="750" y1="630" x2="750" y2="680" stroke="#333" stroke-width="3" marker-end="url(#arrowblack)"/>
+  <text x="765" y="670" font-size="14" fill="#333">mg</text>
+  
+  <!-- Resistencia hacia arriba -->
+  <line x1="750" y1="570" x2="750" y2="520" stroke="#f44336" stroke-width="3" marker-end="url(#arrowred)"/>
+  <text x="765" y="525" font-size="14" fill="#f44336">F_res</text>
+  
+  <!-- Condición de velo terminal -->
+  <rect x="650" y="700" width="500" height="150" fill="#fff3cd" stroke="#ff9800" stroke-width="1" rx="5"/>
+  <text x="900" y="730" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">
+    Velocidad Terminal (v_t):
+  </text>
+  <text x="900" y="760" font-size="14" text-anchor="middle" fill="#333" font-family="monospace">mg = k·v_t²  →  v_t = √(mg/k)</text>
+  <text x="900" y="790" font-size="12" text-anchor="middle" fill="#666">
+    (Cuando la fuerza neta es cero, a = 0)
+  </text>
+  <text x="900" y="820" font-size="12" text-anchor="middle" fill="#666">
+    En aire: resistencia ∝ v² (caso cuadrático)
+  </text>
+  
+  <!-- Definiciones de flechas -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2196f3"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+    <marker id="arroworange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff9800"/>
+    </marker>
+    <marker id="arrowblack" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
