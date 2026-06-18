@@ -1,0 +1,37 @@
+<svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Wheel outline -->
+  <circle cx="130" cy="100" r="80" stroke="black" stroke-width="2" fill="none"/>
+  <!-- Center -->
+  <circle cx="130" cy="100" r="4" fill="black"/>
+  <!-- Point P on rim (angle 5π/3) -->
+  <circle cx="170" cy="31" r="5" fill="red"/>
+  <text x="176" y="35" font-size="12" fill="red">P</text>
+  <!-- Radius vector (center to P) -->
+  <line x1="130" y1="100" x2="170" y2="31" stroke="gray" stroke-dasharray="4,2"/>
+  <!-- Velocity vector (tangent, direction of motion) -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="green"/>
+    </marker>
+  </defs>
+  <line x1="170" y1="31" x2="200" y2="56" stroke="green" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="195" y="59" font-size="12" fill="green">v</text>
+  <!-- Tangential acceleration (opposite to motion) -->
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="red"/>
+    </marker>
+  </defs>
+  <line x1="170" y1="31" x2="140" y2="20" stroke="red" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="150" y="23" font-size="12" fill="red">a_t</text>
+  <!-- Normal acceleration (toward center) -->
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="blue"/>
+    </marker>
+  </defs>
+  <line x1="170" y1="31" x2="130" y2="100" stroke="blue" stroke-width="2" marker-end="url(#arrow3)"/>
+  <text x="150" y="70" font-size="12" fill="blue">a_n</text>
+  <!-- Labels -->
+  <text x="130" y="15" font-size="14" fill="black" text-anchor="middle">Volante (radio 1.20 m)</text>
+</svg>

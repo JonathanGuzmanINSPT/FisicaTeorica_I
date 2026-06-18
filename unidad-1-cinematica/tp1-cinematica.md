@@ -25,12 +25,12 @@ Los badges debajo de cada ejercicio indican concepto, dificultad y tiempo orient
 | Preguntas Teóricas | 4 | 1 | 0 | 25% |
 | Cinemática 1D | 5 | 5 | 0 | 100% |
 | Movimiento Plano (Cartesianas) | 1 | 1 | 0 | 100% |
-| Coordenadas Polares | 3 | 1 | 0 | 33.3% |
-| Análisis de Movimiento 2D | 2 | 1 | 0 | 50% |
-| Rotación Rígida y Cinemática Angular | 3 | 1 | 0 | 33.3% |
+| Coordenadas Polares | 3 | 3 | 0 | 100% |
+| Análisis de Movimiento 2D | 2 | 2 | 0 | 100% |
+| Rotación Rígida y Cinemática Angular | 3 | 0 | 0 | 0% |
 | Coordenadas Cilíndricas y Esféricas | 3 | 0 | 0 | 0% |
 | Movimiento Complejo 3D | 5 | 0 | 0 | 0% |
-| **Total** | **26** | **10** | **0** | **38.5%** |
+| **Total** | **26** | **11** | **0** | **42.3%** |
 
 ---
 
@@ -348,7 +348,7 @@ La Tierra rota uniformemente con respecto a su eje. Calcular la velocidad y la a
 
 <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-left: 4px solid #1565c0; border-radius: 4px; display: flex; align-items: center; gap: 10px;">
   <strong style="font-size: 0.95em;">Estado:</strong>
-  <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
+  <input type="checkbox" checked style="width: 18px; height: 18px; cursor: pointer; accent-color: #1565c0;" />
   <a href="ejercicio-14-solucion.md" style="margin-left: 12px; text-decoration: none; background: #e8eaf6; color: #3f51b5; padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">📖 Ver solución</a>
 </div>
 

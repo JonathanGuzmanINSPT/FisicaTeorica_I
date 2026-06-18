@@ -31,6 +31,14 @@ Un volante cuyo diámetro es $2{,}40\,\text{m}$ tiene una velocidad angular que 
 
 *Figura 1: Volante de radio $R$ girando con velocidad angular $\dot{\phi}(t)$. Sobre el borde se muestran la aceleración tangencial $\vec{a}_t$ (en la dirección de $\hat{e}_\phi$, frenando) y la aceleración normal $\vec{a}_n$ (hacia el centro, en dirección $-\hat{e}_r$).*
 
+<div align="center">
+<img src="assets/ejercicio-14-diagram.svg" alt="Descomposición de aceleración tangencial y normal en el volante" width="70%"/>
+</div>
+
+*Figura 2: Ilustración de la descomposición de la aceleración en su componente tangencial (roja, frenado) y normal (azul, centrípeta) en el instante t = 2 s.*
+
+
+
 ---
 
 ## Resolución
@@ -165,3 +173,11 @@ $$ R\dot{\phi}^2 = 1{,}20 \cdot 27{,}4149 = 32{,}898\ \text{m/s}^2 $$
 El resultado muestra que $a_n \gg a_t$: la aceleración normal (centrípeta) es **unas 10 veces mayor** que la tangencial. Esto es típico de movimientos rotacionales donde la velocidad angular es alta: aunque el volante esté frenando, el cambio de dirección de la velocidad domina sobre el cambio de rapidez.
 
 Para que $a_t$ y $a_n$ fueran comparables, la desaceleración angular tendría que ser mucho más intensa.
+## 📊 Resumen de resultados
+| Magnitud | Expresión | Valor exacto | Aproximado |
+|---|---|---|---|
+| $\alpha$ | $-\frac{5\pi}{6}$ rad/s² | $-\frac{5\pi}{6}$ | $-2.618$ rad/s² |
+| $\dot\phi(2)$ | $\frac{5\pi}{3}$ rad/s | $\frac{5\pi}{3}$ | $5.236$ rad/s |
+| $a_t$ | $R\alpha$ | $-\pi$ m/s² | $-3.14$ m/s² |
+| $a_n$ | $R\dot\phi^2$ | $\frac{10\pi^2}{3}$ m/s² | $32.9$ m/s² |
+| $|\vec a|$ | $\sqrt{a_t^2 + a_n^2}$ | — | $33.0$ m/s² |
