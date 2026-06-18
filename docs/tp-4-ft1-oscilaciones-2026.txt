@@ -1,0 +1,137 @@
+INSPT – UTN ​Física Teórica 1​
+TP 4 Movimiento Oscilatorio
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Prof. Carlos Dibarbora
+
+1- Un cuerpo de 1 kg de masa se cuelga de un resorte de constante elástica 100 N/m. Cuando está en
+equilibrio se lo aparta 20 cm y se lo deja oscilar en forma vertical. Despreciando la masa del resorte y la
+fricción con el aire escribir una ecuación horaria del movimiento.
+2- El desplazamiento de una partícula está dado por la expresión: X(t)= 4m. sen (3π.t + π ) con x en
+metros si t se mide en segundos.
+Determinar: a ) La frecuencia y el período del movimiento.
+b) El desplazamiento en t = 0,25 s.
+3- En el problema anterior determinar la velocidad y la aceleración máxima.
+4- Una partícula sujeta a un resorte vertical se aparta, hacia abajo, 4 cm a partir de la posición de
+equilibrio y se suelta desde el reposo. La aceleración inicial de la partícula hacia arriba es de 0,30 m/s2 .
+a)¿Cuál es el período de las oscilaciones. b) ¿A qué velocidad pasa la partícula por la posición de
+equilibrio? c) ¿Cuál es la ecuación de movimiento de la partícula.
+5- Un sistema masa resorte de constante elástica 50 N/m tiene un MOA sobre una superficie horizontal
+con una amplitud de 12 cm. a) ¿ Cuál es la energía total del sistema? b) ¿ Cuál es la energía cinética
+del sistema cuando el cuerpo está a 9 cm de la posición de equilibrio?
+6- Un péndulo físico tiene un MOA de frecuencia 1,5 Hz. Si el péndulo tiene una masa de 2,2 kg y el
+pivote se localiza a 0,35 m del centro de masa, determinar el momento de inercia.
+7) Un cilindro flota con su eje en posición vertical en un líquido de densidad δ. Se empuja levemente
+hacia abajo y luego se deja libre. Encontrar el período de la oscilación si el cilindro tiene un peso m.g y
+una sección transversal de área A.
+8
+Una viga en voladizo de sección transversal constante está sometida a una carga estática P aplicada en
+su extremo libre B, lo que produce una deflexión dada por:
+δ = (P.L³) / (3.E.I) donde L es la longitud de la viga, E es el módulo de
+elasticidad e I es el momento de inercia del área de la sección
+transversal. Si L = 3.048 m, E = 2.00×10¹¹ Pa e I = 5.16×10⁻⁶ m⁴,
+determine: a) La constante de resorte equivalente de la viga. b) La
+frecuencia de vibración de un bloque de masa m = 236 kg conectado
+al extremo B de la viga. ​
+​
+​
+Rta: k= 1,1.105 N/m f=3,4Hz
+
+7) Una masa rn que se coloca sobre una mesa sin rozamiento
+se acopla a dos resortes fijos en los puntos A y .B, como se
+ilustra. Los resortes tienen igual longitud natural, masas
+despreciables y constantes k1 y k2, respectivamente. La masa
+rn se desplaza horizontalmente y luego se sueltan. Demostrar
+que el período de oscilación está dado por T=2π 𝑚/(𝑘1 + 𝑘2)
+
+8)
+Sea el sistema de la figura donde un punto de masa m se mueve a
+lo largo de un riel horizontal sin rozamiento y se encuentra sujeto a
+un resorte de constante elástica k. La longitud natural del resorte
+(cuando no está comprimido ni estirado) es l_0 con l > l_0.
+Determinar el período para pequeñas oscilaciones en torno a la
+posición de equilibrio estable.
+Rta: T = 2π √[ (m·l) / (k(l - l_0)) ]
+
+9)
+Un alpinista de peso P está unido, por seguridad, a una cuerda amarrada a una distancia L debajo de él.
+Suponga que el alpinista se cae y que la cuerda se comporta como un resorte lineal con longitud sin
+estirar L y constante de resorte k = C / L, donde C es una constante. Use la conservación de la energía
+para determinar la máxima fuerza ejercida por la cuerda sobre él. Observe que la fuerza máxima es
+independiente de L, lo que tranquiliza a los alpinistas: la fuerza máxima que resulta de una caída larga
+es la misma que en una caída corta.
+Rta: P [ 1 + √(1 + 4C/P) ]
+10
+Una pieza de peso W se acopla a un resorte de
+constante k y se desliza sin rozamiento a lo largo de
+una varilla circular, la cual se encuentra en un plano
+horizontal. El resorte está no deformado cuando la
+pieza está en C. Si la pieza se deja en reposo en B,
+determinar su velocidad cuando pase por el punto C si
+L = 3R.
+Rta: v² = 1.261 g·k·R² / W
+11
+Un cuerpo se mueve en una guía rectilínea sujeto a un resorte de constante elástica k y se considera la
+acción de una fuerza resistente de módulo proporcional a la velocidad instantánea (coeficiente de
+proporcionalidad β). Calcular la velocidad de variación de la suma de las energías cinética y potencial
+elástica en función del tiempo. Suponga que se cumple 4mk > β².
+Rta: d(T+V)/dt = -βv² = -(β³ / 4m²) A² ω_1² e^(-βt/m) cos²(ω_1 t + α)
+donde A y α son constantes a determinar con condiciones iniciales y ω_1² = k/m - β²/(4m²).
+12
+Un punto material de masa m se mueve sobre el eje x en un campo de fuerza cuyo potencial es V(x) =
+x²(6 - x). Determinar:
+a) los puntos de equilibrio y clasificarlos
+b) Analizar la estabilidad. Para los puntos de equilibrio estable determinar la frecuencia de pequeñas
+oscilaciones si m = 1.
+Rta: a) x = 0 y x = 4, el primero estable y el segundo inestable.
+b) la frecuencia de oscilación en torno al punto de equilibrio estable es √3 / π
+
+13
+Un punto material de masa m se mueve por un alambre circular liso
+vertical, estando unida a él por un resorte de constante k. La
+longitud natural del resorte es l_0 = R√2 siendo R el radio de la guía
+circular y el otro extremo del resorte está fijo a la parte superior de
+misma. Suponer que kR = 5mg.
+
+la
+
+a) Reducir el movimiento a un movimiento unidimensional
+equivalente, determinando puntos de estabilidad y de retorno.
+b) Determinar el período de pequeñas oscilaciones en torno al
+punto de equilibrio estable sin considerar la acción del campo
+gravitatorio.
+Rta: a) φ_1 = 0 (punto de equilibrio inestable)
+φ_2 = 2 arccos(0.8839) (punto de equilibrio estable)
+b) T² = 8π² m / k
+14- Un cuerpo de masa 0,4 kg se mueve en el extremo de un resorte de constante elástica 300 N/m .
+sometido a la acción de una fuerza amortiguadora F=- 9kg/s.v. ¿Cuál es la frecuencia de oscilación?
+¿Para que valor de la constante el amortiguamiento será crítico?
+15- Un cuerpo de 0,2 kg de masa se mueve en el extremo de un resorte de constante elástica 400 N/m.
+Su desplazamiento inicial es 0,3 m. Una fuerza amortiguadora F=-b.v actúa sobre el cuerpo y la
+amplitud disminuye a 0,1 m en 5 segundos. Calcular la constante de amortiguamiento b.
+
+16) Un collarín de masa 4.08 kg puede deslizarse sin fricción
+sobre una barra horizontal y está conectado a un resorte de
+constante elástica k = 437.8 N/m. Sobre el collarín actúa una
+fuerza periódica de magnitud P = Pm·sen(ωt), donde Pm =
+13.34 N.
+Determine la amplitud del movimiento del collarín si a) ω = 5 rad/s b) ω = 10 rad/s ​
+​
+​
+​
+Rta: 4cm y 44 cm
+
+​
+
+​
+
+

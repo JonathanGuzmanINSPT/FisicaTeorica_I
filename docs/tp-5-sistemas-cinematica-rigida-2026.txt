@@ -1,0 +1,178 @@
+Física Teórica I - INSPT-UTN​​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Prof. Carlos Dibarbora
+
+Este material está compuesto por una guía antigua de la materia utilizada por docentes anteriores, con ejercicios
+agregados del libro de Argüello y de la guía de Física 1 de ingeniería en utn.
+Repaso sistemas materiales.
+1. Una granada que se desplaza a una velocidad de módulo 10 m/s estalló dividiéndose en dos partes. La mayor
+tiene una masa del 60% de la original y siguió moviéndose en la misma dirección y sentido, pero su velocidad
+aumentó a 25 m/s. Hallar la velocidad de la otra parte. Rta: 12 m/s
+2. Un proyectil se dispara desde un cañón con una velocidad de módulo 500 m/s a un ángulo de 60º con la
+horizontal. El proyectil explota en dos fragmentos, de igual masa 50 segundos después de haber abandonado el
+cañón. Uno de los fragmentos, cuya rapidez después de la explosión es cero, cae verticalmente. ¿A qué distancia
+del cañón cae el otro fragmento suponiendo que el terreno está a nivel? rta: 30800m
+3. Un núcleo de 210Bi en reposo sufre un decaimiento beta negativo a 210Po. En cierto decaimiento, el electrón y el
+antineutrino se emiten en direcciones perpendiculares. Los valores de las cantidades de movimiento son 3,6. 10-22
+kg.m/s para el electrón y 5,2.10-22 kg.m/s para el antineutrino. En núcleo de polonio tiene una masa de 3,5.10-25 kg
+. Calcular a) el valor de la cantidad de movimiento del núcleo de retroceso. b) la energía cinética de ese núcleo.
+¿Rta p ≈ 6,3×10⁻²² kg·m/s ; Ec ≈ 5,7×10⁻¹⁹ J.?
+4. Calcular la fuerza media que ejerce un palo de golf sobre una pelota de 45 gramos siendo el tiempo de colisión
+0,001 segundo, el ángulo de tiro 40º y el alcance horizontal 135 m. Rta: 2356N
+5. Calcular la fuerza media que ejerce el piso sobre una pelota de 0,4 kg de masa que se deja caer desde 1 metros
+de altura y rebota hasta 80 cm del suelo, siendo el tiempo de contacto 0,05 segundos y despreciando el
+rozamiento con el aire. Rta: 67,76N
+6. Un furgón de carga de ferrocarril tiene una masa de 32 toneladas y se mueve con una rapidez de 5m/s cuando
+alcanza a otro de masa 24 toneladas que se desplaza a 3 m/s en la misma dirección y sentido. Calcular las
+velocidades de cada uno de los furgones después del choque a) si quedan enganchados. B) si el choque es
+elástico. ​
+​
+​
+RTA a: 4,14m/s b) 5,28m/s y 3,28 m/s
+7. Una bola de billar que se está moviendo con una rapidez de 2,2 m/s golpea, rozando a otra bola idéntica que
+está en reposo. Después de la colisión se encuentra que una bola se está moviendo con una rapidez de 1,1 m/s en
+una dirección que forma un ángulo de 60 º con la línea de movimiento original. Encontrar la velocidad de la otra
+bola. Rta: (1,65m/s, 0,65m/s)
+8. Un deuterón es una partícula nuclear formada por un protón y un neutrón. Su masa es 3,4. 10-27 kg. Un
+deuterón acelerado por un ciclotrón hasta una velocidad de 107 m/s choca contra otro deuterón que esta
+detenido. a)Si las dos partículas se unen para formar un núcleo de helio, hallar la velocidad del núcleo resultante.
+b) Después este núcleo de helio se rompe en un neutrón (masa 1,7.10-27 kg) y un isótopo del helio de masa
+5,1.10-27 kg . Si el neutrón sale perpendicularmente a la velocidad original del deuterón con una velocidad de
+5.106 m/s, calcular la velocidad del isótopo de helio.
+9. Un disco A de 0,2 kg de masa se mueve sobre una mesa horizontal, sin fricción con una velocidad de módulo
+6m/s y choca en forma elástica con otro disco B de 0,4 kg de masa que se encuentra detenido. El choque es
+central. Calcular las velocidades de ambos discos después del choque respecto del sistema centro de masa.
+
+Física Teórica I - INSPT-UTN​​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Prof. Carlos Dibarbora
+
+10. Un sistema de puntos materiales está formado por dos cuerpos puntuales de
+masa m1=3kg y m2=1kg, respectivamente, unidos por una barra rígida de 40cm
+de longitud y peso despreciable. La barra se coloca verticalmente sobre un plano
+horizontal sin rozamiento en un punto P y se suelta. ¿A qué distancia del punto P
+la masa m1 chocará contra el plano? rta 10cm
+11. Dos partículas de masa m se encuentran en los extremos de una varilla de
+longitud l=2,5m y masa despreciable. El sistema está sobre una mesa horizontal
+sin roce y se encuentra girando con una velocidad angular constante ω=9 s -1, en
+torno a un eje fijo perpendicular a la mesa que pasa por el punto O, ubicado a
+una distancia l/3 de una de las partículas. Calcule velocidad del centro de masa del sistema Rta 3,75 m/s
+CINEMÁTICA DEL RÍGIDO
+12) Para cada disco mostrado, asumiendo que permanece en el plano de la figura, indique si las velocidades de los
+puntos indicados son compatibles con un movimiento rígido. En los casos afirmativos, encuentre la velocidad
+angular y la posición del eje instantáneo de rotación respecto del centro del disco. Datos: | ⃗v1| = 10 cm/s; | ⃗v2| =
+2 cm/s; R = 10 cm.
+
+13) Se tiene una l ́amina delgada rígida, rectangular, de
+lados a = 3 cm, b = 4 cm, que se mueve en el plano x, y.
+Se sabe que el punto A tiene una velocidad cuyo m ́odulo
+vale 10 cm/s y cuya dirección forma un ángulo recto con
+la diagonal AB del rectángulo. Si la lámina gira con una
+frecuencia f = 30 rpm: a) Determine el vector velocidad
+del punto B; b) halle la posición del eje instantáneo
+de rotación.
+Rtas: a) ⃗vB = −3, 42 cm/s ˆi + 4, 56 cm/s ˆj . b) Sobre el
+segmento AB a 3,18 cm del punto A.
+
+Física Teórica I - INSPT-UTN​​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Prof. Carlos Dibarbora
+
+14- Un cilindro de radio 0,45m se mueve a lo largo de un plano horizontal. Su centro se mueve con una velocidad
+horizontal de 1,8 m/s. Determinar las velocidades del los puntos A,B y D si la velocidad angular del cilindro es a)
+w=3s b) w=4_s1 c) = 5 s1 todas en el sentido horario.
+
+15) Una escalera homogénea de longitud L = 5 m se encuentra apoyada sobre una pared lisa. Si el punto A, en el
+instante en que se encuentra a 3 m de altura, desciende con una velocidad de 3 m/s, halle en dicho instante: a) la
+velocidad del extremo B; b) la velocidad del punto medio de la escalera (C); c) la posición del eje instantáneo de
+rotación.
+
+16) Un rodamiento de bolillas sostiene el extremo de un eje que​
+gira con velocidad angular. El diámetro del eje es d y el del​
+aro exterior del rodamiento es D. Encontrar la velocidad lineal del movimiento del centro
+de una de las bolillas si el aro exterior a) está fijo, b) gira con velocidad angular Ω.
+Considerar que en ambos casos las bolillas ruedan sin deslizar sobre las superficies del eje
+y del aro.​
+Ria: a) ω.d/4 b) 0.25 (ω.d + ΩD)
+
+17) Si en el instante indicado la velocidad del punto D de la corredera
+es vD = 350 mm/s, determinar :​
+a) la velocidad angular de la barra BD, b) la velocidad del punto A del
+disco, c) la velocidad angular del disco (Suponga que rueda sin
+resbalar sobre la superficie vertical). ​
+Rta: a) ωBD=0,9 s-1 b) vA=144 mm/s c)ω=1,8 s-1
+
+Física Teórica I - INSPT-UTN​​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Prof. Carlos Dibarbora
+
+18) Determinar la velocidad angular del engranaje cónico II si el
+engranaje cónico I rota con velocidad angular ω1=10 s-1 Son datos:
+ɑ=30° β= 60° Rta: ω2=5,67 s-1
+
+19) En el instante
+indicado la barra AB
+gira en torno de un
+eje que pasa por el
+punto E A con una
+velocidad angular de
+3 s-1 , en el sentido
+horario. Determinar: ​
+a) la velocidad angular de la barra BD,​
+b) la velocidad de la pieza deslizante D,​
+c) la velocidad del punto medio M de la barra BD.​
+​
+Rta:a)5s-1 b) 100cm/s c) 62.5 cm/s
+
+20) En la posición mostrada, la barra AB tiene una velocidad
+angular de 4 rad/s en el sentido de las manecillas del reloj.
+Determine la velocidad de D y la velocidad angular de las
+barras BD y DE.
+
+21) Los tres engranajes A, B y C están unidos por pasadores
+en sus centros a la barra ABC. Sabiendo que el engranaje C no
+gira, encontrar la velocidad angular de los engranajes A y B
+cuando la biela ABC gira en el sentido de las agujas del reloj con
+una velocidad angular constante de 80 r.p.m.
+
+
