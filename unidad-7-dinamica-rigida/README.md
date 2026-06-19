@@ -48,6 +48,7 @@ Al finalizar esta unidad, el estudiante debe poder:
 | `01-ecuaciones-dinamica-rigida.md` | Torques, $L$, rotación alrededor de eje fijo | Ej. 1-10 del TP6 |
 | `02-momentos-inercia-tensor.md` | $I$, teorema de ejes paralelos, tensor de inercia | Ej. 20-26 del TP6 |
 | `03-movimiento-giroscopico.md` | Precesión, giroscopios, ecuaciones de Euler | Ej. 27-29 del TP6 |
+| `teorema-koenig.md` | **Steiner** (ejes paralelos) + **König** (energía cinética), con ejemplos y diferencias claras | Ej. 3, 4, 8, 9, 11, 16, 21b |
 
 ---
 

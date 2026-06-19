@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Fondo -->
+  <rect width="500" height="400" fill="#fafafa"/>
+  
+  <!-- Título -->
+  <text x="250" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    König: Momento Angular Total
+  </text>
+  
+  <!-- Origen O -->
+  <g transform="translate(150, 280)">
+    <!-- Cuerpo rígido (partícula con velocidad) -->
+    <circle cx="180" cy="-50" r="20" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/>
+    <circle cx="180" cy="-50" r="5" fill="#c62828"/>
+    <text x="180" y="-80" font-size="11" font-weight="bold" text-anchor="middle" fill="#c62828">CM</text>
+    
+    <!-- Vector r_CM desde O al CM -->
+    <line x1="0" y1="0" x2="180" y2="-50" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="4,3"/>
+    <text x="80" y="-35" font-size="13" font-weight="bold" fill="#7b1fa2">r_CM</text>
+    
+    <!-- Vector velocidad del CM -->
+    <line x1="180" y1="-50" x2="280" y2="-100" stroke="#2e7d32" stroke-width="3"/>
+    <polygon points="280,-100 268,-100 273,-90" fill="#2e7d28"/>
+    <text x="290" y="-95" font-size="13" font-weight="bold" fill="#2e7d32">v_CM</text>
+    
+    <!-- Vector momento angular orbital L_orb = r x p -->
+    <line x1="0" y1="0" x2="0" y2="-150" stroke="#e74c3c" stroke-width="3"/>
+    <polygon points="0,-150 -8,-138 8,-138" fill="#e74c3c"/>
+    <text x="15" y="-145" font-size="13" font-weight="bold" fill="#e74c3c">L_orb</text>
+    <text x="15" y="-130" font-size="10" fill="#e74c3c">(orbital)</text>
+    
+    <!-- Etiqueta origen O -->
+    <circle cx="0" cy="0" r="5" fill="#333"/>
+    <text x="-15" y="15" font-size="13" font-weight="bold" fill="#333">O</text>
+    
+    <!-- Vector momento angular de spin L_spin (sale del papel) -->
+    <circle cx="180" cy="-50" r="28" fill="none" stroke="#9b59b6" stroke-width="2" stroke-dasharray="3,2"/>
+    <circle cx="180" cy="-50" r="6" fill="#9b59b6"/>
+    <text x="215" y="-45" font-size="13" font-weight="bold" fill="#9b59b6">L_spin</text>
+    <text x="215" y="-30" font-size="10" fill="#9b59b6">(spin)</text>
+  </g>
+  
+  <!-- Fórmula destacada -->
+  <rect x="30" y="320" width="440" height="65" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="10"/>
+  <text x="250" y="345" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">
+    L⃗ = r⃗_CM × p⃗_CM + I_CM·ω⃗
+  </text>
+  <text x="120" y="370" font-size="11" fill="#e74c3c">
+    ● Momento angular orbital
+  </text>
+  <text x="295" y="370" font-size="11" fill="#9b59b6">
+    ● Momento angular de spin
+  </text>
+</svg>

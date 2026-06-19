@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 350" width="420" height="350">
+  <!-- Fondo -->
+  <rect width="420" height="350" fill="#fafafa"/>
+
+  <!-- Cuadrado -->
+  <rect x="60" y="60" width="240" height="240"
+        fill="#fff9c4" stroke="#f57f17" stroke-width="3"/>
+
+  <!-- Cuadrantes coloreados según signo de xy -->
+  <rect x="60" y="60" width="120" height="120" fill="#ffcdd2" opacity="0.5"/>
+  <rect x="180" y="180" width="120" height="120" fill="#ffcdd2" opacity="0.5"/>
+  <rect x="180" y="60" width="120" height="120" fill="#c8e6c9" opacity="0.5"/>
+  <rect x="60" y="180" width="120" height="120" fill="#c8e6c9" opacity="0.5"/>
+
+  <!-- Etiquetas de cuadrantes -->
+  <text x="120" y="125" font-size="14" font-weight="bold" fill="#c62828" text-anchor="middle">xy &gt; 0</text>
+  <text x="240" y="245" font-size="14" font-weight="bold" fill="#c62828" text-anchor="middle">xy &gt; 0</text>
+  <text x="240" y="125" font-size="14" font-weight="bold" fill="#2e7d32" text-anchor="middle">xy &lt; 0</text>
+  <text x="120" y="245" font-size="14" font-weight="bold" fill="#2e7d32" text-anchor="middle">xy &lt; 0</text>
+
+  <!-- Diagonales (separan los signos) -->
+  <line x1="60" y1="60" x2="300" y2="300" stroke="#333" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="300" y1="60" x2="60" y2="300" stroke="#333" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Punto ejemplo con coordenadas -->
+  <circle cx="200" cy="140" r="6" fill="#1565c0"/>
+  <line x1="200" y1="60" x2="200" y2="140" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="60" y1="140" x2="200" y2="140" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="210" y="135" font-size="13" fill="#1565c0">P = (x, y)</text>
+  <text x="190" y="55" font-size="12" fill="#1565c0">y</text>
+  <text x="40" y="145" font-size="12" fill="#1565c0">x</text>
+
+  <!-- Ejes -->
+  <line x1="60" y1="300" x2="320" y2="300" stroke="#333" stroke-width="1.5"/>
+  <line x1="60" y1="60" x2="60" y2="320" stroke="#333" stroke-width="1.5"/>
+  <polygon points="320,300 312,296 312,304" fill="#333"/>
+  <polygon points="60,320 56,312 64,312" fill="#333"/>
+
+  <!-- Título -->
+  <text x="210" y="30" font-size="15" font-weight="bold" text-anchor="middle" fill="#333">Producto de Inercia I_xy</text>
+  <text x="210" y="340" font-size="11" text-anchor="middle" fill="#666">I_xy ≠ 0 ⟹ ejes principales rotados 45°</text>
+</svg>

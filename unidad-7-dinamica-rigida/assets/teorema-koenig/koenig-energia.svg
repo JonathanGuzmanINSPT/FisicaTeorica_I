@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <!-- Fondo -->
+  <rect width="500" height="380" fill="#fafafa"/>
+  
+  <!-- Título -->
+  <text x="250" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    König: Energía Cinética Total
+  </text>
+  
+  <!-- Cuerpo rígido (cilindro rodando) -->
+  <g transform="translate(250, 200)">
+    <!-- Cilindro -->
+    <ellipse cx="0" cy="0" rx="60" ry="60" 
+             fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="60" ry="20" 
+             fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+    
+    <!-- Centro de masa (CM) -->
+    <circle cx="0" cy="0" r="6" fill="#c62828"/>
+    <text x="0" y="-75" font-size="13" font-weight="bold" text-anchor="middle" fill="#c62828">CM</text>
+    
+    <!-- Vector velocidad del CM (traslación) -->
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#2e7d32" stroke-width="3"/>
+    <polygon points="80,0 70,-5 70,5" fill="#2e7d32"/>
+    <text x="90" y="5" font-size="14" font-weight="bold" fill="#2e7d32">v_CM</text>
+    
+    <!-- Velocidad angular (rotación) -->
+    <path d="M 0,-50 A 50,50 0 0,1 35,-35" fill="none" stroke="#7b1fa2" stroke-width="2.5"/>
+    <polygon points="35,-35 30,-42 28,-32" fill="#7b1fa2"/>
+    <text x="30" y="-60" font-size="13" font-weight="bold" fill="#7b1fa2">ω</text>
+    
+    <!-- Suelo -->
+    <line x1="-80" y1="60" x2="80" y2="60" stroke="#333" stroke-width="3"/>
+    <text x="100" y="65" font-size="12" fill="#666">suelo</text>
+  </g>
+  
+  <!-- Fórmula destacada -->
+  <rect x="50" y="290" width="400" height="70" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="10"/>
+  <text x="250" y="315" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    T = ½Mv²_CM + ½I_CM·ω²
+  </text>
+  <text x="120" y="340" font-size="11" fill="#2e7d32">
+    ● Traslación del CM
+  </text>
+  <text x="290" y="340" font-size="11" fill="#7b1fa2">
+    ● Rotación alrededor del CM
+  </text>
+</svg>

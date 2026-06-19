@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="500" height="280">
+  <!-- Fondo -->
+  <rect width="500" height="280" fill="#fafafa"/>
+
+  <!-- Matriz original -->
+  <g transform="translate(50, 60)">
+    <text x="60" y="-10" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Matriz Original</text>
+
+    <!-- Corchetes -->
+    <path d="M 0,0 L 0,120 M 5,0 L 0,0 L 5,120"
+          stroke="#1565c0" stroke-width="3" fill="none"/>
+    <path d="M 120,0 L 120,120 M 115,0 L 120,0 L 115,120"
+          stroke="#1565c0" stroke-width="3" fill="none"/>
+
+    <!-- Elementos -->
+    <text x="60" y="30" font-size="18" text-anchor="middle" fill="#333">4</text>
+    <text x="60" y="70" font-size="18" text-anchor="middle" fill="#c62828" font-weight="bold">-3</text>
+    <text x="60" y="110" font-size="18" text-anchor="middle" fill="#c62828" font-weight="bold">-3</text>
+    <text x="60" y="150" font-size="18" text-anchor="middle" fill="#333">4</text>
+
+    <!-- Diagonal principal -->
+    <line x1="20" y1="22" x2="100" y2="22" stroke="#2e7d32" stroke-width="2"/>
+    <line x1="20" y1="142" x2="100" y2="142" stroke="#2e7d32" stroke-width="2"/>
+
+    <!-- Factor -->
+    <text x="60" y="190" font-size="14" text-anchor="middle" fill="#666">× Ma²/12</text>
+  </g>
+
+  <!-- Flecha de transformación -->
+  <g transform="translate(220, 140)">
+    <text x="25" y="-15" font-size="12" text-anchor="middle" fill="#7b1fa2">Diagonalización</text>
+    <text x="25" y="0" font-size="12" text-anchor="middle" fill="#7b1fa2">(rotación 45°)</text>
+    <line x1="-10" y1="10" x2="60" y2="10" stroke="#7b1fa2" stroke-width="3"/>
+    <polygon points="60,10 50,5 50,15" fill="#7b1fa2"/>
+  </g>
+
+  <!-- Matriz diagonalizada -->
+  <g transform="translate(330, 60)">
+    <text x="60" y="-10" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Matriz Diagonal</text>
+
+    <!-- Corchetes -->
+    <path d="M 0,0 L 0,120 M 5,0 L 0,0 L 5,120"
+          stroke="#2e7d32" stroke-width="3" fill="none"/>
+    <path d="M 120,0 L 120,120 M 115,0 L 120,0 L 115,120"
+          stroke="#2e7d32" stroke-width="3" fill="none"/>
+
+    <!-- Elementos diagonales -->
+    <text x="60" y="30" font-size="20" text-anchor="middle" font-weight="bold" fill="#2e7d32">1</text>
+    <text x="60" y="80" font-size="14" text-anchor="middle" fill="#999">0</text>
+    <text x="60" y="120" font-size="14" text-anchor="middle" fill="#999">0</text>
+    <text x="60" y="160" font-size="20" text-anchor="middle" font-weight="bold" fill="#2e7d32">7</text>
+
+    <!-- Diagonal destacada -->
+    <line x1="20" y1="22" x2="100" y2="22" stroke="#c62828" stroke-width="3"/>
+    <line x1="20" y1="152" x2="100" y2="152" stroke="#c62828" stroke-width="3"/>
+
+    <!-- Etiquetas -->
+    <text x="60" y="195" font-size="12" text-anchor="middle" fill="#666">= I₁, I₂ (momentos principales)</text>
+  </g>
+</svg>

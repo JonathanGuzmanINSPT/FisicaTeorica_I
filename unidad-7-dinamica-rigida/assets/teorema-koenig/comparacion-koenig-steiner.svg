@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 350" width="550" height="350">
+  <!-- Fondo -->
+  <rect width="550" height="350" fill="#fafafa"/>
+  
+  <!-- Título -->
+  <text x="275" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Comparación: Steiner vs König
+  </text>
+  
+  <!-- Steiner (izquierda) -->
+  <g transform="translate(20, 60)">
+    <rect x="0" y="0" width="240" height="270" fill="#e3f2fd" stroke="#1565c0" stroke-width="3" rx="10"/>
+    
+    <text x="120" y="25" font-size="14" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      STEINER
+    </text>
+    <text x="120" y="45" font-size="11" text-anchor="middle" fill="#666">
+      (Ejes Paralelos)
+    </text>
+    
+    <!-- Diagrama -->
+    <g transform="translate(120, 130)">
+      <!-- Cuerpo (barra) -->
+      <rect x="-70" y="-12" width="140" height="24" fill="#bbdefb" stroke="#1565c0" stroke-width="2" rx="3"/>
+      
+      <!-- CM -->
+      <circle cx="0" cy="0" r="4" fill="#c62828"/>
+      <text x="0" y="-22" font-size="10" text-anchor="middle" fill="#c62828">CM</text>
+      
+      <!-- Eje CM -->
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="2,2"/>
+      
+      <!-- Eje paralelo -->
+      <circle cx="60" cy="0" r="4" fill="#2e7d32"/>
+      <circle cx="60" cy="0" r="14" fill="none" stroke="#2e7d32" stroke-width="2" stroke-dasharray="2,2"/>
+      
+      <!-- Distancia d -->
+      <line x1="0" y1="-40" x2="60" y2="-40" stroke="#7b1fa2" stroke-width="2"/>
+      <line x1="0" y1="-44" x2="0" y2="-36" stroke="#7b1fa2" stroke-width="2"/>
+      <line x1="60" y1="-44" x2="60" y2="-36" stroke="#7b1fa2" stroke-width="2"/>
+      <text x="30" y="-45" font-size="11" font-weight="bold" text-anchor="middle" fill="#7b1fa2">d</text>
+    </g>
+    
+    <text x="120" y="200" font-size="13" text-anchor="middle" fill="#333">
+      ¿Cuánto vale I?
+    </text>
+    <text x="120" y="225" font-size="13" font-weight="bold" text-anchor="middle" fill="#c62828">
+      I = I_CM + Md²
+    </text>
+    <text x="120" y="250" font-size="11" text-anchor="middle" fill="#666">
+      (momento de inercia)
+    </text>
+  </g>
+  
+  <!-- König (derecha) -->
+  <g transform="translate(290, 60)">
+    <rect x="0" y="0" width="240" height="270" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3" rx="10"/>
+    
+    <text x="120" y="25" font-size="14" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      KÖNIG
+    </text>
+    <text x="120" y="45" font-size="11" text-anchor="middle" fill="#666">
+      (Energía Cinética)
+    </text>
+    
+    <!-- Diagrama -->
+    <g transform="translate(120, 130)">
+      <!-- Cilindro -->
+      <circle cx="0" cy="0" r="40" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+      
+      <!-- CM -->
+      <circle cx="0" cy="0" r="4" fill="#c62828"/>
+      
+      <!-- Vector velocidad CM -->
+      <line x1="0" y1="0" x2="50" y2="0" stroke="#2e7d32" stroke-width="2.5"/>
+      <polygon points="50,0 42,-4 42,4" fill="#2e7d32"/>
+      <text x="55" y="4" font-size="10" font-weight="bold" fill="#2e7d32">v</text>
+      
+      <!-- Velocidad angular -->
+      <path d="M -30,-25 A 30,30 0 0,1 -10,-40" fill="none" stroke="#7b1fa2" stroke-width="2"/>
+      <text x="-25" y="-45" font-size="10" font-weight="bold" fill="#7b1fa2">ω</text>
+    </g>
+    
+    <text x="120" y="200" font-size="13" text-anchor="middle" fill="#333">
+      ¿Cuánta energía T?
+    </text>
+    <text x="120" y="225" font-size="13" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      T = ½Mv² + ½I_CMω²
+    </text>
+    <text x="120" y="250" font-size="11" text-anchor="middle" fill="#666">
+      (energía cinética total)
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <!-- Fondo -->
+  <rect width="500" height="350" fill="#fafafa"/>
+  
+  <!-- Título -->
+  <text x="250" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Ejemplo 1: Barra - Eje en el extremo vs CM
+  </text>
+  
+  <!-- Barra horizontal -->
+  <g transform="translate(100, 150)">
+    <!-- Barra -->
+    <rect x="0" y="-15" width="300" height="30" 
+          fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="5"/>
+    
+    <!-- Centro de masa (en el centro de la barra) -->
+    <circle cx="150" cy="0" r="6" fill="#c62828"/>
+    <text x="150" y="-25" font-size="11" font-weight="bold" text-anchor="middle" fill="#c62828">CM</text>
+    
+    <!-- Eje en el extremo izquierdo (O) -->
+    <g transform="translate(0, 0)">
+      <circle cx="0" cy="0" r="6" fill="#1565c0"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#1565c0" stroke-width="2" stroke-dasharray="3,2"/>
+      <text x="0" y="50" font-size="11" text-anchor="middle" fill="#1565c0">eje O (extremo)</text>
+    </g>
+    
+    <!-- Eje baricéntrico (en el centro) -->
+    <g transform="translate(150, 0)">
+      <circle cx="0" cy="0" r="6" fill="#c62828"/>
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="3,2"/>
+    </g>
+    
+    <!-- Distancia L/2 -->
+    <line x1="0" y1="-50" x2="150" y2="-50" stroke="#7b1fa2" stroke-width="2"/>
+    <line x1="0" y1="-55" x2="0" y2="-45" stroke="#7b1fa2" stroke-width="2"/>
+    <line x1="150" y1="-55" x2="150" y2="-45" stroke="#7b1fa2" stroke-width="2"/>
+    <text x="75" y="-58" font-size="13" font-weight="bold" text-anchor="middle" fill="#7b1fa2">d = L/2</text>
+    
+    <!-- Etiqueta L -->
+    <text x="150" y="40" font-size="12" text-anchor="middle" fill="#333">L</text>
+  </g>
+  
+  <!-- Cálculos -->
+  <g transform="translate(50, 240)">
+    <rect x="0" y="0" width="400" height="90" fill="#fff9c4" opacity="0.5" rx="10"/>
+    
+    <text x="20" y="25" font-size="13" fill="#333">
+      <tspan font-weight="bold">Paso 1:</tspan> Momento baricéntrico I_CM = (1/12)ML²
+    </text>
+    <text x="20" y="50" font-size="13" fill="#333">
+      <tspan font-weight="bold">Paso 2:</tspan> Distancia d = L/2, entonces M·d² = M(L/2)² = ML²/4
+    </text>
+    <text x="20" y="75" font-size="13" fill="#1565c0">
+      <tspan font-weight="bold">Resultado:</tspan> I = ML²/12 + ML²/4 = ML²/12 + 3ML²/12 = (1/3)ML²
+    </text>
+  </g>
+</svg>

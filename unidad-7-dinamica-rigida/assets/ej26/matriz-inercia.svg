@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <!-- Fondo -->
+  <rect width="600" height="300" fill="#fafafa"/>
+  
+  <!-- Matriz de inercia -->
+  <g transform="translate(150, 50)">
+    <text x="100" y="-10" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">
+      Matriz de Inercia I
+    </text>
+    
+    <!-- Corchetes -->
+    <path d="M 0,0 L 0,200 M 5,0 L 0,0 L 5,200" 
+          stroke="#9b59b6" stroke-width="3" fill="none"/>
+    <path d="M 200,0 L 200,200 M 195,0 L 200,0 L 195,200" 
+          stroke="#9b59b6" stroke-width="3" fill="none"/>
+    
+    <!-- Elementos de la matriz -->
+    <!-- Fila 1 -->
+    <text x="100" y="30" font-size="18" text-anchor="middle" fill="#e74c3c">Ixx = 12</text>
+    <text x="100" y="70" font-size="18" text-anchor="middle" fill="#e67e22">Ixy = -6</text>
+    <text x="100" y="110" font-size="18" text-anchor="middle" fill="#f39c12">Ixz = 6</text>
+    
+    <!-- Fila 2 -->
+    <text x="100" y="160" font-size="18" text-anchor="middle" fill="#e67e22">Ixy = -6</text>
+    <text x="100" y="200" font-size="18" text-anchor="middle" fill="#2ecc71">Iyy = 16</text>
+    <text x="100" y="240" font-size="18" text-anchor="middle" fill="#f39c12">Iyz = 2</text>
+    
+    <!-- Fila 3 -->
+    <text x="100" y="280" font-size="18" text-anchor="middle" fill="#f39c12">Ixz = 6</text>
+    <text x="100" y="320" font-size="18" text-anchor="middle" fill="#f39c12">Iyz = 2</text>
+    <text x="100" y="360" font-size="18" text-anchor="middle" fill="#3498db">Izz = 16</text>
+  </g>
+  
+  <!-- Explicación de componentes -->
+  <g transform="translate(400, 50)">
+    <text x="0" y="0" font-size="14" font-weight="bold" fill="#333">Componentes:</text>
+    
+    <rect x="0" y="20" width="180" height="30" fill="#e74c3c" opacity="0.2" rx="5"/>
+    <text x="10" y="40" font-size="12" fill="#333">
+      <tspan font-weight="bold">Ixx, Iyy, Izz:</tspan> Momentos principales
+    </text>
+    
+    <rect x="0" y="60" width="180" height="30" fill="#e67e22" opacity="0.2" rx="5"/>
+    <text x="10" y="80" font-size="12" fill="#333">
+      <tspan font-weight="bold">Ixy, Ixz, Iyz:</tspan> Productos de inercia
+    </text>
+    
+    <rect x="0" y="100" width="180" height="50" fill="#3498db" opacity="0.2" rx="5"/>
+    <text x="10" y="120" font-size="12" fill="#333">
+      Matriz simétrica:
+    </text>
+    <text x="10" y="135" font-size="11" fill="#333">
+      Ixy = Iyx, Ixz = Izx, Iyz = Izy
+    </text>
+  </g>
+  
+  <!-- Título -->
+  <text x="300" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Matriz de Inercia (completa)
+  </text>
+</svg>
