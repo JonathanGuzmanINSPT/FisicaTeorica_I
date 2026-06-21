@@ -1,26 +1,27 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { unidades } from '../../data/unidades';
+const BASE = import.meta.env.BASE_URL || '';
 ---
 
 <BaseLayout title="Unidad 2 — Física Teórica I" noSidebar={false}>
   <div class="unidad-landing">
-    <a href="/" class="back-link">← Volver al inicio</a>
+    <a href={BASE} class="back-link">← Volver al inicio</a>
     <h1>Unidad 2: Leyes de Newton y Dinámica</h1>
     <p class="desc">{unidades[1].descripcion}</p>
     
     <div class="files-grid">
-      <a href="/unidad-2-dinamica/00-teoria-completa-dinamica/" class="file-card" data-tipo="teoria">
+      <a href={BASE + 'unidad-2-dinamica/00-teoria-completa-dinamica/'} class="file-card" data-tipo="teoria">
         <span class="file-icon">📖</span>
         <span class="file-title">Teoría completa</span>
         <span class="file-arrow">→</span>
       </a>
-      <a href="/unidad-2-dinamica/tp2-dinamica/" class="file-card" data-tipo="ejercicios">
+      <a href={BASE + 'unidad-2-dinamica/tp2-dinamica/'} class="file-card" data-tipo="ejercicios">
         <span class="file-icon">🏋️</span>
         <span class="file-title">Ejercicios</span>
         <span class="file-arrow">→</span>
       </a>
-      <a href="/unidad-2-dinamica/tp2-dinamica-soluciones/" class="file-card" data-tipo="soluciones">
+      <a href={BASE + 'unidad-2-dinamica/tp2-dinamica-soluciones/'} class="file-card" data-tipo="soluciones">
         <span class="file-icon">🔑</span>
         <span class="file-title">Soluciones</span>
         <span class="file-arrow">→</span>

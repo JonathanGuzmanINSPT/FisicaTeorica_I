@@ -6,14 +6,17 @@ interface Props {
 }
 
 const { unidad } = Astro.props;
+const BASE = import.meta.env.BASE_URL || '/';
 const estadoLabel = {
   'completado': 'Completado ✅',
   'en-curso': 'En curso 🔵',
   'pendiente': 'Pendiente ⬜'
 };
+
+const cardHref = BASE + unidad.id + '/';
 ---
 
-<a href={`/${unidad.id}/`} class="hero-card">
+<a href={cardHref} class="hero-card">
   <div class="card-header">
     <span class="card-icon">{unidad.icono}</span>
     <span class="card-estado" data-estado={unidad.estado}>{estadoLabel[unidad.estado]}</span>

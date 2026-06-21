@@ -9,6 +9,7 @@ export interface Props {
 }
 
 const { title, unidad, currentSlug } = Astro.props;
+const BASE = import.meta.env.BASE_URL || '/';
 ---
 
 <BaseLayout title={title}>
@@ -24,7 +25,7 @@ const { title, unidad, currentSlug } = Astro.props;
   <nav class="unidad-nav">
     {unidad.archivos.map(archivo => (
       <a
-        href={`/${unidad.id}/${archivo.slug}/`}
+        href={BASE + unidad.id + '/' + archivo.slug + '/'}
         class={`unidad-nav-link ${currentSlug === archivo.slug ? 'active' : ''}`}
         data-tipo={archivo.tipo}
       >
