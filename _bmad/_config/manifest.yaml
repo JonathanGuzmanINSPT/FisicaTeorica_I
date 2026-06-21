@@ -1,28 +1,56 @@
 installation:
-  version: 6.3.0
+  version: 6.8.1-next.17
   installDate: 2026-04-12T02:23:47.380Z
-  lastUpdated: 2026-04-12T02:23:47.380Z
+  lastUpdated: 2026-06-21T20:02:30.414Z
 modules:
   - name: core
-    version: 6.3.0
+    version: 6.8.1-next.17
     installDate: 2026-04-12T02:23:41.596Z
-    lastUpdated: 2026-04-12T02:23:47.358Z
+    lastUpdated: 2026-06-21T20:02:30.404Z
     source: built-in
     npmPackage: null
     repoUrl: null
-  - name: cis
-    version: 0.1.9
-    installDate: 2026-04-12T02:23:42.620Z
-    lastUpdated: 2026-04-12T02:23:47.373Z
-    source: external
-    npmPackage: bmad-creative-intelligence-suite
-    repoUrl: https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite
+  - name: bmm
+    version: 6.8.1-next.17
+    installDate: 2026-06-21T20:02:30.172Z
+    lastUpdated: 2026-06-21T20:02:30.405Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
   - name: bmb
-    version: 1.5.0
+    version: main
     installDate: 2026-04-12T02:23:44.606Z
-    lastUpdated: 2026-04-12T02:23:47.380Z
+    lastUpdated: 2026-06-21T20:02:30.407Z
     source: external
     npmPackage: bmad-builder
     repoUrl: https://github.com/bmad-code-org/bmad-builder
+    channel: next
+    sha: d97d675accb506cb8de09178389af6acbc200bfa
+  - name: cis
+    version: main
+    installDate: 2026-04-12T02:23:42.620Z
+    lastUpdated: 2026-06-21T20:02:30.409Z
+    source: external
+    npmPackage: bmad-creative-intelligence-suite
+    repoUrl: https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite
+    channel: next
+    sha: 07a8dd03d196a762f21c241d985293fe5b0f90e7
+  - name: wds
+    version: main
+    installDate: 2026-06-21T20:02:30.313Z
+    lastUpdated: 2026-06-21T20:02:30.411Z
+    source: external
+    npmPackage: bmad-wds
+    repoUrl: https://github.com/bmad-code-org/bmad-method-wds-expansion
+    channel: next
+    sha: cc16f09fcfab26d35635af1491f36a38a8431c8d
+  - name: wds.backup-20260621-163924
+    version: null
+    installDate: 2026-06-21T20:02:30.414Z
+    lastUpdated: 2026-06-21T20:02:30.414Z
+    source: unknown
+    npmPackage: null
+    repoUrl: null
 ides:
   - github-copilot
+  - qwen

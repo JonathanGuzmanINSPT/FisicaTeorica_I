@@ -1,0 +1,31 @@
+document_output_language: Spanish
+output_folder: design-process
+project_name: fisica-teorica-i-2026
+wds_folder: _bmad/wds
+ides:
+  - github-copilot
+  - vscode
+bmb:
+  name: BMad Builder
+  description: Standard Skill Compliant Factory for BMad Agents, Workflows and Modules
+  version: 1.0.0
+  default_selected: false
+  bmad_builder_output_folder: '{project-root}/skills'
+  bmad_builder_reports: '{project-root}/skills/reports'
+cis:
+  name: 'CIS: Creative Innovation Suite'
+  description: ''
+  version: null
+  default_selected: false
+  visual_tools: '[''excalidraw'']'
+wds:
+  name: 'WDS: Whiteport Design Studio'
+  description: ''
+  version: null
+  default_selected: false
+  visual_tools:
+  - excalidraw
+  starting_point: brief
+  project_name: fisica-teorica-i-2026
+  wds_folder: _bmad/wds
+  user_name: Jonathan Guzman
