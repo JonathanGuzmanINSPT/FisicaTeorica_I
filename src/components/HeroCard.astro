@@ -45,19 +45,24 @@ const estadoLabel = {
     top: 0; left: 0;
     width: 3px;
     height: 100%;
-    background: var(--accent);
+    background: linear-gradient(180deg, var(--accent) 0%, var(--blue) 100%);
     border-radius: 3px 0 0 3px;
     transition: width var(--transition-base);
   }
 
   .hero-card:hover {
     border-color: var(--border-accent);
-    transform: translateY(-3px);
+    transform: translateY(-4px);
     box-shadow: var(--shadow-lg), var(--shadow-glow);
+    background: var(--bg-elevated);
   }
 
   .hero-card:hover::before {
-    width: 4px;
+    width: 5px;
+  }
+
+  .hero-card:hover .card-icon {
+    transform: scale(1.15) rotate(5deg);
   }
 
   .card-header {
