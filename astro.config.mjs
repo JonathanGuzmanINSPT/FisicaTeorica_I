@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://neonplus.github.io',
-  base: '/fisica-teorica-i-2026',
+  site: 'https://jonathanguzmaninspt.github.io',
+  base: '/FisicaTeorica_I',
   trailingSlash: 'always',
   integrations: [
     sitemap({
