@@ -1,0 +1,206 @@
+---
+import UnidadLayout from '../../layouts/UnidadLayout.astro';
+import { unidades } from '../../data/unidades';
+
+// Cargar TODOS los MDs en el front matter (nivel módulo)
+const allMdFiles = await Astro.glob('../../../**/*.md');
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const unidad of unidades) {
+    if (unidad.archivos.length === 0) continue;
+    for (const archivo of unidad.archivos) {
+      // Buscar el MD que coincida con unidad + slug
+      const found = allMdFiles.find(f => {
+        const filePath = f.file || '';
+        return filePath.includes(unidad.id) && filePath.includes(archivo.slug);
+      });
+      
+      paths.push({
+        params: { unidad: unidad.id, slug: archivo.slug },
+        props: { 
+          unidad, 
+          archivo, 
+          mdFile: found || null 
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+const { unidad, archivo, mdFile } = Astro.props;
+const contentHtml = mdFile?.rendered?.html || '';
+---
+
+<UnidadLayout title={`${unidad.titulo} — ${archivo.titulo}`} unidad={unidad} currentSlug={archivo.slug}>
+  {contentHtml && (
+    <article class="prose" set:html={contentHtml} />
+  )}
+  {!contentHtml && (
+    <div class="empty-state">
+      <p>⚠️ Contenido no encontrado.</p>
+      <p>El archivo <code>{archivo.slug}.md</code> no se pudo procesar.</p>
+      <a href={`https://github.com/JonathanGuzmanINSPT/FisicaTeorica_I/blob/main/${unidad.id}/${archivo.slug}.md`} target="_blank" class="github-link">
+        Ver en GitHub →
+      </a>
+    </div>
+  )}
+</UnidadLayout>
+
+<style>
+  article.prose {
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  article.prose h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  article.prose h2 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-primary);
+    font-weight: 700;
+  }
+
+  article.prose h3 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+
+  article.prose p {
+    margin-bottom: 1.25rem;
+    color: var(--text-secondary);
+  }
+
+  article.prose img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    margin: 1.5rem 0;
+    box-shadow: var(--shadow-md);
+  }
+
+  article.prose blockquote {
+    border-left: 4px solid var(--accent);
+    background: var(--accent-muted);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  article.prose code {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    background: var(--bg-tertiary);
+    padding: 0.2em 0.5em;
+    border-radius: var(--radius-sm);
+    color: var(--accent);
+  }
+
+  article.prose pre {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  article.prose pre code {
+    background: none;
+    padding: 0;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+  }
+
+  article.prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  article.prose th,
+  article.prose td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-primary);
+  }
+
+  article.prose th {
+    font-weight: 600;
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+  }
+
+  article.prose tr:hover td {
+    background: var(--accent-muted);
+  }
+
+  article.prose ul,
+  article.prose ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  article.prose li {
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+  }
+
+  /* KaTeX display */
+  article.prose .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 1rem 0;
+    margin: 1.5rem 0 !important;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+    padding: 1rem !important;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+  }
+
+  .empty-state code {
+    background: var(--bg-tertiary);
+    padding: 0.2em 0.5em;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+  }
+
+  .github-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: var(--accent-muted);
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-sm);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+  }
+
+  .github-link:hover {
+    background: var(--accent-glow);
+    transform: translateY(-2px);
+  }
+</style>

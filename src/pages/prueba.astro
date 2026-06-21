@@ -1,0 +1,21 @@
+---
+import '../../styles/global.css';
+
+const mdFiles = await Astro.glob('../../../unidad-1-cinematica/*.md');
+const entry = mdFiles.find(f => f.slug === '01-posicion-velocidad-aceleracion');
+const html = entry?.rendered?.html || '<p>No se encontró el markdown.</p>';
+---
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prueba Markdown</title>
+  </head>
+  <body style="padding: 2rem; background: #0a0a0f; color: #e4e4f0;">
+    <h1>🧪 Prueba de renderizado</h1>
+    <p>Archivos encontrados: {mdFiles.length}</p>
+    <p>Slug buscado: 01-posicion-velocidad-aceleracion</p>
+    <hr style="margin: 1rem 0;" />
+    <div set:html={html} />
+  </body>
+</html>
