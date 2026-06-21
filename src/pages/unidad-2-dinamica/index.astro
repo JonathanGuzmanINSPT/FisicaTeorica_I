@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { unidades } from '../../data/unidades';
+---
+
+<BaseLayout title="Unidad 2 — Física Teórica I" noSidebar={false}>
+  <div class="unidad-landing">
+    <a href="/" class="back-link">← Volver al inicio</a>
+    <h1>Unidad 2: Leyes de Newton y Dinámica</h1>
+    <p class="desc">{unidades[1].descripcion}</p>
+    
+    <div class="files-grid">
+      <a href="/unidad-2-dinamica/00-teoria-completa-dinamica/" class="file-card" data-tipo="teoria">
+        <span class="file-icon">📖</span>
+        <span class="file-title">Teoría completa</span>
+        <span class="file-arrow">→</span>
+      </a>
+      <a href="/unidad-2-dinamica/tp2-dinamica/" class="file-card" data-tipo="ejercicios">
+        <span class="file-icon">🏋️</span>
+        <span class="file-title">Ejercicios</span>
+        <span class="file-arrow">→</span>
+      </a>
+      <a href="/unidad-2-dinamica/tp2-dinamica-soluciones/" class="file-card" data-tipo="soluciones">
+        <span class="file-icon">🔑</span>
+        <span class="file-title">Soluciones</span>
+        <span class="file-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--text-muted); text-decoration: none; font-size: 0.85rem; }
+  .back-link:hover { color: var(--accent); }
+  .unidad-landing h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .desc { color: var(--text-secondary); margin-bottom: 2rem; max-width: 600px; }
+  .files-grid { display: grid; gap: 0.75rem; }
+  .file-card { display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.25rem; background: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: var(--radius-md); text-decoration: none; color: var(--text-primary); transition: all 0.2s ease; }
+  .file-card:hover { border-color: var(--border-accent); transform: translateX(4px); }
+  .file-icon { font-size: 1.2rem; }
+  .file-title { flex: 1; font-weight: 500; }
+  .file-arrow { color: var(--text-muted); }
+  .file-card[data-tipo="teoria"] { border-left: 3px solid var(--accent); }
+  .file-card[data-tipo="ejercicios"] { border-left: 3px solid var(--green); }
+  .file-card[data-tipo="soluciones"] { border-left: 3px solid var(--rose); }
+</style>

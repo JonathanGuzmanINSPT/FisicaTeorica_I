@@ -1,0 +1,49 @@
+<button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema claro/oscuro">
+  <span id="theme-icon">🌗</span>
+</button>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  const icon = document.getElementById('theme-icon');
+
+  function getTheme() {
+    return document.documentElement.getAttribute('data-theme');
+  }
+
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    icon.textContent = theme === 'dark' ? '🌗' : '🌕';
+  }
+
+  toggle.addEventListener('click', () => {
+    const next = getTheme() === 'dark' ? 'light' : 'dark';
+    setTheme(next);
+  });
+
+  // Init icon
+  icon.textContent = getTheme() === 'dark' ? '🌗' : '🌕';
+</script>
+
+<style>
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-primary);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+  }
+
+  .theme-toggle:hover {
+    border-color: var(--border-accent);
+    background: var(--accent-muted);
+    color: var(--text-primary);
+  }
+</style>

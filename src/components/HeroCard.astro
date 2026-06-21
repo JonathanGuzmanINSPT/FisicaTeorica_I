@@ -1,0 +1,106 @@
+---
+import type { Unidad } from '../data/unidades';
+
+interface Props {
+  unidad: Unidad;
+}
+
+const { unidad } = Astro.props;
+const estadoLabel = {
+  'completado': 'Completado ✅',
+  'en-curso': 'En curso 🔵',
+  'pendiente': 'Pendiente ⬜'
+};
+---
+
+<a href={`/${unidad.id}/`} class="hero-card">
+  <div class="card-header">
+    <span class="card-icon">{unidad.icono}</span>
+    <span class="card-estado" data-estado={unidad.estado}>{estadoLabel[unidad.estado]}</span>
+  </div>
+  <h3 class="card-title">Unidad {unidad.numero}: {unidad.titulo}</h3>
+  <p class="card-desc">{unidad.descripcion}</p>
+  <div class="card-footer">
+    <span class="card-link">Ver unidad →</span>
+  </div>
+</a>
+
+<style>
+  .hero-card {
+    display: block;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px 0 0 3px;
+    transition: width var(--transition-base);
+  }
+
+  .hero-card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg), var(--shadow-glow);
+  }
+
+  .hero-card:hover::before {
+    width: 4px;
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-icon { font-size: 1.5rem; }
+
+  .card-estado {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+  }
+
+  .card-estado[data-estado="completado"] { background: var(--green-bg); color: var(--green); }
+  .card-estado[data-estado="en-curso"] { background: var(--blue-bg); color: var(--blue); }
+  .card-estado[data-estado="pendiente"] { background: var(--amber-bg); color: var(--amber); }
+
+  .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+  }
+
+  .card-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .card-link {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--accent);
+  }
+</style>

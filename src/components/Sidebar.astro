@@ -1,0 +1,137 @@
+---
+import type { Unidad } from '../data/unidades';
+
+interface Props {
+  unidades: Unidad[];
+}
+
+const { unidades } = Astro.props;
+---
+
+<aside class="sidebar">
+  <div class="sidebar-inner">
+    <div class="sidebar-header">
+      <span class="sidebar-title">📚 Unidades</span>
+    </div>
+    <nav class="sidebar-nav">
+      {unidades.map(unidad => (
+        <div class="sidebar-group">
+          <a href={`/${unidad.id}/`} class="sidebar-group-header">
+            <span class="sidebar-icon">{unidad.icono}</span>
+            <span class="sidebar-label">U{unidad.numero}: {unidad.titulo}</span>
+            <span class="sidebar-estado" data-estado={unidad.estado}></span>
+          </a>
+          {unidad.archivos.length > 0 && (
+            <div class="sidebar-children">
+              {unidad.archivos.map(archivo => (
+                <a href={`/${unidad.id}/${archivo.slug}/`} class="sidebar-child" data-tipo={archivo.tipo}>
+                  {archivo.titulo}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </nav>
+  </div>
+</aside>
+
+<style>
+  .sidebar {
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    border-right: 1px solid var(--border-primary);
+    background: var(--bg-secondary);
+    height: calc(100vh - var(--header-height));
+    position: sticky;
+    top: var(--header-height);
+    overflow-y: auto;
+  }
+
+  .sidebar-inner {
+    padding: 1rem 0;
+  }
+
+  .sidebar-header {
+    padding: 0 1.25rem 0.75rem;
+    border-bottom: 1px solid var(--border-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0 0.5rem;
+  }
+
+  .sidebar-group-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+  }
+
+  .sidebar-group-header:hover {
+    background: var(--accent-muted);
+    color: var(--text-primary);
+  }
+
+  .sidebar-icon { font-size: 1rem; }
+  .sidebar-label { flex: 1; }
+
+  .sidebar-estado {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .sidebar-estado[data-estado="completado"] { background: var(--green); }
+  .sidebar-estado[data-estado="en-curso"] { background: var(--blue); }
+  .sidebar-estado[data-estado="pendiente"] { background: var(--amber); }
+
+  .sidebar-children {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.25rem 0 0.25rem 2.25rem;
+  }
+
+  .sidebar-child {
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: var(--text-tertiary);
+    font-size: 0.8rem;
+    transition: all var(--transition-fast);
+  }
+
+  .sidebar-child:hover {
+    background: var(--accent-muted);
+    color: var(--text-primary);
+  }
+
+  .sidebar-child[data-tipo="teoria"] { border-left: 2px solid var(--accent); }
+  .sidebar-child[data-tipo="ejercicios"] { border-left: 2px solid var(--green); }
+  .sidebar-child[data-tipo="soluciones"] { border-left: 2px solid var(--rose); }
+
+  @media (max-width: 1024px) {
+    .sidebar {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,162 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroCard from '../components/HeroCard.astro';
+import { unidades } from '../data/unidades';
+
+const completadas = unidades.filter(u => u.estado === 'completado').length;
+const total = unidades.length;
+const progreso = Math.round((completadas / total) * 100);
+---
+
+<BaseLayout title="Física Teórica I — Inicio" noSidebar={true}>
+  <section class="hero">
+    <div class="hero-badge">📚 Curso 2026 — INSPT UTN</div>
+    <h1 class="hero-title">Física Teórica I</h1>
+    <p class="hero-subtitle">Material de estudio preparado por el <strong>Prof. Carlos Dibarbora</strong> para el final oral.</p>
+    <div class="hero-progress">
+      <div class="progress-bar">
+        <div class="progress-fill" style={`width: ${progreso}%`}></div>
+      </div>
+      <span class="progress-text">{completadas}/{total} unidades completadas ({progreso}%)</span>
+    </div>
+  </section>
+
+  <section class="units-section">
+    <h2 class="section-title">📖 Unidades del Curso</h2>
+    <div class="units-grid">
+      {unidades.map(unidad => (
+        <HeroCard unidad={unidad} />
+      ))}
+    </div>
+  </section>
+
+  <section class="info-section">
+    <div class="info-card">
+      <h3>🎯 Objetivo</h3>
+      <p>Preparación profunda para el examen final oral de Física Teórica I. Contenido organizado por unidades temáticas con teoría, ejercicios resueltos y recursos visuales.</p>
+    </div>
+    <div class="info-card">
+      <h3>📐 Recursos</h3>
+      <p>Ecuaciones en LaTeX renderizadas con KaTeX, diagramas en SVG interactivos, y soluciones paso a paso para cada ejercicio propuesto.</p>
+    </div>
+    <div class="info-card">
+      <h3>🌗 Modo Oscuro/Claro</h3>
+      <p>Diseñado para sesiones de estudio prolongadas. Cambiá entre temas con el botón en la barra superior.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 4rem 0 3rem;
+    border-bottom: 1px solid var(--border-primary);
+    margin-bottom: 3rem;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: var(--accent-muted);
+    border: 1px solid var(--border-accent);
+    border-radius: 100px;
+    padding: 0.35rem 1.2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero-progress {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .progress-bar {
+    height: 6px;
+    background: var(--bg-tertiary);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--blue));
+    border-radius: 3px;
+    transition: width 1s ease;
+  }
+
+  .progress-text {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .units-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 3rem;
+  }
+
+  .info-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-primary);
+  }
+
+  .info-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+  }
+
+  .info-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+  }
+
+  .info-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    .hero-title { font-size: 2.5rem; }
+    .units-grid { grid-template-columns: 1fr; }
+  }
+</style>

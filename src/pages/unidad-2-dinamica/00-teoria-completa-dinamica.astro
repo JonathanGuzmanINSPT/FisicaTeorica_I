@@ -1,0 +1,42 @@
+---
+import UnidadLayout from '../../layouts/UnidadLayout.astro';
+import { unidades } from '../../data/unidades';
+---
+
+<UnidadLayout title="Teoría Dinámica — Unidad 2" unidad={unidades[1]} currentSlug="00-teoria-completa-dinamica">
+  <article class="prose">
+    <h1>📖 Teoría Completa — Dinámica (Unidad 2)</h1>
+    <p class="subtitle">Leyes de Newton, DCL, sistemas no inerciales, fuerzas dependientes de la velocidad, Lorentz, vínculo, Lagrange, masa variable.</p>
+    
+    <div class="content-placeholder">
+      <p>El contenido completo se está migrando desde el markdown original.</p>
+      <p>Podés ver el markdown en el repositorio mientras tanto:</p>
+      <a href="https://github.com/neonplus/fisica-teorica-i-2026/blob/main/unidad-2-dinamica/00-teoria-completa-dinamica.md" target="_blank" class="github-link">
+        Ver en GitHub →
+      </a>
+    </div>
+  </article>
+</UnidadLayout>
+
+<style>
+  .subtitle { color: var(--text-secondary); margin-bottom: 2rem; }
+  .content-placeholder { 
+    padding: 2rem; 
+    background: var(--bg-secondary); 
+    border-radius: var(--radius-md); 
+    border: 1px solid var(--border-primary);
+    text-align: center;
+  }
+  .github-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: var(--accent-muted);
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-sm);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .github-link:hover { background: var(--accent-glow); }
+</style>
