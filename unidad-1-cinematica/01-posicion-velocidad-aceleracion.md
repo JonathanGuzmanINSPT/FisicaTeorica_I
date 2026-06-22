@@ -271,12 +271,14 @@ $$\text{Cuando } \phi \text{ aumenta un poco: } \phi \to \phi + d\phi$$
 
 **El cambio de $\hat{e_\phi}$ es siempre radial:**
 
-$$\text{Si colocas ambos versores en el mismo punto } P(\phi):$$
+Si colocas ambos versores en el mismo punto $P(\phi)$:
 
-$$\begin{align}
-\hat{e_\phi}(\phi) &= \text{versor tangencial (perpendicular a } \hat{e_r}, \text{ tangente al círculo)} \\
+$$
+\begin{aligned}
+\hat{e_\phi}(\phi) &= \text{versor tangencial (perpendicular a } \hat{e_r}\text{, tangente al círculo)} \\
 \hat{e_\phi}(\phi + d\phi) &= \text{versor tangencial rotado}
-\end{align}$$
+\end{aligned}
+$$
 
 Cuando transportas ambos vectores al mismo punto, el cambio $d\hat{e_\phi} = \hat{e_\phi}(\phi + d\phi) - \hat{e_\phi}(\phi)$ apunta **siempre hacia adentro**, es decir, en dirección $-\hat{e_r}$.
 
