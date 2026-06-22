@@ -35,3 +35,4 @@
 - **Jekyll** — Sitio web estático
 - **GitLab Pages** — Hosting
 - **LaTeX / Excalidraw** — Diagramas y ecuaciones
+# Test commit
