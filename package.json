@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && find dist -name 'index.html' -exec sed -i 's|src=\"\\./assets/|src=\"/FisicaTeorica_I/assets/|g' {} +",
     "preview": "astro preview"
   },
   "dependencies": {

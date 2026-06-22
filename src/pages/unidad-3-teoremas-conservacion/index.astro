@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { unidades } from '../../data/unidades';
+const BASE = import.meta.env.BASE_URL || '/';
+const unidad = unidades.find(u => u.id === 'unidad-3-teoremas-conservacion')!;
+---
+
+<BaseLayout title="Unidad 3 - Fisica Teorica I">
+  <div class="unidad-landing">
+    <a href={BASE} class="back-link">← Volver al inicio</a>
+    <h1>{unidad.icono} Unidad 3: {unidad.titulo}</h1>
+    <p class="desc">{unidad.descripcion}</p>
+    <div class="files-grid">
+      {unidad.archivos.map(archivo => (
+        <a href={`${BASE}unidad-3-teoremas-conservacion/${archivo.slug}/`} class="file-card" data-tipo={archivo.tipo}>
+          <span class="file-icon">{archivo.tipo === 'teoria' ? '📖' : '✍️'}</span>
+          <span class="file-title">{archivo.titulo}</span>
+          <span class="file-arrow">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--text-muted); text-decoration: none; font-size: 0.85rem; }
+  .back-link:hover { color: var(--accent); }
+  .unidad-landing h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .desc { color: var(--text-secondary); margin-bottom: 2rem; max-width: 600px; }
+  .files-grid { display: grid; gap: 0.75rem; }
+  .file-card { display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.25rem; background: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: var(--radius-md); text-decoration: none; color: var(--text-primary); transition: all 0.2s ease; }
+  .file-card:hover { border-color: var(--border-accent); transform: translateX(4px); }
+  .file-icon { font-size: 1.2rem; }
+  .file-title { flex: 1; font-weight: 500; }
+  .file-arrow { color: var(--text-muted); }
+  .file-card[data-tipo="teoria"] { border-left: 3px solid var(--accent); }
+  .file-card[data-tipo="ejercicios"] { border-left: 3px solid var(--green); }
+</style>

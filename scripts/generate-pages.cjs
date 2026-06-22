@@ -66,6 +66,12 @@ const files = [
   ['unidad-2-dinamica', '08-masa-variable', '../../../unidad-2-dinamica/08-masa-variable.md'],
   ['unidad-2-dinamica', 'tp2-dinamica', '../../../unidad-2-dinamica/tp2-dinamica.md'],
   ['unidad-2-dinamica', 'tp2-dinamica-soluciones', '../../../unidad-2-dinamica/tp2-dinamica-soluciones.md'],
+  // Unidad 3
+  ['unidad-3-teoremas-conservacion', '01-teorema-trabajo-energia', '../../../unidad-3-teoremas-conservacion/01-teorema-trabajo-energia.md'],
+  ['unidad-3-teoremas-conservacion', '02-conservacion-energia', '../../../unidad-3-teoremas-conservacion/02-conservacion-energia.md'],
+  ['unidad-3-teoremas-conservacion', '03-fuerzas-conservativas', '../../../unidad-3-teoremas-conservacion/03-fuerzas-conservativas.md'],
+  ['unidad-3-teoremas-conservacion', '04-ejercicios-practicos', '../../../unidad-3-teoremas-conservacion/04-ejercicios-practicos.md'],
+  ['unidad-3-teoremas-conservacion', 'ejercicios-teoremas-conservacion', '../../../unidad-3-teoremas-conservacion/ejercicios-teoremas-conservacion.md'],
 ];
 
 let ok = 0, missing = 0;

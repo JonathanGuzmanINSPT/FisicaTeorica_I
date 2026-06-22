@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const BASE = import.meta.env.BASE_URL || '/';
+---
+
+<BaseLayout title="Unidad 6 - Fisica Teorica I">
+  <div class="pending-unit">
+    <span class="pending-icon">⚙️</span>
+    <h1>Unidad 6: Sistemas de Puntos y Cinemática del Rígido</h1>
+    <p>Centro de masa, momento de inercia, cinemática del cuerpo rígido.</p>
+    <p class="pending-note">Contenido en preparación. Volvé pronto.</p>
+    <a href={BASE} class="back-home">← Volver al inicio</a>
+  </div>
+</BaseLayout>
+
+<style>
+  .pending-unit { text-align: center; padding: 4rem 2rem; }
+  .pending-icon { font-size: 4rem; display: block; margin-bottom: 1rem; }
+  .pending-unit h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .pending-unit p { color: var(--text-secondary); max-width: 500px; margin: 0 auto 1rem; }
+  .pending-note { font-style: italic; color: var(--text-muted); }
+  .back-home { display: inline-block; margin-top: 2rem; color: var(--accent); text-decoration: none; }
+  .back-home:hover { text-decoration: underline; }
+</style>
