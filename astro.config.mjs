@@ -14,9 +14,10 @@ export default defineConfig({
     remarkPlugins: ['remark-math'],
     rehypePlugins: [
       ['rehype-katex', {
-        output: 'html',
+        output: 'htmlAndMathml',
         strict: false,
         throwOnError: false,
+        trust: true,
       }],
     ],
     shikiConfig: {
